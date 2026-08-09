@@ -11,12 +11,7 @@ This document outlines how we'll work together on this repository to keep things
   ```bash
   git checkout -b <yourname>-<short-task-description>
   ```
-  Examples:
-  - `yash-data-cleaning`
-  - `kemisola-ml-model`
-  - `kanak-dashboard`
-  - `shariq-business-analysis`
-
+  
 ---
 
 ## 🔄 Workflow

@@ -27,10 +27,10 @@ We're analyzing how countries depend on each other for food and agricultural tra
 | Name | Role | Focus Area |
 |---|---|---|
 | Kanak Baghel | Team Lead / Business Analyst | Coordination, Power BI dashboards, business framing |
-| Shariq | Domain & Enterprise Lead | Practical application, business context |
-| Yash | Data Engineer | Data cleaning, pipeline structuring |
+| Rasheed Abdus Subbooh | Domain & Enterprise Lead | Practical application, business context |
+| Yashaswini V | Data Engineer | Data cleaning, pipeline structuring |
 | Moksh Goyal | ML Engineer | Model building, technical implementation |
-| Kemisola | Data Analyst / Visualization | SQL, ML modeling, Tableau/Looker visualization |
+| Usman Oluwakemisola Eve | Data Analyst / Visualization | SQL, ML modeling, Tableau/Looker visualization |
 
 ---
 
