@@ -1,4 +1,4 @@
-# FoodMatrix 🍽️📊
+# FoodMatrix 
 ### Women in Data Datathon 2026 — "What's Cooking?"
 
 **Track:** Trade
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 About the Project
+## About the Project
 
 This repository holds all the work for **Team FoodMatrix's** submission to the Women in Data "What's Cooking?" Datathon 2026. Our project explores global food trade data from **FAOSTAT** to uncover insights around import/export dependency, trade relationships, and food security implications tied to international trade patterns.
 
@@ -16,13 +16,13 @@ We're analyzing how countries depend on each other for food and agricultural tra
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 > *To be finalized once the official dataset and problem brief are released at kickoff (Aug 18, 2026). This section will be updated with our specific research question.*
 
 ---
 
-## 👥 Team Members
+## Team Members
 
 | Name | Role | Focus Area |
 |---|---|---|
@@ -34,7 +34,7 @@ We're analyzing how countries depend on each other for food and agricultural tra
 
 ---
 
-## 🛠️ Tools & Tech Stack
+## Tools & Tech Stack
 
 - **Languages:** Python, SQL
 - **Data Analysis:** Pandas, NumPy, Scikit-Learn
@@ -46,7 +46,7 @@ We're analyzing how countries depend on each other for food and agricultural tra
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 FoodMatrix-Datathon-2026/
@@ -74,7 +74,7 @@ FoodMatrix-Datathon-2026/
 
 ---
 
-## 🚀 Getting Started (For Team Members)
+## Getting Started (For Team Members)
 
 1. **Clone the repo:**
    ```bash
@@ -103,7 +103,7 @@ FoodMatrix-Datathon-2026/
 
 ---
 
-## 📅 Project Timeline
+## Project Timeline
 
 | Date | Milestone |
 |---|---|
@@ -115,25 +115,25 @@ FoodMatrix-Datathon-2026/
 
 ---
 
-## 📊 Key Insights & Findings
+## Key Insights & Findings
 
 > *This section will be updated as our analysis progresses.*
 
 ---
 
-## 🎥 Final Submission
+## Final Submission
 
 > *Link to final video presentation and dashboard will be added here before submission.*
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [Women in Data](https://www.womenindata.org/) for organizing the Datathon 2026
 - [FAOSTAT](https://www.fao.org/faostat/en/#data) for open access to global food and agriculture data
