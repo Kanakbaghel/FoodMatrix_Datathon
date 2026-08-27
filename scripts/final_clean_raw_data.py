@@ -6,8 +6,9 @@ from pathlib import Path
 
 import pandas as pd
 
-RAW_BASE = Path(r"C:\Users\yashu\Downloads\React\FoodMatrix_Datathon\data\raw")
-OUT_BASE = Path(r"C:\Users\yashu\Downloads\React\FoodMatrix_Datathon\data\processed")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+RAW_BASE = PROJECT_ROOT / "data" / "raw"
+OUT_BASE = PROJECT_ROOT / "data" / "processed"
 OUT_BASE.mkdir(parents=True, exist_ok=True)
 YEARS_TO_KEEP = 20
 
