@@ -1,0 +1,58 @@
+{
+  "FT": {
+    "DatasetCode": "FT",
+    "DatasetName": "Discontinued archives and data series: Forestry Trade Flows",
+    "Topic": null,
+    "DatasetDescription": "The database contains data on the bilateral trade flows in roundwood, primary wood and paper products for all countries and territories in the world. The main types of primary forest products included in are: roundwood, sawnwood, wood-based panels, pulp, and paper and paperboard. These products are detailed further. The definitions are available. More detailed information on wood products, including definitions, can be found at: https://www.fao.org/forestry/statistics/80572/en/",
+    "Contact": "Food and Agriculture Organization of the United Nations (FAO): Forestry Division (NFO)",
+    "Email": "faostat@fao.org",
+    "DateUpdate": "2022-05-27T00:00:00",
+    "CompressionFormat": "zip",
+    "FileType": "csv",
+    "FileSize": "22643KB",
+    "FileRows": 2829802,
+    "FileLocation": "https://bulks-faostat.fao.org/production/Forestry_Trade_Flows_E_All_Data_(Normalized).zip"
+  },
+  "PP": {
+    "DatasetCode": "PP",
+    "DatasetName": "Prices: Producer Prices",
+    "Topic": "Most crop and livestock products under agricultural activity",
+    "DatasetDescription": "This sub-domain contains data on agriculture producer prices and the producer price index. Agriculture producer prices are prices received by farmers for primary crops, live animals and livestock primary products as collected at the point of initial sale (prices paid at the farm gate). Annual data are provided from 1991 (while mothly data start in January 2010) for 180 countries and 212 products. The producer price index is the index of agricultural producer prices that measures the average annual change over time in the selling prices received by farmers (prices at the farm gate or at the first point of sale). The three categories of producer price index available in FAOSTAT comprise: single-item price index, commodity group index and the agriculture producer price index.",
+    "Contact": "Food and Agriculture Organization of the United Nations (FAO): Statistics Division (ESS), Social and Economic Statistics Team",
+    "Email": "faostat@fao.org",
+    "DateUpdate": "2026-01-09T00:00:00",
+    "CompressionFormat": "zip",
+    "FileType": "csv",
+    "FileSize": "11411KB",
+    "FileRows": 1319563,
+    "FileLocation": "https://bulks-faostat.fao.org/production/Prices_E_All_Data_(Normalized).zip"
+  },
+  "TCL": {
+    "DatasetCode": "TCL",
+    "DatasetName": "Trade: Crops and livestock products",
+    "Topic": "FAO strives to provide data for all countries, and for all crops, livestock and food commodities in terms of traded quantities and dollar values.",
+    "DatasetDescription": "The food and agricultural trade dataset is collected, processed and disseminated by FAO according to the standard International Merchandise Trade Statistics (IMTS) Methodology. The data is mainly provided by UNSD, Eurostat, and other national authorities as needed. The source data is checked for outliers, trade partner data is used for non-reporting countries or missing cells, and data on food aid is added to take into account total cross-border trade flows. The trade database includes the following variables: export quantity, export value, import quantity, and import value. It includes all food and agricultural products imported/exported annually by all the countries in the world.",
+    "Contact": "Food and Agriculture Organization of the United Nations (FAO): Statistics Division (ESS), Crops, Livestock and Food Statistics Team",
+    "Email": "faostat@fao.org",
+    "DateUpdate": "2026-07-24T00:00:00",
+    "CompressionFormat": "zip",
+    "FileType": "csv",
+    "FileSize": "267104KB",
+    "FileRows": 17143873,
+    "FileLocation": "https://bulks-faostat.fao.org/production/Trade_CropsLivestock_E_All_Data_(Normalized).zip"
+  },
+  "TM": {
+    "DatasetCode": "TM",
+    "DatasetName": "Trade: Detailed trade matrix",
+    "Topic": "FAO strives to provide data for all countries, and for all crops, livestock and food commodities in terms of traded quantities and dollar values. This dataset includes only those countries officially trade data reporter.",
+    "DatasetDescription": "The food and agricultural trade dataset is collected, processed and disseminated by FAO according to the standard International Merchandise Trade Statistics (IMTS) Methodology. The data is mainly provided by UNSD, Eurostat, and other national authorities as needed. The source data is checked for outliers, trade partner data is used for non-reporting countries or missing cells, and data on food aid is added to take total cross-border trade flows into account. The trade database includes the following variables: export quantity, export value, import quantity, and import value. It includes all food and agricultural products imported/exported annually by all the countries in the world.",
+    "Contact": "Food and Agriculture Organization of the United Nations (FAO): Statistics Division (ESS), Crops, Livestock and Food Statistics Team",
+    "Email": "faostat@fao.org",
+    "DateUpdate": "2025-12-23T00:00:00",
+    "CompressionFormat": "zip",
+    "FileType": "csv",
+    "FileSize": "410792KB",
+    "FileRows": 52410630,
+    "FileLocation": "https://bulks-faostat.fao.org/production/Trade_DetailedTradeMatrix_E_All_Data_(Normalized).zip"
+  }
+}

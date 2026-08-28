@@ -1,0 +1,13 @@
+{
+  "start_year": 2005,
+  "end_year": 2024,
+  "n_reporting_areas": 50,
+  "rank_metric": "20-year import value + export value, in 1000 USD",
+  "exclude_faostat_aggregate_area_codes": true,
+  "exclude_area_codes": [
+    "351"
+  ],
+  "exclude_area_code_reason": {
+    "351": "Use China; mainland and separately reported territories as reporting areas to avoid double counting the China aggregate."
+  }
+}
