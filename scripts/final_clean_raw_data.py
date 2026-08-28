@@ -18,7 +18,7 @@ def clean_and_process():
 
     print(f"Pass 1: Calculating country trade volumes from {trade_file.name}...")
     
-    # Calculate volume in chunks to avoid memory crash
+    
     reporter_vol = pd.Series(dtype=float)
     partner_vol = pd.Series(dtype=float)
     
