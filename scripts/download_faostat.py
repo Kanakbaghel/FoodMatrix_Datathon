@@ -33,6 +33,13 @@ FILES = {
         "Prices_E_All_Data_Normalized.zip",
         "https://bulks-faostat.fao.org/production/Prices_E_All_Data_(Normalized).zip",
     ),
+    # Added to unblock the import dependency ratio (risk_index_design.md
+    # component 1). FBS covers 2010-present; if 2005-2009 is needed too,
+    # also add FoodBalanceSheetsHistoric_E_All_Data_(Normalized).zip (FBSH).
+    "food_balance_sheets": (
+        "FoodBalanceSheets_E_All_Data_Normalized.zip",
+        "https://bulks-faostat.fao.org/production/FoodBalanceSheets_E_All_Data_(Normalized).zip",
+    ),
     "dataset_metadata": (
         "faostat_datasets_E.json",
         "https://bulks-faostat.fao.org/production/datasets_E.json",
@@ -75,7 +82,7 @@ def main() -> None:
     selected = {
         item["DatasetCode"]: item
         for item in metadata["Datasets"]["Dataset"]
-        if item["DatasetCode"] in {"PP", "TM", "TCL"}
+        if item["DatasetCode"] in {"PP", "TM", "TCL", "FBS"}
     }
     (METADATA / "faostat_selected_metadata.json").write_text(
         json.dumps(selected, indent=2) + "\n", encoding="utf-8"

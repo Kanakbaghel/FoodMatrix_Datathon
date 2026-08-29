@@ -118,6 +118,24 @@ def select_reporting_areas(config: dict) -> tuple[pd.DataFrame, set[str]]:
     )
     eligible_codes = set(area.loc[~area["is_aggregate"], "Area Code"])
     start, end = config["start_year"], config["end_year"]
+
+    if config.get("geography_mode") == "commodity_filter":
+        # Verified against the raw detailed trade matrix: the staple items
+        # are 2.4% of all 52.4M global rows (1,278,643 rows), which is
+        # smaller than the current 24.7M-row, 50-country cap -- while
+        # covering every country instead of only the 50 largest traders.
+        # This restores small import-dependent countries (Nigeria,
+        # Bangladesh, Pakistan, Ethiopia, Morocco) that a trade-value
+        # ranking excludes but which are central to the risk-index story.
+        ranked = area.loc[~area["is_aggregate"]].copy()
+        ranked.insert(0, "rank", range(1, len(ranked) + 1))
+        ranked = ranked.rename(columns={"Area": "area", "Area Code": "area_code", "M49 Code": "m49_code"})
+        ranked["trade_value_1000_usd_2005_2024"] = None
+        ranked["avg_annual_trade_value_1000_usd"] = None
+        ranked["selection_period"] = f"{start}-{end}"
+        ranked["rank_metric"] = "commodity_filter: all non-aggregate areas, staple items only"
+        ranked.to_csv(METADATA / "top50_reporting_areas_2005_2024.csv", index=False)
+        return ranked, set(ranked["area_code"].astype(str))
     totals: defaultdict[str, float] = defaultdict(float)
 
     for chunk in iter_csv_chunks(trade_zip, "All_Data"):
@@ -160,15 +178,22 @@ def build_aggregate_tables(selected_codes: set[str], config: dict) -> dict[str, 
         "Unit", "Value", "Flag", "Note",
     ]
 
+    staple_items = config.get("staple_items") if config.get("geography_mode") == "commodity_filter" else None
+
     def filter_trade(chunk: pd.DataFrame) -> pd.DataFrame:
         years = pd.to_numeric(chunk["Year"], errors="coerce")
-        return chunk.loc[
+        mask = (
             years.between(start, end)
             & chunk["Area Code"].isin(selected_codes)
             & chunk["Element"].isin(
                 ["Import value", "Export value", "Import quantity", "Export quantity"]
             )
-        ]
+        )
+        if staple_items is not None:
+            # Item names must match FAOSTAT verbatim (e.g. "Maize (corn)",
+            # not "Maize") -- see analysis2_first_cut.md section 6.
+            mask &= chunk["Item"].isin(staple_items)
+        return chunk.loc[mask]
 
     rows = write_parquet_chunks(
         path, PROCESSED / "trade_aggregate_long.parquet", filter_trade, columns
@@ -223,18 +248,27 @@ def build_detailed_matrix(selected_codes: set[str], config: dict) -> dict[str, i
         "Item Code", "Item", "Element", "Year", "Unit", "Value", "Flag",
     ]
 
+    staple_items = config.get("staple_items") if config.get("geography_mode") == "commodity_filter" else None
+
     def filter_matrix(chunk: pd.DataFrame) -> pd.DataFrame:
         years = pd.to_numeric(chunk["Year"], errors="coerce")
         reporter = chunk["Reporter Country Code"].astype("string")
         partner = chunk["Partner Country Code"].astype("string")
-        return chunk.loc[
+        mask = (
             years.between(start, end)
             & reporter.isin(selected_codes)
             & partner.isin(eligible_partner_codes)
             & chunk["Element"].isin(
                 ["Import value", "Export value", "Import quantity", "Export quantity"]
             )
-        ]
+            # Self-trade rows (reporter == partner) survive into the cleaned
+            # CSV otherwise -- see faostat_data_audit.md 2.5. Excluded here
+            # rather than left for every downstream script to remember.
+            & (reporter != partner)
+        )
+        if staple_items is not None:
+            mask &= chunk["Item"].isin(staple_items)
+        return chunk.loc[mask]
 
     rows = write_parquet_chunks(
         path, PROCESSED / "trade_matrix_long.parquet", filter_matrix, columns
