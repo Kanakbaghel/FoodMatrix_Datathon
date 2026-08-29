@@ -1,17 +1,17 @@
 {
-  "FT": {
-    "DatasetCode": "FT",
-    "DatasetName": "Discontinued archives and data series: Forestry Trade Flows",
-    "Topic": null,
-    "DatasetDescription": "The database contains data on the bilateral trade flows in roundwood, primary wood and paper products for all countries and territories in the world. The main types of primary forest products included in are: roundwood, sawnwood, wood-based panels, pulp, and paper and paperboard. These products are detailed further. The definitions are available. More detailed information on wood products, including definitions, can be found at: https://www.fao.org/forestry/statistics/80572/en/",
-    "Contact": "Food and Agriculture Organization of the United Nations (FAO): Forestry Division (NFO)",
+  "FBS": {
+    "DatasetCode": "FBS",
+    "DatasetName": "Food Balances: Food Balances (2010-)",
+    "Topic": "Most crop and livestock products, including processed products, under agricultural activity.",
+    "DatasetDescription": "A food balance sheet presents a comprehensive picture of the pattern of a country's food supply during a specified reference period. The food balance sheet shows for each food item - i.e. each primary commodity and a number of processed commodities potentially available for human consumption - the sources of supply and its utilization. The total quantity of foodstuffs produced in a country added to the total quantity imported and adjusted to any change in stocks that may have occurred since the beginning of the reference period gives the supply available during that period. On the utilization side a distinction is made between the quantities exported, fed to livestock, used for seed, put to manufacture for food use and non-food uses, losses during storage and transportation, and food supplies available for human consumption. The per caput supply of each such food item available for human consumption is then obtained by dividing the respective quantity by the related data on the population actually partaking of it. Data on per capita food supplies are expressed in terms of quantity and - by applying appropriate food composition factors for all primary and processed products - also in terms of caloric value and protein and fat content.",
+    "Contact": "Food and Agriculture Organization of the United Nations (FAO): Statistics Division (ESS), Crops, Livestock and Food Statistics Team",
     "Email": "faostat@fao.org",
-    "DateUpdate": "2022-05-27T00:00:00",
+    "DateUpdate": "2025-10-28T00:00:00",
     "CompressionFormat": "zip",
     "FileType": "csv",
-    "FileSize": "22643KB",
-    "FileRows": 2829802,
-    "FileLocation": "https://bulks-faostat.fao.org/production/Forestry_Trade_Flows_E_All_Data_(Normalized).zip"
+    "FileSize": "53556KB",
+    "FileRows": 4820497,
+    "FileLocation": "https://bulks-faostat.fao.org/production/FoodBalanceSheets_E_All_Data_(Normalized).zip"
   },
   "PP": {
     "DatasetCode": "PP",
