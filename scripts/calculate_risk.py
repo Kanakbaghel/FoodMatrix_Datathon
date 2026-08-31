@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-df = pd.read_csv("data/cleaned/fbs_trade_joined.csv")
+df = pd.read_csv("data/processed/fbs_trade_joined.csv")
 
 required = [
     "Country Code",
@@ -89,11 +89,11 @@ def risk_level(score):
 df["risk_level"] = df["country_risk_score"].apply(risk_level)
 
 commodity_out = Path(
-    "data/cleaned/commodity_vulnerability.csv"
+    "data/processed/commodity_vulnerability.csv"
 )
 
 country_out = Path(
-    "data/cleaned/country_risk.csv"
+    "data/processed/country_risk.csv"
 )
 
 df.to_csv(commodity_out, index=False)

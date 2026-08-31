@@ -82,7 +82,7 @@ print(joined["Commodity"].value_counts())
 print("\nMissing dependency values:")
 print(joined["dominant_partner_import_share"].isna().sum())
 
-out = Path("data/cleaned/fbs_trade_joined.csv")
+out = Path("data/processed/fbs_trade_joined.csv")
 joined.to_csv(out, index=False)
 
 print("\nSaved:", out)
