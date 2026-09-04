@@ -6,6 +6,14 @@
 
 ---
 
+> **SUPERSEDED — do not implement from this file.**
+> `analysis2_methodology_spec.md` (v2, 29 Aug) is the version to build from. It
+> settles the open questions this draft left, revises the component set, and
+> fixes the base window at 2021-23. This file is kept for the reasoning behind
+> the normalisation, weighting and aggregation choices, which v2 carries forward
+> unchanged.
+
+
 ## 1. What this index measures
 
 > **This index measures a country's structural exposure to a disruption in its
