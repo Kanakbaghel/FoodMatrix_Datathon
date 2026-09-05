@@ -18,5 +18,11 @@
   ],
   "exclude_area_code_reason": {
     "351": "Use China; mainland and separately reported territories as reporting areas to avoid double counting the China aggregate."
+  },
+  "_comment_fbs_item_map": "FBS aggregates commodities ('Wheat and products') where the detailed trade matrix splits them ('Wheat', 'Wheat and meslin flour'). Joining on raw item names returns nothing. build_fbs_dataset.py fails loudly with the file's actual item list if one of these is renamed in a future release, rather than silently writing a short file.",
+  "fbs_item_map": {
+    "Wheat and products": "Wheat",
+    "Rice and products": "Rice",
+    "Maize and products": "Maize"
   }
 }
