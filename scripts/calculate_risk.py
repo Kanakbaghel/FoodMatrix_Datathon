@@ -62,13 +62,14 @@ required = [
     "import_dependency_ratio",
     "partner_hhi",
     "partner_count",
+    "kcal_per_capita_day",
 ]
 
 df["components_complete"] = df[required].notna().all(axis=1)
 
 
 # ------------------------------------------------------------
-# 4. Winsorisation + min-max normalization
+# 4. Within-commodity winsorisation + min-max normalization
 # ------------------------------------------------------------
 
 def winsorize(series):
@@ -87,35 +88,57 @@ def minmax(series):
     return (series - minimum) / (maximum - minimum)
 
 
+# Initialize component columns
+normalization_columns = [
+    "idr_w",
+    "idr_norm",
+    "hhi_w",
+    "hhi_norm",
+    "partner_count_w",
+    "partner_count_norm",
+    "partner_count_risk",
+]
+
+for column in normalization_columns:
+    df[column] = np.nan
+
+
 valid = df["components_complete"]
 
-# IDR: higher = higher risk
-df.loc[valid, "idr_w"] = winsorize(
-    df.loc[valid, "import_dependency_ratio"]
-)
-df.loc[valid, "idr_norm"] = minmax(
-    df.loc[valid, "idr_w"]
-)
+# Normalize each commodity separately.
+# This prevents Maize, Rice and Wheat distributions from
+# being compared against each other.
+for commodity in COMMODITIES:
 
-# HHI: higher = higher risk
-df.loc[valid, "hhi_w"] = winsorize(
-    df.loc[valid, "partner_hhi"]
-)
-df.loc[valid, "hhi_norm"] = minmax(
-    df.loc[valid, "hhi_w"]
-)
+    mask = valid & (df["Commodity"] == commodity)
 
-# Partner count: higher = lower risk
-df.loc[valid, "partner_count_w"] = winsorize(
-    df.loc[valid, "partner_count"]
-)
-df.loc[valid, "partner_count_norm"] = minmax(
-    df.loc[valid, "partner_count_w"]
-)
+    # IDR: higher = higher risk
+    df.loc[mask, "idr_w"] = winsorize(
+        df.loc[mask, "import_dependency_ratio"]
+    )
+    df.loc[mask, "idr_norm"] = minmax(
+        df.loc[mask, "idr_w"]
+    )
 
-df.loc[valid, "partner_count_risk"] = (
-    1 - df.loc[valid, "partner_count_norm"]
-)
+    # HHI: higher = higher risk
+    df.loc[mask, "hhi_w"] = winsorize(
+        df.loc[mask, "partner_hhi"]
+    )
+    df.loc[mask, "hhi_norm"] = minmax(
+        df.loc[mask, "hhi_w"]
+    )
+
+    # Partner count: higher = lower risk
+    df.loc[mask, "partner_count_w"] = winsorize(
+        df.loc[mask, "partner_count"]
+    )
+    df.loc[mask, "partner_count_norm"] = minmax(
+        df.loc[mask, "partner_count_w"]
+    )
+
+    df.loc[mask, "partner_count_risk"] = (
+        1 - df.loc[mask, "partner_count_norm"]
+    )
 
 
 # ------------------------------------------------------------
@@ -146,49 +169,82 @@ coverage = (
     )
 )
 
-complete_country_years = coverage[
+coverage["complete_coverage"] = (
     (coverage["commodity_count"] == 3)
     & (coverage["valid_component_count"] == 3)
+)
+
+complete_country_years = coverage[
+    coverage["complete_coverage"]
+].copy()
+
+dropped_country_years = coverage[
+    ~coverage["complete_coverage"]
 ].copy()
 
 
 # ------------------------------------------------------------
-# 7. Country-year risk score
+# 7. Calorie-weighted country-year risk score
 # ------------------------------------------------------------
 
-country_risk = (
-    df[df["components_complete"]]
-    .groupby(
+valid_df = df[df["components_complete"]].copy()
+
+# Calculate each commodity's share of the country's
+# calorie supply across Maize, Rice and Wheat.
+valid_df["total_selected_kcal"] = (
+    valid_df.groupby(
+        ["Area Code", "Area_fbs", "Year"]
+    )["kcal_per_capita_day"].transform("sum")
+)
+
+valid_df["calorie_weight"] = (
+    valid_df["kcal_per_capita_day"]
+    / valid_df["total_selected_kcal"]
+)
+
+# Weighted commodity risk contribution
+valid_df["weighted_risk"] = (
+    valid_df["commodity_risk_score"]
+    * valid_df["calorie_weight"]
+)
+
+country_scores = (
+    valid_df.groupby(
         ["Area Code", "Area_fbs", "Year"],
         as_index=False,
     )
     .agg(
-        country_risk_score=("commodity_risk_score", "mean"),
+        country_risk_score=("weighted_risk", "sum"),
         commodity_count=("Commodity", "nunique"),
     )
 )
 
+
+# ------------------------------------------------------------
+# 8. Keep scores only for complete 3/3 country-years
+# ------------------------------------------------------------
+
 country_risk = coverage.merge(
-    country_risk,
+    country_scores[
+        [
+            "Area Code",
+            "Area_fbs",
+            "Year",
+            "country_risk_score",
+        ]
+    ],
     on=["Area Code", "Area_fbs", "Year"],
     how="left",
 )
 
 country_risk.loc[
-    ~(
-        (country_risk["commodity_count_x"] == 3)
-        & (country_risk["valid_component_count"] == 3)
-    ),
+    ~country_risk["complete_coverage"],
     "country_risk_score",
 ] = np.nan
 
-country_risk["commodity_count"] = country_risk["commodity_count_x"]
-
-country_risk = country_risk.drop(columns=["commodity_count_x"])
-
 
 # ------------------------------------------------------------
-# 8. Risk classification
+# 9. Risk classification
 # ------------------------------------------------------------
 
 def risk_level(score):
@@ -211,7 +267,7 @@ country_risk["risk_level"] = (
 
 
 # ------------------------------------------------------------
-# 9. Add country risk to commodity output
+# 10. Add country risk to commodity output
 # ------------------------------------------------------------
 
 df = df.merge(
@@ -230,7 +286,7 @@ df = df.merge(
 
 
 # ------------------------------------------------------------
-# 10. Save outputs
+# 11. Save outputs
 # ------------------------------------------------------------
 
 commodity_out = Path(
@@ -241,12 +297,17 @@ country_out = Path(
     "data/processed/country_risk.csv"
 )
 
+commodity_out.parent.mkdir(
+    parents=True,
+    exist_ok=True,
+)
+
 df.to_csv(commodity_out, index=False)
 country_risk.to_csv(country_out, index=False)
 
 
 # ------------------------------------------------------------
-# 11. Validation
+# 12. Validation
 # ------------------------------------------------------------
 
 print("==========================================")
@@ -275,6 +336,11 @@ print(
 print(
     "\nComplete 3/3 country-years:",
     len(complete_country_years),
+)
+
+print(
+    "Dropped country-years:",
+    len(dropped_country_years),
 )
 
 print(
