@@ -41,9 +41,6 @@ ENV/
 # ===== Data (large/raw files — keep repo lightweight) =====
 data/raw/*
 !data/raw/.gitkeep
-data/processed/*.csv
-data/processed/*.xlsx
-!data/processed/.gitkeep
 
 # Keep small sample/reference files if needed — remove specific lines above
 # if you want to track small processed datasets in Git.
