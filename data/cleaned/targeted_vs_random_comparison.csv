@@ -1,0 +1,4 @@
+commodity,targeted_exporter,targeted_median_loss,targeted_n_over50,random_mean_median_loss,random_p95_median_loss,random_mean_n_over50,targeted_exceeds_p95
+Wheat,Russian Federation,0.04712615592774725,9,0.002835073357998259,0.012158768709243496,0.255,True
+Rice,India,0.11729842928965013,32,0.0015158299587619368,0.008004135630249992,0.32,True
+Maize,United States of America,0.008109441804107206,24,0.012709641366877156,0.011877833780650477,0.5,False
