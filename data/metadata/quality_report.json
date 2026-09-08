@@ -1,0 +1,34 @@
+{
+  "source_snapshot": {
+    "trade_aggregate": "Trade_CropsLivestock_E_All_Data_(Normalized).zip",
+    "trade_detailed_matrix": "Trade_DetailedTradeMatrix_E_All_Data_(Normalized).zip",
+    "producer_prices": "Prices_E_All_Data_(Normalized).zip",
+    "period": [
+      2005,
+      2024
+    ]
+  },
+  "selection": {
+    "n_reporting_areas": 209,
+    "aggregate_exclusion_rule": "Area Code >= 5000 OR M49 Code contains a decimal",
+    "manual_exclusions": [
+      "351"
+    ],
+    "ranking_metric": "20-year import value + export value, in 1000 USD"
+  },
+  "rows_written": {
+    "trade_aggregate_long": 69071,
+    "producer_prices_annual_long": 358686,
+    "trade_matrix_long": 895389,
+    "trade_aggregate_cleaned": 69071,
+    "producer_prices_cleaned": 358686,
+    "trade_matrix_cleaned": 895389
+  },
+  "validation_notes": [
+    "Trade values are in 1000 USD.",
+    "Quantities retain their original FAOSTAT units; tonnes, animals, and counts are not mixed.",
+    "Producer prices are farm-gate prices and are not international trade unit values.",
+    "Missing observations are preserved as null; no imputation is performed.",
+    "The bilateral CSV excludes FAOSTAT aggregate partners."
+  ]
+}
