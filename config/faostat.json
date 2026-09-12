@@ -9,7 +9,6 @@
     "Wheat",
     "Wheat and meslin flour",
     "Rice, paddy (rice milled equivalent)",
-    "Rice, milled",
     "Maize (corn)"
   ],
   "exclude_faostat_aggregate_area_codes": true,
