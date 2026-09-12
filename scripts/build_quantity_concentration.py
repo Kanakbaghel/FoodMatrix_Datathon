@@ -24,7 +24,6 @@ item_map = {
     "Wheat": "Wheat",
     "Wheat and meslin flour": "Wheat",
     "Rice, paddy (rice milled equivalent)": "Rice",
-    "Rice, milled": "Rice",
     "Maize (corn)": "Maize",
 }
 
