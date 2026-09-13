@@ -19,6 +19,10 @@ ipykernel>=6.25.0
 # SQL connectivity
 sqlalchemy>=2.0.0
 
+# Out-of-core SQL over the large cleaned CSV/Parquet files
+# (scripts/rasheed/wheat_exposure_firstcut.py; also used by the FAOSTAT build pipeline)
+duckdb>=1.0.0
+
 # FAOSTAT data access (optional helper package)
 faostat>=1.0.0
 

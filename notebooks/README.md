@@ -1,235 +1,156 @@
-# Global Agricultural Trade Network Analysis 2005–2024
+# Trade Network Analysis
 
-## Overview
+## To understand how each commodity moves through the global market, we looked at the trade network from two different perspectives:
+### NetworkX shows the structure of the market, which countries trade with each other and which countries have the most direct connections.
+### PageRank looks at influence within that structure. It considers not only how many trading relationships a country has, but also how important the countries on the other end of those relationships are.
 
-This contains analysis of global agricultural trade networks
-across five major staple commodities: wheat, maize (corn), rice,
-soya beans, and barley.
+## This distinction matters because the country with the most connections is not always the country with the greatest influence over the wider network. Looking at both measures gives us a clearer picture of how trade is organised and how that balance changes over time.
 
-The analysis focuses on identifying patterns of exporter concentration,
-trade-network structure, and systemic supplier importance over the
-2005–2024 period.
 
-## Research Focus
+# 1. Bulgur Trade Network:
 
-The analysis addresses three main questions:
+### The Bulgur network shows a clear difference between being well connected and being influential within the wider system.
 
-1. How concentrated is global export supply for each commodity?
-2. Which countries occupy the most important positions within the
-   global trade networks?
-3. Which suppliers could have the greatest systemic importance if
-   disruptions affected international trade?
+## What the trade network shows:
 
-## Analytical Approach
+![Bulgur](historical_timelines/bulgur_20year_cumulative_web.png)
 
-### 1. Market Concentration — HHI
+### The network has a strong pattern. A small number of countries sit near the centre of the market, while many others connect to them rather than trading extensively with one another.
+### The United States stands out as the main hub when we look at direct trading relationships. It has the largest number of incoming and outgoing connections, making it the most visibly connected country in the network.
+### At the edges of the network, countries such as the Republic of Korea, Liberia and Malaysia have far fewer direct connections. Their trade relationships are more limited and concentrated around a smaller number of partners.
 
-The Herfindahl-Hirschman Index (HHI) is used to measure the
-concentration of export supply for each commodity.
+## What PageRank shows:
 
-Higher values indicate that exports are concentrated among fewer
-countries, while lower values indicate a more diversified supplier
-base.
+![Bulgur 2](historical_timelines/bulgur_top20_timeline.png)
 
-### 2. Trade Network Structure
+### PageRank changes the picture slightly, Although the United States remains the most obvious physical hub, Canada became particularly important around 2021, reaching a PageRank of approximately 0.12. This suggests that Canada’s importance at that time was not simply a result of having many trading partners. It was also connected to countries that themselves played important roles in the wider Bulgur market.
+### The results also show that influence within the network did not remain fixed. Countries such as Antigua and Barbuda, Türkiye and the United Kingdom became more important at different points during the period studied.
+## Why this matters?
 
-The analysis constructs cumulative trade networks for 2005–2024
-and identifies the 50 strongest bilateral export links for each
-commodity.
+### 1 The key finding is that the biggest hub is not necessarily the most important country at every point in time.
+### 2 The United States consistently appears as the main centre of Bulgur trade, but the PageRank results show that Canada’s position became particularly important around 2021.
+### 3 This gives us a more useful picture of the market, trade influence can move from one country to another when market conditions change.
 
-Node size represents the number of active bilateral trade
-connections, while directed edges represent the direction of
-export flows.
 
-### 3. Systemic Supplier Centrality
+# 2. Flour of Sorghum Network:
 
-Reversed PageRank is used to measure the systemic importance of
-exporting countries.
+The Sorghum flour network tells a very different story. Instead of one country consistently dominating the network, the important trading positions shift considerably over time.
 
-By reversing the direction of trade links, the measure captures
-supplier importance based on the dependence of connected
-importing markets rather than simply the volume exported.
+![Sorghum 1](historical_timelines/flour_of_sorghum_20year_cumulative_web.png)
 
-# Key Findings:
+## What the trade network shows:
 
-# Overall Market Concentration (HHI Across Staples)
+### The network contains several strong regional centres, particularly around the Russian Federation, South Africa and Thailand. From these centres, trade routes spread towards markets around the world. However, many of these connections are relatively long and isolated, reaching countries such as Colombia, Uzbekistan and Madagascar. This creates a network that is less tightly connected than the Bulgur market. Trade exists across many countries, but the relationships between those countries are not equally strong.
 
-![HHI](historical_timelines/commodity_exporter_hhi_2005_2024.png)
+## What PageRank shows:
+![Sorghum 2](historical_timelines/flour_of_sorghum_top20_timeline.png)
 
-## Exporter Market Concentration (2005–2024)
+### The PageRank results reveal just how much this market has changed over time, between 2005 and 2012, countries such as Niger and Mali reached PageRank levels close to 0.15, placing them among the most influential countries in the network during that period. Their influence later declined significantly.
+### After 2016, the market became much more spread out. No individual country consistently reached more than approximately 0.08 PageRank, In practical terms, there was no longer one clear country at the centre of the global Sorghum flour network.
 
-The Herfindahl-Hirschman Index (HHI) is used to compare how concentrated export supply is across the five staple commodities over the 2005–2024 period. Higher HHI values indicate that exports are concentrated among fewer countries, while lower values point to a more diversified supplier base. In this analysis, values above 0.25 are treated as relatively high concentration, whereas values below 0.15 indicate a more diversified market.
+## Why this matters?
 
-1. Rice, Highest and Most Variable Concentration: Rice records the highest HHI values for much of the study period, with concentration reaching above 0.85 at its peak before settling in the 0.35–0.60 range. This suggests a strong dependence on a relatively small number of exporters, leaving the market more exposed to export restrictions, production losses, or other disruptions affecting major Asian suppliers.
+### 1 This is one of the clearest examples of why looking only at the number of trade connections would not be enough.
+### 2 NetworkX shows us where the regional trading groups are, while PageRank shows us how the importance of those groups changed over time.
+### 3 The result is a market that moved from strong African regional centres towards a much more distributed global network.
+### 4 For food security and supply planning, this matters because a market without one dominant centre may be less dependent on a single country, but it can also be harder to predict when major trading relationships change.
 
-2. Soya Beans, Increasing Concentration: Soya beans show a clear upward trend in concentration, with HHI rising from approximately 0.33 in 2005 to almost 0.50 in 2024. The pattern points to a growing reliance on a small group of major exporters, particularly Brazil and the United States, which increasingly account for a large share of global trade.
 
-3. Maize, Moderate Concentration: Maize remains within a relatively moderate HHI range of 0.20–0.35. Its trade structure is largely shaped by major exporters in the Western Hemisphere, although a number of regional suppliers provide some additional diversification.
+# 3. Grapes, Marc Network:
 
-4. Wheat and Barley, Lower Concentration: Wheat and barley generally remain below an HHI of 0.20 throughout the period. Their comparatively lower concentration indicates a broader distribution of export supply, with several countries contributing to the international market rather than one or two suppliers dominating trade.
+The Grapes, Marc network is strongly centred around Europe, but unlike a simple hub-and-spoke system, several European countries play important roles at the same time.
 
+![Grapes 1](historical_timelines/grapes_marc_20year_cumulative_web.png)
 
-#  Soya Beans Trade Architecture
+## What the trade network shows:
 
-### Soya Beans: Structural Concentration and Duopoly Risk
+### The network forms a dense group of connections between Germany, France, Spain, Italy, Belgium and the Netherlands. These countries trade directly with one another, creating a closely connected European market rather than relying on one single country.
+### There are also trade routes extending beyond this European core to countries such as Kazakhstan, Iceland, Cabo Verde and the Russian Federation. These markets are often connected through larger European trading countries, including Austria and Portugal. Because many of the major European traders are directly connected to each other, the network has several alternative routes through which trade can move. This means the market is not dependent on one single trading relationship.
 
-![Soya beans](historical_timelines/soya_beans_trade_backbone_2005_2024.png)
+## What PageRank shows:
+![Grapes 2](historical_timelines/grapes_marc_top20_timeline.png)
 
-The network structure and centrality results for soya beans point to a highly concentrated global supply system. A relatively small number of exporters account for a large share of the major trade connections, creating substantial dependence on a few key suppliers.
+### The PageRank results show that the balance of influence has changed considerably over time, between 2005 and 2007, Spain and Portugal were particularly influential, with PageRank values rising above 0.22, their importance later became less concentrated as other European countries became more prominent.
+### Germany shows the strongest recurring increases in influence later in the period. Its PageRank reached approximately 0.18–0.19 in 2010, 2013 and 2022, indicating periods when Germany became an especially important point in the global trade network.
+### Other countries, including France, Cameroon and Hungary, also become important at different points, their changing positions suggest that influence can move between countries when trade patterns and supply routes change.
 
-1. Structural Backbone (2005–2024 Trade Corridors): The 50 strongest bilateral trade links form a tightly connected network centred mainly on Brazil and the United States. Both countries serve as major supply hubs, with significant export flows directed towards large markets in Asia, particularly Mainland China, as well as Europe. Argentina and Canada play smaller but still important roles within the network.
+## Why this matters?
+### 1 The Grapes, Marc network shows that a highly connected market can still experience major changes in where influence is concentrated.
+### 2 The European market has a strong network of alternative trading relationships, which gives it a degree of flexibility. However, PageRank shows that the countries carrying the most influence are not fixed.
+### 3 The story therefore moves from strong Spanish and Portuguese influence in the mid-2000s to repeated periods of increased German influence, particularly in years when Germany became a more important point within the trade network.
+### 4 This is an important distinction because the network remains connected, but the countries with the greatest influence within that network can change.
 
-![Soya beans](historical_timelines/soya_beans_top15_timeline.png)
 
-2. Systemic Centrality (Reversed PageRank): Brazil and the United States record substantially higher systemic centrality scores than other exporters. Their position in the network reflects the extent to which major importing countries depend on them for soya bean supplies. As a result, disruptions affecting either supplier could have wider effects across several downstream markets.
+# 4. Hay for Forage Network:
 
-![Soya beans](historical_timelines/soya_beans_pagerank_top10_cumulative_2005_2024.png)
+The Hay for Forage network is much more concentrated than the Sorghum flour network. Here, Europe clearly sits at the centre of global trade.
 
-3. Timeline Trajectory: The annual PageRank results show a relatively close competition between the United States, Brazil and Canada for the most influential position in the network, with both generally falling within the 0.15–0.35 range. While the others remain considerably less central, with scores generally at or below 0.05.
+![Hay 1](historical_timelines/hay_for_forage_from_ot_20year_cumulative_web.png)
 
+## What the trade network shows:
+### The network contains a closely connected European core, with countries such as Austria, Sweden, Norway and Finland forming strong links with one another and with markets outside Europe.
+### Further away from this core are countries such as the United Arab Emirates, Syrian Arab Republic and Japan, which appear more dependent on connections with the major European trading countries.
+### The structure therefore looks less like a collection of separate markets and more like a central European network supplying a wider group of destinations.
 
-# Wheat Trade Architecture
+## What PageRank shows:
+![Hay 2](historical_timelines/hay_for_forage_from_other_crop_top20_timeline.png)
 
-### Wheat: Network Diversification and Distributed Centrality
+### PageRank makes the concentration even clearer.
+### Norway consistently appears as the most influential country in the network, with PageRank reaching approximately 0.35–0.45 over the period studied.
+### Sweden is the next major player, with scores generally around 0.20–0.30.
+### The gap between these countries and most of the rest of the network is substantial.
 
+## Why this matters?
 
-Wheat presents a different structure, with export influence spread across several major producing regions. Rather than depending heavily on one or two suppliers, the network contains multiple important exporters across North America, Europe, and the Black Sea region.
+### 1 The important finding here is not simply that several European countries export hay, It is that a large share of the network’s importance is concentrated in a small number of countries, particularly Norway.
+### 2 That concentration creates both strength and risk. Strong central suppliers can make a network efficient under normal conditions. At the same time, a major disruption affecting one of these countries could have consequences far beyond its own domestic market.
+### 3 This makes Hay for Forage a strong example of how a country’s position in a trade network can give it influence well beyond the size of its own market.
 
-![Wheat](historical_timelines/wheat_trade_backbone_2005_2024.png)
 
-1. Structural Backbone (Top 50 Bilateral Links): The cumulative 2005–2024 network is centred strongly on the United States, which appears in many of the largest bilateral trade connections. These major export routes link the US with markets across Latin America, Asia, Africa, and Europe, giving it a prominent position in the overall trade structure.
+# 5. Sheep Skins — Raw Leather Trade: 
 
+The Sheep Skins network is also different, Rather than having one dominant centre, it is made up of several important regional trading and processing hubs.
 
-![wheat](historical_timelines/wheat_pagerank_top10_cumulative_2005_2024.png) 
+![Sheep 1](historical_timelines/skins_sheep_nes_20year_cumulative_web.png)
 
-2. Systemic Centrality (Reversed PageRank): The PageRank results present a more distributed picture of supplier importance. Although the United States accounts for many of the largest individual trade flows, France, Canada, Germany, Russia, and Ukraine also record relatively high centrality scores, ranging from approximately 0.06 to 0.17. This suggests that trade influence is not determined solely by export volume. These suppliers remain important because they are connected to a wider range of trading partners, including smaller and secondary markets that are not necessarily represented among the largest bilateral flows.
+## What the trade network shows:
 
-![wheat](historical_timelines/wheat_top15_timeline.png)
+### The network is highly interconnected, with major roles played by countries including the United Arab Emirates, Saudi Arabia, New Zealand, Italy and China.
+### The large number of crossing trade routes suggests that sheep skins do not simply move directly from a producer to a final buyer. In many cases, they pass through several countries involved in processing, trading or manufacturing.
 
-3. Timeline Trajectory: Annual PageRank scores show that the balance of influence changes over time. The United States had particularly high centrality in the earlier part of the study period, with scores above 0.25, while European and Black Sea exporters gained greater importance in subsequent years. By 2024, systemic influence was more evenly distributed across the major exporting countries.
+## What PageRank shows:
+![Sheep 2](historical_timelines/skins_sheep_nes_top20_timeline.png)
 
+### PageRank reveals that the importance of individual countries changes in cycles.
+### China, for example, experienced notable increases in network influence, with its PageRank rising above 0.10 in 2008, 2012 and 2015.
+### Other countries, including Pakistan, Türkiye and India, also become more important at different stages.
+### This pattern suggests that changes in the network are closely connected to where processing capacity and manufacturing demand are strongest at a particular time.
 
-# Rice Trade Architecture
+## Why this matters?
+### 1 The main lesson from the Sheep Skins network is that raw materials and manufacturing are closely connected.
+### 2 NetworkX shows us the complicated web of countries through which sheep skins move, PageRank helps explain why that web changes over time.
+### 3 The influence shifts between countries involved in supplying raw materials and those with strong processing or manufacturing industries.
+### 4 This means that changes in manufacturing demand can affect the trade network far beyond the country where that demand originates.
 
-## Rice: Regional Sub-Hubs and Shifting Centrality
 
-Rice has one of the more varied trade structures in the dataset, with several regional hubs and noticeable changes in supplier importance over time.
+# Overall Findings:
 
-![Rice](historical_timelines/rice_trade_backbone_2005_2024.png)
+#### When the five commodities are viewed together, the analysis shows that global trade is not simply about who exports the most or who has the largest number of trading partners. The position of a country within the wider network matters just as much.
+#### The five networks demonstrate five different patterns:
 
-1. Structural Backbone (Top 50 Bilateral Links): The backbone network forms a multi-hub structure rather than being centred on a single exporter. The United States and Brazil account for several of the major bilateral corridors in the Americas, while European suppliers such as Italy and Spain connect strongly with markets across Europe and North Africa.
+### 1 Bulgur shows that the most connected country is not necessarily the most influential at every point in time. The United States remains the main hub, while Canada became particularly important around 2021.
 
-![Rice](historical_timelines/rice_pagerank_top10_cumulative_2005_2024.png)
+### 2 Sorghum flour shows how influence can move away from a small number of regional leaders and become spread across a wider group of countries.
 
-2. Systemic Centrality (Reversed PageRank): India records the highest cumulative influence over the 2005–2024 period, with a score of approximately 0.18. It is followed by the United States (approximately 0.09), the United Arab Emirates (approximately 0.085), and Italy (approximately 0.08). The relatively high position of the UAE is notable because its role reflects the importance of intermediary and re-export hubs within the rice trade network, rather than simply the volume of rice it produces.
+### 3 Grapes, Marc shows that even a well connected and relatively resilient market can experience significant changes in which countries hold the greatest influence.
 
-![Rice](historical_timelines/rice_top15_timeline.png)
+### 4 Hay for Forage shows what happens when influence becomes heavily concentrated, with Norway occupying a particularly important position in the network.
 
-3. Timeline Trajectory: Annual PageRank scores show considerable variation in supplier influence. India records particularly high levels of centrality in 2005 and 2018, when its score exceeded 0.25. During periods when India's centrality declined, suppliers such as Italy and the United States gained a larger share of network influence. This suggests that the distribution of systemic importance within the rice network can change substantially from year to year.
+### 5 Sheep Skins shows the connection between raw-material suppliers, processing centres and manufacturing demand, with influence moving between countries as those relationships change.
 
 
-# Maize Trade Architecture
+## The main insight from this analysis are:
+### 1 Trade is not just about volume, It is about position, connections and dependence.
+### 2 NetworkX allows us to see how the trade is connected while PageRank allows us to see which countries matter most within those connections. When we combine the two, we can identify countries that may not look important from trade volume alone but play a critical role in keeping the wider network connected. That is where this analysis becomes useful beyond the charts, It can help identify where supply chains are concentrated, where a disruption could have wider consequences, and where stronger trade relationships could reduce dependence on a small number of markets.
+### 3 In other words, we are not just showing where commodities move. We are showing how the structure of global trade can create both resilience and vulnerability and which countries sit at the points where those effects are felt most strongly.
 
-## Maize: Western Hemisphere Concentration and Uneven Dependency
-
-Maize trade is concentrated among a relatively small group of exporters, with the United States, Argentina, and Brazil accounting for much of the network's supplier influence.
-
-![Maize](historical_timelines/maize_corn_trade_backbone_2005_2024.png)
-
-1. Structural Backbone (Top 50 Bilateral Links): The cumulative 2005–2024 network has a clear hub-and-spoke structure, with the United States occupying the most prominent position. It maintains major export connections with more than 40 destination countries across Latin America, Asia, and Europe, making it the main supplier within the backbone network.
-
-![Maize](historical_timelines/maize_corn_pagerank_top10_cumulative_2005_2024.png)
-
-2. Systemic Centrality (Reversed PageRank): The United States has the highest Reversed PageRank score at approximately 0.33, followed by Argentina (approximately 0.17) and Brazil (approximately 0.16). Together, these three countries account for more than 65% of the network's total supplier influence. France and Ukraine have lower but still noticeable centrality scores of around 0.05–0.06.
-
-![Maize](historical_timelines/maize_corn_top15_timeline.png)
-
-3. Timeline Trajectory: The United States remains the leading supplier in terms of PageRank centrality throughout most of the 2005–2024 period, with annual scores generally ranging from 0.23 to 0.38. Since around 2012, Brazil and Argentina have gradually increased their influence, narrowing the gap with the United States and giving the maize trade network a stronger South American presence.
-
-
-# Barley Trade Architecture
-
-## Barley: Multi-Centric Trade Structure and European Integration
-
-Barley has one of the most decentralized trade structures in the dataset. Rather than being dominated by a single major exporter, the network is spread across several suppliers and regional trading groups, with particularly strong connections within Europe.
-
-![Barley](historical_timelines/barley_trade_backbone_2005_2024.png)
-
-1. Structural Backbone (Top 50 Bilateral Links): The backbone forms a dense, multi-centred network with no single country dominating the main trade corridors. Western European exporters, including France, Germany, and the United Kingdom, have strong connections with neighbouring markets. Other clusters link suppliers such as Ukraine, the Russian Federation, Argentina, and Australia with buyers in the Middle East and Asia.
-
-![Barley](historical_timelines/barley_pagerank_top10_cumulative_2005_2024.png)
-
-2. Systemic Centrality (Reversed PageRank): France has the highest cumulative systemic influence, with a score of approximately 0.10, followed by Denmark (approximately 0.085), Germany (approximately 0.08), Canada (approximately 0.075), and the United States (approximately 0.06). The relatively small differences between the leading suppliers indicate that systemic influence is distributed across a wider group of countries rather than concentrated in one or two exporters.
-
-![Barley](historical_timelines/barley_top15_timeline.png)
-
-3. Timeline Trajectory: Annual Reversed PageRank scores show considerable movement among the leading suppliers, with no country maintaining a clear lead throughout the full period. France and Denmark frequently alternate between the top positions, reaching scores of approximately 0.135–0.165 at their peaks. Other regional suppliers generally remain within the 0.03–0.10 range. This distribution provides multiple alternative sources of supply, which can reduce the effect of disruptions affecting any single exporter.
-
-
-## Overall Summary and Key Findings
-
-The analysis of global trade networks from 2005 to 2024 shows that the five staple commodities do not share the same pattern of supply concentration or systemic dependence. The combination of market concentration, trade-network structure, and supplier centrality provides a more complete picture of how global food supply is organised and where potential points of vulnerability lie.
-
-### 1. Global Food Supply Is Unevenly Distributed
-
-The HHI results show clear differences in exporter concentration across the five commodities. Rice has the highest and most variable concentration, with HHI values reaching above 0.85 during the study period. Soya beans also show a sustained increase in concentration, rising from approximately 0.33 in 2005 to almost 0.50 in 2024. Maize remains moderately concentrated, while wheat and barley maintain comparatively lower levels of concentration.
-
-This suggests that food-supply exposure is commodity-specific. A disruption to a major exporter would not have the same potential consequences across all five markets because the underlying supplier structures are different.
-
-### 2. Export Volume and Systemic Importance Are Not the Same
-
-One of the clearest findings from the network analysis is that the countries responsible for the largest individual trade flows are not always the countries with the greatest systemic importance.
-
-The backbone networks identify the largest and most persistent bilateral trade corridors, while Reversed PageRank captures how important a supplier is within the wider network of trading relationships. This distinction is particularly clear in the wheat network, where the United States accounts for many major bilateral flows, but France, Canada, Germany, Russia, and Ukraine also maintain substantial systemic influence.
-
-This means that assessing food-security risk purely through export volumes can overlook suppliers that play important roles across a wider set of trading relationships.
-
-### 3. Soya Beans Represent the Strongest Case of Supplier Dependence
-
-Among the five commodities, soya beans show one of the clearest examples of concentrated systemic influence. The backbone network is centred largely on Brazil and the United States, while the Reversed PageRank results place both countries well ahead of most other exporters.
-
-The concentration has also increased over time, with the HHI approaching 0.50 by 2024. Taken together, these results point to a trade system in which a relatively small number of suppliers have a large influence over global availability. This makes soya beans particularly sensitive to production shocks, trade restrictions, or other disruptions affecting its main exporting countries.
-
-### 4. Wheat Shows a More Distributed Supply Structure
-
-Wheat presents a contrasting pattern. Its backbone network connects several major exporting regions, including North America, Western Europe, and the Black Sea region. France, the United States, Canada, Germany, Russia, and Ukraine all contribute meaningful levels of systemic influence.
-
-The gradual distribution of PageRank scores across these countries indicates that wheat does not depend on a single dominant supplier to the same extent as some of the other commodities. Although individual exporters remain important, the presence of several major supply centres provides a broader base from which international markets can source wheat.
-
-### 5. Rice Combines Concentration With Changing Supplier Influence
-
-Rice displays a different form of vulnerability. Its trade network contains several regional hubs, but the HHI results show much higher levels of exporter concentration than for wheat or barley. India is the most influential supplier across the full study period, although its annual PageRank scores vary substantially over time.
-
-The importance of the United Arab Emirates is also notable. Its position in the network illustrates that systemic importance is not limited to countries that produce the commodity themselves. Re-export and intermediary hubs can become important links between suppliers and final markets, meaning that disruptions at these nodes can affect trade beyond their own domestic production.
-
-### 6. Maize Is Concentrated Around Three Major Suppliers
-
-Maize falls between the highly concentrated structure observed for rice and soya beans and the more distributed structure of wheat and barley. The United States remains the dominant supplier in both the backbone and PageRank results, while Argentina and Brazil have become increasingly important.
-
-By 2024, these three countries account for more than 65% of total supplier influence in the network. The growing role of Brazil and Argentina since around 2012 suggests that maize supply is becoming less dependent on the United States alone, although the overall network remains concentrated among a small group of exporters.
-
-### 7. Barley Has the Most Distributed Network Structure
-
-Barley stands out as the most decentralised of the five commodities. Its backbone network contains several regional clusters, particularly across Europe, while suppliers in the Black Sea region, North America, and the Southern Hemisphere provide additional connections.
-
-The relatively small differences between the leading Reversed PageRank scores further support this finding. France, Denmark, Germany, Canada, and the United States all occupy important positions without one supplier consistently dominating the network. This broader distribution creates more opportunities for markets to source from alternative suppliers when disruptions occur.
-
-### Overall Finding
-
-Taken together, the results show that global food-security risk is shaped not only by how much a country exports, but also by how that country is positioned within the wider trade network.
-
-Rice and soya beans present the strongest concentration concerns, although for different reasons. Rice combines high exporter concentration with substantial changes in supplier influence, while soya beans show a more persistent concentration around Brazil and the United States. Maize also depends heavily on a small group of exporters, but the growing contribution of Brazil and Argentina provides some diversification. Wheat and barley have more distributed supplier structures, with multiple countries contributing to global trade and systemic influence.
-
-The comparison therefore highlights three distinct dimensions of food-supply vulnerability:
-
-1. Market concentration: how much global supply is controlled by a small number of exporters.
-2. Network centrality: how important a supplier is within the wider structure of international trade.
-3. Network diversification: how widely supply is distributed across countries and regional trade corridors.
-
-Considering these dimensions together provides a stronger assessment of global food-supply resilience than export volumes alone. A country may not be the largest exporter, yet still occupy a strategically important position because of the number or importance of markets that depend on it. Conversely, a highly concentrated export market may remain relatively resilient if alternative suppliers are well connected and able to absorb disruptions.
-
-### Final Takeaway
-
-The 2005–2024 trade networks show that there is no single global food-supply structure. Each commodity has developed its own combination of concentration, regional integration, and supplier dependence. The most important implication is therefore not simply which countries export the most, but which countries the global system has the fewest practical alternatives to.
-
-Identifying these critical suppliers and trade structures provides a clearer basis for understanding where future disruptions could propagate across international food markets and where greater diversification of supply may strengthen resilience.
