@@ -1,0 +1,1941 @@
+Area Code,Area_fbs,Year,commodity_count,valid_component_count,complete_coverage,country_risk_score,risk_level
+1,Armenia,2010,3,3,True,0.6575913664329489,High
+1,Armenia,2011,3,3,True,0.4005377981108459,Moderate
+1,Armenia,2012,3,3,True,0.6153238360015376,High
+1,Armenia,2013,3,3,True,0.5919608042812912,High
+1,Armenia,2014,3,1,False,,Insufficient coverage
+1,Armenia,2015,3,2,False,,Insufficient coverage
+1,Armenia,2016,3,1,False,,Insufficient coverage
+1,Armenia,2017,3,3,True,0.7436795702958466,High
+1,Armenia,2018,3,2,False,,Insufficient coverage
+1,Armenia,2019,3,3,True,0.8004629457843767,Very High
+1,Armenia,2020,3,3,True,0.7717405736731129,Very High
+1,Armenia,2021,3,3,True,0.8260875001864837,Very High
+1,Armenia,2022,3,3,True,0.7315660064842368,High
+1,Armenia,2023,3,3,True,0.7061034209610463,High
+2,Afghanistan,2010,2,0,False,,Insufficient coverage
+2,Afghanistan,2011,2,0,False,,Insufficient coverage
+2,Afghanistan,2017,3,3,True,0.46802720643613527,Moderate
+2,Afghanistan,2019,2,2,False,,Insufficient coverage
+3,Albania,2010,3,3,True,0.4093990181402692,Moderate
+3,Albania,2011,3,3,True,0.30967941052135867,Moderate
+3,Albania,2012,3,3,True,0.45636274176861114,Moderate
+3,Albania,2013,3,3,True,0.3640464812544866,Moderate
+3,Albania,2014,3,1,False,,Insufficient coverage
+3,Albania,2015,3,1,False,,Insufficient coverage
+3,Albania,2016,3,2,False,,Insufficient coverage
+3,Albania,2017,3,3,True,0.46675543334340375,Moderate
+3,Albania,2018,3,2,False,,Insufficient coverage
+3,Albania,2019,3,2,False,,Insufficient coverage
+3,Albania,2020,3,1,False,,Insufficient coverage
+3,Albania,2021,3,1,False,,Insufficient coverage
+3,Albania,2023,3,3,True,0.31887750508859586,Moderate
+4,Algeria,2011,3,3,True,0.5402789352927461,High
+4,Algeria,2012,3,3,True,0.3681252867514072,Moderate
+4,Algeria,2013,3,3,True,0.5354412184607815,High
+4,Algeria,2014,3,2,False,,Insufficient coverage
+4,Algeria,2015,3,3,True,0.33617671976436325,Moderate
+4,Algeria,2016,3,3,True,0.34349173289311064,Moderate
+4,Algeria,2017,3,3,True,0.3302475599238944,Moderate
+7,Angola,2019,3,3,True,0.4000012247898518,Moderate
+7,Angola,2020,3,3,True,0.351472490126884,Moderate
+7,Angola,2021,3,3,True,0.29042557581640255,Moderate
+7,Angola,2022,3,3,True,0.22293545972845066,Low
+7,Angola,2023,3,3,True,0.23502979659272127,Low
+8,Antigua and Barbuda,2011,3,0,False,,Insufficient coverage
+8,Antigua and Barbuda,2012,3,0,False,,Insufficient coverage
+8,Antigua and Barbuda,2013,3,1,False,,Insufficient coverage
+8,Antigua and Barbuda,2014,3,0,False,,Insufficient coverage
+8,Antigua and Barbuda,2015,3,0,False,,Insufficient coverage
+8,Antigua and Barbuda,2016,3,1,False,,Insufficient coverage
+8,Antigua and Barbuda,2017,3,1,False,,Insufficient coverage
+8,Antigua and Barbuda,2018,3,1,False,,Insufficient coverage
+8,Antigua and Barbuda,2019,3,1,False,,Insufficient coverage
+8,Antigua and Barbuda,2020,3,0,False,,Insufficient coverage
+8,Antigua and Barbuda,2021,3,0,False,,Insufficient coverage
+8,Antigua and Barbuda,2022,3,0,False,,Insufficient coverage
+8,Antigua and Barbuda,2023,3,0,False,,Insufficient coverage
+9,Argentina,2010,3,3,True,0.06088857388830665,Low
+9,Argentina,2011,3,3,True,0.04823254117448459,Low
+9,Argentina,2012,3,2,False,,Insufficient coverage
+9,Argentina,2013,3,3,True,0.04913044651622498,Low
+9,Argentina,2014,3,3,True,0.04040950464074429,Low
+9,Argentina,2015,3,3,True,0.04342152859338887,Low
+9,Argentina,2016,3,2,False,,Insufficient coverage
+9,Argentina,2017,3,3,True,0.041763038081699774,Low
+9,Argentina,2018,3,3,True,0.04140484512132543,Low
+9,Argentina,2019,3,3,True,0.0522029623704663,Low
+9,Argentina,2020,3,3,True,0.06133420087773779,Low
+9,Argentina,2021,3,3,True,0.03946603944094132,Low
+9,Argentina,2022,3,3,True,0.04551106520175939,Low
+9,Argentina,2023,3,3,True,0.035157448224481046,Low
+10,Australia,2010,3,3,True,0.20271557134869822,Low
+10,Australia,2011,3,3,True,0.12598837873551166,Low
+10,Australia,2012,3,3,True,0.17283610450680514,Low
+10,Australia,2013,3,3,True,0.18957848082858528,Low
+10,Australia,2014,3,3,True,0.1710441695170809,Low
+10,Australia,2015,3,3,True,0.1717560604085736,Low
+10,Australia,2016,3,3,True,0.19936514903719305,Low
+10,Australia,2017,3,3,True,0.13260131390022611,Low
+10,Australia,2018,3,3,True,0.16714411820228492,Low
+10,Australia,2019,3,2,False,,Insufficient coverage
+10,Australia,2020,3,3,True,0.45277432422208297,Moderate
+10,Australia,2021,3,3,True,0.1643147574843466,Low
+10,Australia,2022,3,3,True,0.18684524897940508,Low
+10,Australia,2023,3,3,True,0.13188968360384334,Low
+11,Austria,2010,3,2,False,,Insufficient coverage
+11,Austria,2011,3,2,False,,Insufficient coverage
+11,Austria,2012,3,2,False,,Insufficient coverage
+11,Austria,2013,3,2,False,,Insufficient coverage
+11,Austria,2014,3,2,False,,Insufficient coverage
+11,Austria,2015,3,2,False,,Insufficient coverage
+11,Austria,2016,3,2,False,,Insufficient coverage
+11,Austria,2017,3,2,False,,Insufficient coverage
+11,Austria,2018,3,2,False,,Insufficient coverage
+11,Austria,2019,3,2,False,,Insufficient coverage
+11,Austria,2020,3,2,False,,Insufficient coverage
+11,Austria,2021,3,2,False,,Insufficient coverage
+11,Austria,2022,3,2,False,,Insufficient coverage
+11,Austria,2023,3,2,False,,Insufficient coverage
+12,Bahamas,2012,3,1,False,,Insufficient coverage
+12,Bahamas,2013,3,1,False,,Insufficient coverage
+12,Bahamas,2014,3,0,False,,Insufficient coverage
+12,Bahamas,2015,3,0,False,,Insufficient coverage
+12,Bahamas,2016,3,0,False,,Insufficient coverage
+12,Bahamas,2017,3,1,False,,Insufficient coverage
+12,Bahamas,2018,3,1,False,,Insufficient coverage
+12,Bahamas,2019,3,0,False,,Insufficient coverage
+12,Bahamas,2020,3,0,False,,Insufficient coverage
+12,Bahamas,2021,3,1,False,,Insufficient coverage
+12,Bahamas,2022,3,0,False,,Insufficient coverage
+12,Bahamas,2023,3,0,False,,Insufficient coverage
+13,Bahrain,2019,3,1,False,,Insufficient coverage
+13,Bahrain,2020,3,1,False,,Insufficient coverage
+13,Bahrain,2021,3,0,False,,Insufficient coverage
+13,Bahrain,2022,3,0,False,,Insufficient coverage
+13,Bahrain,2023,3,0,False,,Insufficient coverage
+14,Barbados,2010,3,1,False,,Insufficient coverage
+14,Barbados,2011,3,1,False,,Insufficient coverage
+14,Barbados,2012,3,1,False,,Insufficient coverage
+14,Barbados,2013,3,1,False,,Insufficient coverage
+14,Barbados,2014,3,1,False,,Insufficient coverage
+14,Barbados,2015,3,1,False,,Insufficient coverage
+14,Barbados,2016,3,1,False,,Insufficient coverage
+14,Barbados,2017,3,1,False,,Insufficient coverage
+14,Barbados,2018,3,1,False,,Insufficient coverage
+14,Barbados,2019,3,1,False,,Insufficient coverage
+14,Barbados,2020,3,1,False,,Insufficient coverage
+14,Barbados,2021,3,1,False,,Insufficient coverage
+14,Barbados,2022,3,1,False,,Insufficient coverage
+14,Barbados,2023,3,1,False,,Insufficient coverage
+16,Bangladesh,2015,3,3,True,0.20385051564660933,Low
+18,Bhutan,2022,3,3,True,0.8115883753705541,Very High
+18,Bhutan,2023,3,2,False,,Insufficient coverage
+19,Bolivia (Plurinational State of),2010,3,3,True,0.3603870481359645,Moderate
+19,Bolivia (Plurinational State of),2011,3,3,True,0.45728967204099363,Moderate
+19,Bolivia (Plurinational State of),2012,3,3,True,0.4220352354537641,Moderate
+19,Bolivia (Plurinational State of),2013,3,3,True,0.3455314235372619,Moderate
+19,Bolivia (Plurinational State of),2014,3,2,False,,Insufficient coverage
+19,Bolivia (Plurinational State of),2015,3,3,True,0.3914599773084901,Moderate
+19,Bolivia (Plurinational State of),2017,3,3,True,0.5306702314690726,High
+19,Bolivia (Plurinational State of),2018,3,2,False,,Insufficient coverage
+19,Bolivia (Plurinational State of),2019,3,3,True,0.38854347509624176,Moderate
+19,Bolivia (Plurinational State of),2020,3,2,False,,Insufficient coverage
+19,Bolivia (Plurinational State of),2021,3,3,True,0.3936536696068145,Moderate
+19,Bolivia (Plurinational State of),2022,3,2,False,,Insufficient coverage
+19,Bolivia (Plurinational State of),2023,3,3,True,0.21530817266372634,Low
+20,Botswana,2010,3,2,False,,Insufficient coverage
+20,Botswana,2011,3,2,False,,Insufficient coverage
+20,Botswana,2012,3,2,False,,Insufficient coverage
+20,Botswana,2013,3,2,False,,Insufficient coverage
+20,Botswana,2014,3,2,False,,Insufficient coverage
+20,Botswana,2015,3,2,False,,Insufficient coverage
+20,Botswana,2016,3,2,False,,Insufficient coverage
+20,Botswana,2017,3,2,False,,Insufficient coverage
+20,Botswana,2018,3,2,False,,Insufficient coverage
+20,Botswana,2019,3,2,False,,Insufficient coverage
+20,Botswana,2020,3,2,False,,Insufficient coverage
+20,Botswana,2021,3,2,False,,Insufficient coverage
+20,Botswana,2022,3,2,False,,Insufficient coverage
+20,Botswana,2023,3,2,False,,Insufficient coverage
+21,Brazil,2010,3,3,True,0.2884266698238761,Moderate
+21,Brazil,2011,3,3,True,0.36061182617653964,Moderate
+21,Brazil,2012,3,3,True,0.3912622294890036,Moderate
+21,Brazil,2013,3,3,True,0.2658501083424635,Moderate
+21,Brazil,2014,3,3,True,0.2296324543003443,Low
+21,Brazil,2015,3,3,True,0.315085664140068,Moderate
+21,Brazil,2016,3,3,True,0.2850449720779162,Moderate
+21,Brazil,2017,3,3,True,0.33333808253043384,Moderate
+21,Brazil,2018,3,3,True,0.3556976187474357,Moderate
+21,Brazil,2019,3,3,True,0.37993804151838556,Moderate
+21,Brazil,2020,3,3,True,0.32476034267191756,Moderate
+21,Brazil,2021,3,3,True,0.35307448621995174,Moderate
+21,Brazil,2022,3,3,True,0.35586972765161085,Moderate
+21,Brazil,2023,3,3,True,0.3123553905253202,Moderate
+23,Belize,2010,3,2,False,,Insufficient coverage
+23,Belize,2011,3,2,False,,Insufficient coverage
+23,Belize,2012,3,2,False,,Insufficient coverage
+23,Belize,2013,3,2,False,,Insufficient coverage
+23,Belize,2022,3,2,False,,Insufficient coverage
+25,Solomon Islands,2011,3,1,False,,Insufficient coverage
+25,Solomon Islands,2012,3,1,False,,Insufficient coverage
+25,Solomon Islands,2013,3,1,False,,Insufficient coverage
+25,Solomon Islands,2017,3,1,False,,Insufficient coverage
+25,Solomon Islands,2018,3,0,False,,Insufficient coverage
+27,Bulgaria,2010,3,3,True,0.16768167463159878,Low
+27,Bulgaria,2011,3,3,True,0.08192650136238912,Low
+27,Bulgaria,2012,3,3,True,0.1481667264334965,Low
+27,Bulgaria,2013,3,3,True,0.1828254343499968,Low
+27,Bulgaria,2014,3,3,True,0.07067273451717541,Low
+27,Bulgaria,2015,3,3,True,0.08830592060049344,Low
+27,Bulgaria,2016,3,3,True,0.17537997277364945,Low
+27,Bulgaria,2017,3,3,True,0.14973906890687538,Low
+27,Bulgaria,2018,3,3,True,0.0648642480793179,Low
+27,Bulgaria,2019,3,3,True,0.16325030392147893,Low
+27,Bulgaria,2020,3,2,False,,Insufficient coverage
+27,Bulgaria,2021,3,3,True,0.14435222455570465,Low
+27,Bulgaria,2022,3,3,True,0.1396453640706627,Low
+27,Bulgaria,2023,3,2,False,,Insufficient coverage
+28,Myanmar,2014,3,3,True,0.05565720372024471,Low
+28,Myanmar,2015,3,3,True,0.06194111330714796,Low
+28,Myanmar,2016,3,3,True,0.05609534684043783,Low
+28,Myanmar,2017,3,3,True,0.06000605296851731,Low
+28,Myanmar,2018,3,3,True,0.05752091676574844,Low
+28,Myanmar,2019,3,3,True,0.061156161088301776,Low
+28,Myanmar,2020,3,3,True,0.05391792388241251,Low
+28,Myanmar,2021,3,3,True,0.07446913318945629,Low
+28,Myanmar,2022,3,3,True,0.08138699618034231,Low
+28,Myanmar,2023,3,3,True,0.08316776647505317,Low
+32,Cameroon,2010,3,3,True,0.37652107748110464,Moderate
+32,Cameroon,2011,3,3,True,0.32433755788256147,Moderate
+32,Cameroon,2012,3,3,True,0.3111191977387542,Moderate
+32,Cameroon,2014,3,3,True,0.387130306085251,Moderate
+32,Cameroon,2015,3,3,True,0.34930884730002,Moderate
+32,Cameroon,2016,3,3,True,0.3597230328114301,Moderate
+32,Cameroon,2017,3,3,True,0.37398336862230785,Moderate
+32,Cameroon,2018,3,3,True,0.4105762368280247,Moderate
+32,Cameroon,2019,3,3,True,0.3451372578049803,Moderate
+32,Cameroon,2020,3,3,True,0.3109854070048772,Moderate
+32,Cameroon,2021,3,3,True,0.3152115037011915,Moderate
+32,Cameroon,2022,3,3,True,0.29667218000295786,Moderate
+32,Cameroon,2023,3,3,True,0.29242160406361617,Moderate
+33,Canada,2010,3,2,False,,Insufficient coverage
+33,Canada,2011,3,2,False,,Insufficient coverage
+33,Canada,2012,3,2,False,,Insufficient coverage
+33,Canada,2013,3,2,False,,Insufficient coverage
+33,Canada,2014,3,2,False,,Insufficient coverage
+33,Canada,2015,3,2,False,,Insufficient coverage
+33,Canada,2016,3,2,False,,Insufficient coverage
+33,Canada,2017,3,2,False,,Insufficient coverage
+33,Canada,2018,3,2,False,,Insufficient coverage
+33,Canada,2019,3,2,False,,Insufficient coverage
+33,Canada,2020,3,2,False,,Insufficient coverage
+33,Canada,2021,3,1,False,,Insufficient coverage
+33,Canada,2022,3,2,False,,Insufficient coverage
+33,Canada,2023,3,2,False,,Insufficient coverage
+35,Cabo Verde,2010,3,1,False,,Insufficient coverage
+35,Cabo Verde,2011,3,1,False,,Insufficient coverage
+35,Cabo Verde,2012,3,1,False,,Insufficient coverage
+35,Cabo Verde,2013,3,1,False,,Insufficient coverage
+35,Cabo Verde,2014,3,1,False,,Insufficient coverage
+35,Cabo Verde,2015,3,0,False,,Insufficient coverage
+35,Cabo Verde,2016,3,1,False,,Insufficient coverage
+35,Cabo Verde,2017,3,1,False,,Insufficient coverage
+35,Cabo Verde,2018,3,0,False,,Insufficient coverage
+35,Cabo Verde,2019,3,0,False,,Insufficient coverage
+35,Cabo Verde,2020,3,0,False,,Insufficient coverage
+35,Cabo Verde,2021,3,0,False,,Insufficient coverage
+35,Cabo Verde,2022,3,0,False,,Insufficient coverage
+35,Cabo Verde,2023,3,1,False,,Insufficient coverage
+38,Sri Lanka,2010,3,2,False,,Insufficient coverage
+38,Sri Lanka,2011,3,2,False,,Insufficient coverage
+38,Sri Lanka,2012,3,2,False,,Insufficient coverage
+38,Sri Lanka,2013,3,2,False,,Insufficient coverage
+38,Sri Lanka,2014,3,2,False,,Insufficient coverage
+38,Sri Lanka,2015,3,2,False,,Insufficient coverage
+38,Sri Lanka,2016,3,2,False,,Insufficient coverage
+38,Sri Lanka,2017,3,2,False,,Insufficient coverage
+38,Sri Lanka,2019,3,2,False,,Insufficient coverage
+38,Sri Lanka,2020,3,2,False,,Insufficient coverage
+38,Sri Lanka,2021,3,2,False,,Insufficient coverage
+38,Sri Lanka,2022,3,2,False,,Insufficient coverage
+38,Sri Lanka,2023,3,2,False,,Insufficient coverage
+40,Chile,2010,3,3,True,0.44408092769201946,Moderate
+40,Chile,2011,3,3,True,0.39868386510452647,Moderate
+40,Chile,2012,3,3,True,0.43598388135732086,Moderate
+40,Chile,2013,3,3,True,0.4617179550483273,Moderate
+40,Chile,2014,3,3,True,0.4097280396111115,Moderate
+40,Chile,2015,3,3,True,0.34520298054452553,Moderate
+40,Chile,2016,3,3,True,0.2567686516663136,Moderate
+40,Chile,2017,3,3,True,0.36476737168755724,Moderate
+40,Chile,2018,3,3,True,0.31532046324702506,Moderate
+40,Chile,2019,3,3,True,0.33288902536902226,Moderate
+40,Chile,2020,3,3,True,0.36518646234302965,Moderate
+40,Chile,2021,3,3,True,0.42870862144962646,Moderate
+40,Chile,2022,3,3,True,0.3897683243026301,Moderate
+41,"China, mainland",2010,3,3,True,0.0665398036094072,Low
+41,"China, mainland",2011,3,3,True,0.06225845951260477,Low
+41,"China, mainland",2012,3,3,True,0.09980370766059593,Low
+41,"China, mainland",2013,3,3,True,0.11529468539572019,Low
+41,"China, mainland",2014,3,3,True,0.0754313103467324,Low
+41,"China, mainland",2015,3,3,True,0.08346082647299102,Low
+41,"China, mainland",2016,3,3,True,0.07576866242835142,Low
+41,"China, mainland",2017,3,3,True,0.09584726242009782,Low
+41,"China, mainland",2018,3,3,True,0.07458862868834931,Low
+41,"China, mainland",2019,3,3,True,0.05325419420040153,Low
+41,"China, mainland",2020,3,3,True,0.0819628879458944,Low
+41,"China, mainland",2021,3,3,True,0.0903144775662354,Low
+41,"China, mainland",2022,3,3,True,0.13306408586598004,Low
+41,"China, mainland",2023,3,3,True,0.1264558973450945,Low
+44,Colombia,2010,3,3,True,0.3637690910699146,Moderate
+44,Colombia,2011,3,3,True,0.3850455281356403,Moderate
+44,Colombia,2012,3,3,True,0.41610131976454917,Moderate
+44,Colombia,2013,3,3,True,0.40681610892429015,Moderate
+44,Colombia,2014,3,3,True,0.5570508128275673,High
+44,Colombia,2015,3,3,True,0.5999795503424893,High
+44,Colombia,2016,3,3,True,0.48588548951356103,Moderate
+44,Colombia,2017,3,3,True,0.5417438771063707,High
+44,Colombia,2018,3,3,True,0.5583286026011411,High
+44,Colombia,2019,3,3,True,0.4680522408764745,Moderate
+44,Colombia,2020,3,3,True,0.5264513136317767,High
+44,Colombia,2021,3,3,True,0.46788521371014863,Moderate
+44,Colombia,2022,3,3,True,0.4215758026174986,Moderate
+44,Colombia,2023,3,3,True,0.4493824898107247,Moderate
+45,Comoros,2016,3,0,False,,Insufficient coverage
+45,Comoros,2017,3,2,False,,Insufficient coverage
+45,Comoros,2018,3,1,False,,Insufficient coverage
+45,Comoros,2019,3,0,False,,Insufficient coverage
+45,Comoros,2020,3,0,False,,Insufficient coverage
+45,Comoros,2021,3,0,False,,Insufficient coverage
+46,Congo,2010,3,2,False,,Insufficient coverage
+46,Congo,2012,3,1,False,,Insufficient coverage
+46,Congo,2013,3,1,False,,Insufficient coverage
+46,Congo,2014,3,1,False,,Insufficient coverage
+46,Congo,2015,3,0,False,,Insufficient coverage
+46,Congo,2016,3,1,False,,Insufficient coverage
+46,Congo,2017,3,1,False,,Insufficient coverage
+46,Congo,2018,3,2,False,,Insufficient coverage
+46,Congo,2019,3,1,False,,Insufficient coverage
+46,Congo,2020,3,2,False,,Insufficient coverage
+46,Congo,2021,3,2,False,,Insufficient coverage
+46,Congo,2022,3,2,False,,Insufficient coverage
+46,Congo,2023,3,2,False,,Insufficient coverage
+48,Costa Rica,2010,3,2,False,,Insufficient coverage
+48,Costa Rica,2011,3,2,False,,Insufficient coverage
+48,Costa Rica,2012,3,2,False,,Insufficient coverage
+48,Costa Rica,2013,3,2,False,,Insufficient coverage
+48,Costa Rica,2014,3,2,False,,Insufficient coverage
+48,Costa Rica,2015,3,2,False,,Insufficient coverage
+48,Costa Rica,2016,3,2,False,,Insufficient coverage
+48,Costa Rica,2017,3,2,False,,Insufficient coverage
+48,Costa Rica,2018,3,2,False,,Insufficient coverage
+48,Costa Rica,2019,3,2,False,,Insufficient coverage
+48,Costa Rica,2020,3,2,False,,Insufficient coverage
+48,Costa Rica,2021,3,2,False,,Insufficient coverage
+48,Costa Rica,2022,3,2,False,,Insufficient coverage
+48,Costa Rica,2023,3,2,False,,Insufficient coverage
+49,Cuba,2017,3,0,False,,Insufficient coverage
+49,Cuba,2018,3,1,False,,Insufficient coverage
+49,Cuba,2019,3,0,False,,Insufficient coverage
+50,Cyprus,2010,3,1,False,,Insufficient coverage
+50,Cyprus,2011,3,1,False,,Insufficient coverage
+50,Cyprus,2012,3,1,False,,Insufficient coverage
+50,Cyprus,2013,3,1,False,,Insufficient coverage
+50,Cyprus,2014,3,1,False,,Insufficient coverage
+50,Cyprus,2015,3,1,False,,Insufficient coverage
+50,Cyprus,2016,3,1,False,,Insufficient coverage
+50,Cyprus,2017,3,1,False,,Insufficient coverage
+50,Cyprus,2018,3,1,False,,Insufficient coverage
+50,Cyprus,2019,3,2,False,,Insufficient coverage
+50,Cyprus,2020,3,2,False,,Insufficient coverage
+50,Cyprus,2021,3,2,False,,Insufficient coverage
+50,Cyprus,2022,3,2,False,,Insufficient coverage
+50,Cyprus,2023,3,2,False,,Insufficient coverage
+52,Azerbaijan,2010,3,3,True,0.6090023670363217,High
+52,Azerbaijan,2011,3,3,True,0.40162151469989915,Moderate
+52,Azerbaijan,2012,3,3,True,0.4920425527481225,Moderate
+52,Azerbaijan,2013,3,3,True,0.4095806633665072,Moderate
+52,Azerbaijan,2014,3,3,True,0.4696494757410141,Moderate
+52,Azerbaijan,2018,3,3,True,0.4394696821634605,Moderate
+52,Azerbaijan,2019,3,3,True,0.48242993340184925,Moderate
+52,Azerbaijan,2020,3,3,True,0.5849142329234764,High
+52,Azerbaijan,2021,3,3,True,0.5493964854044743,High
+52,Azerbaijan,2022,3,3,True,0.5044142609513678,High
+52,Azerbaijan,2023,3,3,True,0.5388029105422725,High
+54,Denmark,2010,3,3,True,0.18312718861045008,Low
+54,Denmark,2011,3,3,True,0.15442573780084898,Low
+54,Denmark,2012,3,3,True,0.11916078885304593,Low
+54,Denmark,2013,3,3,True,0.15498609006894062,Low
+54,Denmark,2014,3,3,True,0.12461043715483372,Low
+54,Denmark,2015,3,2,False,,Insufficient coverage
+54,Denmark,2016,3,2,False,,Insufficient coverage
+54,Denmark,2017,3,2,False,,Insufficient coverage
+54,Denmark,2018,3,2,False,,Insufficient coverage
+54,Denmark,2019,3,3,True,0.16826672116448882,Low
+54,Denmark,2020,3,3,True,0.17458391025684236,Low
+54,Denmark,2021,3,3,True,0.14811260588165562,Low
+54,Denmark,2022,3,3,True,0.11043687476960819,Low
+54,Denmark,2023,3,3,True,0.18052307643481985,Low
+56,Dominican Republic,2014,3,2,False,,Insufficient coverage
+56,Dominican Republic,2015,3,2,False,,Insufficient coverage
+56,Dominican Republic,2016,3,2,False,,Insufficient coverage
+56,Dominican Republic,2017,3,2,False,,Insufficient coverage
+56,Dominican Republic,2018,3,2,False,,Insufficient coverage
+56,Dominican Republic,2019,3,2,False,,Insufficient coverage
+56,Dominican Republic,2020,3,2,False,,Insufficient coverage
+56,Dominican Republic,2021,3,2,False,,Insufficient coverage
+56,Dominican Republic,2022,3,2,False,,Insufficient coverage
+56,Dominican Republic,2023,3,2,False,,Insufficient coverage
+57,Belarus,2010,3,2,False,,Insufficient coverage
+57,Belarus,2011,3,2,False,,Insufficient coverage
+57,Belarus,2012,3,2,False,,Insufficient coverage
+57,Belarus,2013,3,2,False,,Insufficient coverage
+57,Belarus,2014,3,2,False,,Insufficient coverage
+57,Belarus,2015,3,2,False,,Insufficient coverage
+57,Belarus,2016,3,2,False,,Insufficient coverage
+57,Belarus,2017,3,2,False,,Insufficient coverage
+57,Belarus,2018,3,2,False,,Insufficient coverage
+57,Belarus,2019,3,2,False,,Insufficient coverage
+57,Belarus,2020,3,2,False,,Insufficient coverage
+57,Belarus,2021,3,2,False,,Insufficient coverage
+58,Ecuador,2010,3,3,True,0.32323012602614765,Moderate
+58,Ecuador,2011,3,3,True,0.32256801083393893,Moderate
+58,Ecuador,2012,3,3,True,0.3828891824840015,Moderate
+58,Ecuador,2013,3,3,True,0.2599425589999726,Moderate
+58,Ecuador,2014,3,3,True,0.235572121516049,Low
+58,Ecuador,2015,3,3,True,0.24130696164919943,Low
+58,Ecuador,2016,3,3,True,0.26643150262016413,Moderate
+58,Ecuador,2017,3,3,True,0.24187992155774046,Low
+58,Ecuador,2018,3,3,True,0.2655082795680933,Moderate
+58,Ecuador,2019,3,3,True,0.25568938263238106,Moderate
+58,Ecuador,2020,3,3,True,0.2694908212607541,Moderate
+58,Ecuador,2021,3,3,True,0.2810494123559561,Moderate
+58,Ecuador,2022,3,3,True,0.24041773467901872,Low
+58,Ecuador,2023,3,3,True,0.3326467393613702,Moderate
+59,Egypt,2011,3,3,True,0.2451161759687805,Low
+59,Egypt,2013,3,3,True,0.31929641280079557,Moderate
+59,Egypt,2017,3,3,True,0.32672291208317533,Moderate
+59,Egypt,2018,3,3,True,0.4018182610338576,Moderate
+59,Egypt,2019,3,3,True,0.3702947948101547,Moderate
+59,Egypt,2020,3,3,True,0.3405050372178213,Moderate
+59,Egypt,2021,3,3,True,0.2978618836667909,Moderate
+59,Egypt,2022,3,3,True,0.33518430142009725,Moderate
+59,Egypt,2023,3,3,True,0.360636331987962,Moderate
+60,El Salvador,2010,3,2,False,,Insufficient coverage
+60,El Salvador,2011,3,2,False,,Insufficient coverage
+60,El Salvador,2012,3,2,False,,Insufficient coverage
+60,El Salvador,2013,3,2,False,,Insufficient coverage
+60,El Salvador,2014,3,2,False,,Insufficient coverage
+60,El Salvador,2015,3,2,False,,Insufficient coverage
+60,El Salvador,2016,3,2,False,,Insufficient coverage
+60,El Salvador,2017,3,2,False,,Insufficient coverage
+60,El Salvador,2018,3,2,False,,Insufficient coverage
+60,El Salvador,2019,3,2,False,,Insufficient coverage
+60,El Salvador,2020,3,2,False,,Insufficient coverage
+60,El Salvador,2021,3,2,False,,Insufficient coverage
+60,El Salvador,2022,3,2,False,,Insufficient coverage
+60,El Salvador,2023,3,2,False,,Insufficient coverage
+63,Estonia,2010,3,1,False,,Insufficient coverage
+63,Estonia,2011,3,1,False,,Insufficient coverage
+63,Estonia,2012,3,1,False,,Insufficient coverage
+63,Estonia,2013,3,1,False,,Insufficient coverage
+63,Estonia,2014,3,1,False,,Insufficient coverage
+63,Estonia,2015,3,1,False,,Insufficient coverage
+63,Estonia,2016,3,0,False,,Insufficient coverage
+63,Estonia,2017,3,1,False,,Insufficient coverage
+63,Estonia,2018,3,1,False,,Insufficient coverage
+63,Estonia,2019,3,3,True,0.46510934670362136,Moderate
+63,Estonia,2020,3,3,True,0.5764859124058627,High
+63,Estonia,2021,3,3,True,0.38629483871679676,Moderate
+63,Estonia,2022,3,3,True,0.32148452280846485,Moderate
+63,Estonia,2023,3,3,True,0.4745190855404792,Moderate
+66,Fiji,2010,3,2,False,,Insufficient coverage
+66,Fiji,2011,3,2,False,,Insufficient coverage
+66,Fiji,2012,3,2,False,,Insufficient coverage
+66,Fiji,2013,3,2,False,,Insufficient coverage
+66,Fiji,2014,3,2,False,,Insufficient coverage
+66,Fiji,2015,3,2,False,,Insufficient coverage
+66,Fiji,2016,3,2,False,,Insufficient coverage
+66,Fiji,2017,3,2,False,,Insufficient coverage
+66,Fiji,2018,3,2,False,,Insufficient coverage
+66,Fiji,2019,3,2,False,,Insufficient coverage
+66,Fiji,2020,3,2,False,,Insufficient coverage
+66,Fiji,2021,3,2,False,,Insufficient coverage
+66,Fiji,2022,3,2,False,,Insufficient coverage
+66,Fiji,2023,3,2,False,,Insufficient coverage
+67,Finland,2010,3,1,False,,Insufficient coverage
+67,Finland,2011,3,1,False,,Insufficient coverage
+67,Finland,2012,3,1,False,,Insufficient coverage
+67,Finland,2013,3,1,False,,Insufficient coverage
+67,Finland,2014,3,1,False,,Insufficient coverage
+67,Finland,2015,3,1,False,,Insufficient coverage
+67,Finland,2016,3,1,False,,Insufficient coverage
+67,Finland,2017,3,1,False,,Insufficient coverage
+67,Finland,2018,3,1,False,,Insufficient coverage
+67,Finland,2019,3,2,False,,Insufficient coverage
+67,Finland,2020,3,3,True,0.21236412476083216,Low
+67,Finland,2021,3,3,True,0.28352606417300624,Moderate
+67,Finland,2022,3,3,True,0.21936234564465393,Low
+67,Finland,2023,3,3,True,0.23439505844294836,Low
+68,France,2010,3,3,True,0.10771125297852019,Low
+68,France,2011,3,3,True,0.13743676618914757,Low
+68,France,2012,3,3,True,0.15309975221799377,Low
+68,France,2013,3,3,True,0.148968123036118,Low
+68,France,2014,3,3,True,0.0460543851722343,Low
+68,France,2015,3,3,True,0.036765587820763355,Low
+68,France,2016,3,3,True,0.031860609647576144,Low
+68,France,2017,3,3,True,0.036581323197119986,Low
+68,France,2018,3,3,True,0.050494601249222594,Low
+68,France,2019,3,3,True,0.0381338311245664,Low
+68,France,2020,3,3,True,0.08818211155872138,Low
+68,France,2021,3,3,True,0.04287338133182445,Low
+68,France,2022,3,3,True,0.06045769085735886,Low
+68,France,2023,3,3,True,0.03929911907647353,Low
+70,French Polynesia,2010,3,0,False,,Insufficient coverage
+70,French Polynesia,2011,3,0,False,,Insufficient coverage
+70,French Polynesia,2012,3,0,False,,Insufficient coverage
+70,French Polynesia,2013,3,0,False,,Insufficient coverage
+70,French Polynesia,2014,3,0,False,,Insufficient coverage
+70,French Polynesia,2015,3,0,False,,Insufficient coverage
+70,French Polynesia,2016,3,0,False,,Insufficient coverage
+70,French Polynesia,2017,3,0,False,,Insufficient coverage
+70,French Polynesia,2018,3,0,False,,Insufficient coverage
+70,French Polynesia,2019,3,0,False,,Insufficient coverage
+70,French Polynesia,2020,3,0,False,,Insufficient coverage
+70,French Polynesia,2021,3,0,False,,Insufficient coverage
+70,French Polynesia,2022,3,0,False,,Insufficient coverage
+72,Djibouti,2021,3,1,False,,Insufficient coverage
+72,Djibouti,2022,3,0,False,,Insufficient coverage
+72,Djibouti,2023,3,1,False,,Insufficient coverage
+73,Georgia,2010,3,2,False,,Insufficient coverage
+73,Georgia,2011,3,2,False,,Insufficient coverage
+73,Georgia,2012,3,2,False,,Insufficient coverage
+73,Georgia,2013,3,2,False,,Insufficient coverage
+73,Georgia,2014,3,2,False,,Insufficient coverage
+73,Georgia,2015,3,2,False,,Insufficient coverage
+73,Georgia,2016,3,2,False,,Insufficient coverage
+73,Georgia,2017,3,2,False,,Insufficient coverage
+73,Georgia,2018,3,2,False,,Insufficient coverage
+73,Georgia,2019,3,2,False,,Insufficient coverage
+73,Georgia,2020,3,2,False,,Insufficient coverage
+73,Georgia,2021,3,2,False,,Insufficient coverage
+73,Georgia,2022,3,2,False,,Insufficient coverage
+73,Georgia,2023,3,2,False,,Insufficient coverage
+74,Gabon,2020,3,1,False,,Insufficient coverage
+74,Gabon,2021,3,2,False,,Insufficient coverage
+74,Gabon,2022,3,1,False,,Insufficient coverage
+74,Gabon,2023,3,2,False,,Insufficient coverage
+75,Gambia,2010,2,1,False,,Insufficient coverage
+75,Gambia,2011,3,2,False,,Insufficient coverage
+75,Gambia,2012,3,2,False,,Insufficient coverage
+75,Gambia,2013,2,1,False,,Insufficient coverage
+75,Gambia,2014,3,1,False,,Insufficient coverage
+75,Gambia,2015,3,2,False,,Insufficient coverage
+75,Gambia,2016,3,1,False,,Insufficient coverage
+75,Gambia,2017,3,0,False,,Insufficient coverage
+75,Gambia,2018,3,0,False,,Insufficient coverage
+75,Gambia,2019,3,0,False,,Insufficient coverage
+75,Gambia,2020,3,2,False,,Insufficient coverage
+75,Gambia,2021,3,1,False,,Insufficient coverage
+75,Gambia,2022,3,1,False,,Insufficient coverage
+75,Gambia,2023,3,2,False,,Insufficient coverage
+79,Germany,2010,3,2,False,,Insufficient coverage
+79,Germany,2011,3,2,False,,Insufficient coverage
+79,Germany,2012,3,2,False,,Insufficient coverage
+79,Germany,2013,3,2,False,,Insufficient coverage
+79,Germany,2014,3,2,False,,Insufficient coverage
+79,Germany,2015,3,2,False,,Insufficient coverage
+79,Germany,2016,3,2,False,,Insufficient coverage
+79,Germany,2017,3,2,False,,Insufficient coverage
+79,Germany,2018,3,2,False,,Insufficient coverage
+79,Germany,2019,3,3,True,0.05067634264240314,Low
+79,Germany,2020,3,3,True,0.0745794852292827,Low
+79,Germany,2021,3,3,True,0.08896201596235531,Low
+79,Germany,2022,3,3,True,0.06846357917954574,Low
+79,Germany,2023,3,3,True,0.0826361632993937,Low
+80,Bosnia and Herzegovina,2010,3,2,False,,Insufficient coverage
+80,Bosnia and Herzegovina,2011,3,2,False,,Insufficient coverage
+80,Bosnia and Herzegovina,2012,3,2,False,,Insufficient coverage
+80,Bosnia and Herzegovina,2013,3,2,False,,Insufficient coverage
+80,Bosnia and Herzegovina,2014,3,2,False,,Insufficient coverage
+80,Bosnia and Herzegovina,2015,3,2,False,,Insufficient coverage
+80,Bosnia and Herzegovina,2016,3,2,False,,Insufficient coverage
+80,Bosnia and Herzegovina,2017,3,2,False,,Insufficient coverage
+80,Bosnia and Herzegovina,2018,3,2,False,,Insufficient coverage
+80,Bosnia and Herzegovina,2019,3,2,False,,Insufficient coverage
+80,Bosnia and Herzegovina,2020,3,2,False,,Insufficient coverage
+80,Bosnia and Herzegovina,2021,3,2,False,,Insufficient coverage
+80,Bosnia and Herzegovina,2022,3,2,False,,Insufficient coverage
+80,Bosnia and Herzegovina,2023,3,2,False,,Insufficient coverage
+81,Ghana,2010,3,2,False,,Insufficient coverage
+81,Ghana,2011,3,2,False,,Insufficient coverage
+81,Ghana,2012,3,2,False,,Insufficient coverage
+81,Ghana,2013,3,2,False,,Insufficient coverage
+81,Ghana,2016,3,2,False,,Insufficient coverage
+81,Ghana,2017,3,2,False,,Insufficient coverage
+81,Ghana,2018,3,2,False,,Insufficient coverage
+81,Ghana,2019,3,2,False,,Insufficient coverage
+81,Ghana,2021,3,2,False,,Insufficient coverage
+81,Ghana,2022,3,2,False,,Insufficient coverage
+81,Ghana,2023,3,2,False,,Insufficient coverage
+83,Kiribati,2011,3,0,False,,Insufficient coverage
+83,Kiribati,2012,3,0,False,,Insufficient coverage
+83,Kiribati,2014,3,0,False,,Insufficient coverage
+83,Kiribati,2015,3,0,False,,Insufficient coverage
+83,Kiribati,2016,3,0,False,,Insufficient coverage
+83,Kiribati,2017,3,0,False,,Insufficient coverage
+83,Kiribati,2018,3,0,False,,Insufficient coverage
+83,Kiribati,2020,3,0,False,,Insufficient coverage
+83,Kiribati,2021,3,0,False,,Insufficient coverage
+84,Greece,2010,3,3,True,0.051233009950587084,Low
+84,Greece,2011,3,3,True,0.0792456703750993,Low
+84,Greece,2012,3,3,True,0.16708604758366205,Low
+84,Greece,2013,3,3,True,0.18509900807348473,Low
+84,Greece,2014,3,3,True,0.24874923721444797,Low
+84,Greece,2015,3,3,True,0.1832952791761684,Low
+84,Greece,2016,3,3,True,0.17552182820745305,Low
+84,Greece,2017,3,3,True,0.18515177036135216,Low
+84,Greece,2018,3,3,True,0.19785084577177672,Low
+84,Greece,2019,3,3,True,0.25798947509838455,Moderate
+84,Greece,2020,3,3,True,0.28967612715758345,Moderate
+84,Greece,2021,3,3,True,0.33852144032887804,Moderate
+84,Greece,2022,3,3,True,0.30353722961740637,Moderate
+84,Greece,2023,3,3,True,0.24113428211052393,Low
+86,Grenada,2016,3,1,False,,Insufficient coverage
+86,Grenada,2017,3,1,False,,Insufficient coverage
+86,Grenada,2018,3,0,False,,Insufficient coverage
+86,Grenada,2019,3,0,False,,Insufficient coverage
+86,Grenada,2020,3,0,False,,Insufficient coverage
+86,Grenada,2021,3,1,False,,Insufficient coverage
+86,Grenada,2022,3,0,False,,Insufficient coverage
+86,Grenada,2023,3,1,False,,Insufficient coverage
+89,Guatemala,2010,3,3,True,0.6414409915976406,High
+89,Guatemala,2011,3,3,True,0.658189682096899,High
+89,Guatemala,2012,3,3,True,0.507321303328352,High
+89,Guatemala,2013,3,3,True,0.4344269627074269,Moderate
+89,Guatemala,2014,3,3,True,0.6362383693096547,High
+89,Guatemala,2015,3,3,True,0.6174217731738016,High
+89,Guatemala,2016,3,3,True,0.6433207298874701,High
+89,Guatemala,2017,3,3,True,0.6146323641726006,High
+89,Guatemala,2018,3,3,True,0.6422811491521953,High
+89,Guatemala,2019,3,3,True,0.6015643297357176,High
+89,Guatemala,2020,3,3,True,0.554139848963265,High
+89,Guatemala,2021,3,3,True,0.5722819935841869,High
+89,Guatemala,2022,3,3,True,0.512084306524011,High
+89,Guatemala,2023,3,3,True,0.4933157602307218,Moderate
+90,Guinea,2014,3,1,False,,Insufficient coverage
+90,Guinea,2015,3,1,False,,Insufficient coverage
+90,Guinea,2016,3,2,False,,Insufficient coverage
+91,Guyana,2010,3,2,False,,Insufficient coverage
+91,Guyana,2011,3,2,False,,Insufficient coverage
+91,Guyana,2012,3,2,False,,Insufficient coverage
+91,Guyana,2013,3,2,False,,Insufficient coverage
+91,Guyana,2014,3,1,False,,Insufficient coverage
+91,Guyana,2015,3,2,False,,Insufficient coverage
+91,Guyana,2016,3,2,False,,Insufficient coverage
+91,Guyana,2017,3,2,False,,Insufficient coverage
+91,Guyana,2018,3,2,False,,Insufficient coverage
+91,Guyana,2019,3,2,False,,Insufficient coverage
+91,Guyana,2020,3,1,False,,Insufficient coverage
+91,Guyana,2021,3,2,False,,Insufficient coverage
+91,Guyana,2022,3,2,False,,Insufficient coverage
+91,Guyana,2023,3,2,False,,Insufficient coverage
+95,Honduras,2012,3,3,True,0.6593493183988769,High
+95,Honduras,2014,3,3,True,0.7114734306211193,High
+95,Honduras,2015,3,3,True,0.6537187967066895,High
+95,Honduras,2016,3,3,True,0.7372626757194249,High
+95,Honduras,2017,3,3,True,0.745232743518137,High
+95,Honduras,2018,3,3,True,0.7207884076164768,High
+95,Honduras,2019,3,3,True,0.748810720189285,High
+95,Honduras,2020,3,3,True,0.7426695611101136,High
+95,Honduras,2021,3,3,True,0.77657518557687,Very High
+95,Honduras,2023,3,3,True,0.7377682826879195,High
+96,"China, Hong Kong SAR",2010,3,1,False,,Insufficient coverage
+96,"China, Hong Kong SAR",2011,3,1,False,,Insufficient coverage
+96,"China, Hong Kong SAR",2012,3,1,False,,Insufficient coverage
+96,"China, Hong Kong SAR",2013,3,1,False,,Insufficient coverage
+96,"China, Hong Kong SAR",2014,3,1,False,,Insufficient coverage
+96,"China, Hong Kong SAR",2015,3,1,False,,Insufficient coverage
+96,"China, Hong Kong SAR",2016,3,1,False,,Insufficient coverage
+96,"China, Hong Kong SAR",2017,3,1,False,,Insufficient coverage
+96,"China, Hong Kong SAR",2018,3,1,False,,Insufficient coverage
+96,"China, Hong Kong SAR",2019,3,1,False,,Insufficient coverage
+96,"China, Hong Kong SAR",2020,3,1,False,,Insufficient coverage
+96,"China, Hong Kong SAR",2021,3,1,False,,Insufficient coverage
+96,"China, Hong Kong SAR",2022,3,1,False,,Insufficient coverage
+96,"China, Hong Kong SAR",2023,3,1,False,,Insufficient coverage
+97,Hungary,2010,3,3,True,0.4163649678435788,Moderate
+97,Hungary,2011,3,3,True,0.2210240959557602,Low
+97,Hungary,2012,3,2,False,,Insufficient coverage
+97,Hungary,2013,3,3,True,0.2705722135482429,Moderate
+97,Hungary,2014,3,3,True,0.25743994060554426,Moderate
+97,Hungary,2015,3,3,True,0.2976846525439684,Moderate
+97,Hungary,2016,3,3,True,0.33829620050337533,Moderate
+97,Hungary,2017,3,3,True,0.50077920759908,High
+97,Hungary,2018,3,3,True,0.3302471351970995,Moderate
+97,Hungary,2019,3,3,True,0.32274900365857495,Moderate
+97,Hungary,2020,3,3,True,0.5120187099083163,High
+97,Hungary,2021,3,3,True,0.3209964227791348,Moderate
+97,Hungary,2022,3,3,True,0.327285107161189,Moderate
+97,Hungary,2023,3,3,True,0.26210113731817564,Moderate
+98,Croatia,2010,3,2,False,,Insufficient coverage
+98,Croatia,2011,3,2,False,,Insufficient coverage
+98,Croatia,2012,3,2,False,,Insufficient coverage
+98,Croatia,2013,3,2,False,,Insufficient coverage
+98,Croatia,2014,3,2,False,,Insufficient coverage
+98,Croatia,2015,3,2,False,,Insufficient coverage
+98,Croatia,2016,3,2,False,,Insufficient coverage
+98,Croatia,2017,3,2,False,,Insufficient coverage
+98,Croatia,2018,3,2,False,,Insufficient coverage
+98,Croatia,2019,3,3,True,0.45280218649678405,Moderate
+98,Croatia,2020,3,3,True,0.5337610022023815,High
+98,Croatia,2021,3,3,True,0.30795326605586215,Moderate
+98,Croatia,2022,3,3,True,0.3301254607266796,Moderate
+98,Croatia,2023,3,3,True,0.38691113282479717,Moderate
+99,Iceland,2010,3,0,False,,Insufficient coverage
+99,Iceland,2011,3,0,False,,Insufficient coverage
+99,Iceland,2012,3,0,False,,Insufficient coverage
+99,Iceland,2013,3,0,False,,Insufficient coverage
+99,Iceland,2014,3,0,False,,Insufficient coverage
+99,Iceland,2015,3,0,False,,Insufficient coverage
+99,Iceland,2016,3,0,False,,Insufficient coverage
+99,Iceland,2017,3,0,False,,Insufficient coverage
+99,Iceland,2018,3,0,False,,Insufficient coverage
+99,Iceland,2019,3,0,False,,Insufficient coverage
+99,Iceland,2020,3,0,False,,Insufficient coverage
+99,Iceland,2021,3,0,False,,Insufficient coverage
+99,Iceland,2022,3,0,False,,Insufficient coverage
+99,Iceland,2023,3,0,False,,Insufficient coverage
+100,India,2010,3,3,True,0.040621804642142025,Low
+100,India,2011,3,3,True,0.034561910895889864,Low
+100,India,2012,3,3,True,0.03655218366450537,Low
+100,India,2013,3,3,True,0.04616658654126013,Low
+100,India,2014,3,3,True,0.04438962990619013,Low
+100,India,2015,3,3,True,0.04128095726157394,Low
+100,India,2016,3,3,True,0.0377526020596721,Low
+100,India,2017,3,3,True,0.06173499379734472,Low
+100,India,2018,3,3,True,0.034495912380078625,Low
+100,India,2019,3,3,True,0.022543269240926974,Low
+100,India,2020,3,3,True,0.027756813401835424,Low
+100,India,2021,3,3,True,0.02261790090256867,Low
+100,India,2022,3,3,True,0.03518460353149402,Low
+100,India,2023,3,3,True,0.048432710299431775,Low
+101,Indonesia,2010,3,2,False,,Insufficient coverage
+101,Indonesia,2011,3,2,False,,Insufficient coverage
+101,Indonesia,2012,3,2,False,,Insufficient coverage
+101,Indonesia,2013,3,2,False,,Insufficient coverage
+101,Indonesia,2014,3,2,False,,Insufficient coverage
+101,Indonesia,2015,3,2,False,,Insufficient coverage
+101,Indonesia,2016,3,2,False,,Insufficient coverage
+101,Indonesia,2017,3,2,False,,Insufficient coverage
+101,Indonesia,2018,3,2,False,,Insufficient coverage
+101,Indonesia,2019,3,2,False,,Insufficient coverage
+101,Indonesia,2020,3,2,False,,Insufficient coverage
+101,Indonesia,2021,3,2,False,,Insufficient coverage
+101,Indonesia,2022,3,2,False,,Insufficient coverage
+101,Indonesia,2023,3,2,False,,Insufficient coverage
+102,Iran (Islamic Republic of),2010,3,3,True,0.154902133172016,Low
+102,Iran (Islamic Republic of),2014,3,3,True,0.11507966783976477,Low
+102,Iran (Islamic Republic of),2016,3,3,True,0.15077571341424348,Low
+102,Iran (Islamic Republic of),2017,3,3,True,0.11203412849171829,Low
+102,Iran (Islamic Republic of),2018,3,3,True,0.13435109344367827,Low
+102,Iran (Islamic Republic of),2020,3,3,True,0.2293839292107408,Low
+102,Iran (Islamic Republic of),2021,3,3,True,0.16571755554362655,Low
+102,Iran (Islamic Republic of),2022,3,3,True,0.16835743759274852,Low
+103,Iraq,2014,3,0,False,,Insufficient coverage
+103,Iraq,2015,3,0,False,,Insufficient coverage
+103,Iraq,2016,3,1,False,,Insufficient coverage
+104,Ireland,2010,3,1,False,,Insufficient coverage
+104,Ireland,2011,3,1,False,,Insufficient coverage
+104,Ireland,2012,3,1,False,,Insufficient coverage
+104,Ireland,2013,3,1,False,,Insufficient coverage
+104,Ireland,2014,3,1,False,,Insufficient coverage
+104,Ireland,2015,3,1,False,,Insufficient coverage
+104,Ireland,2016,3,1,False,,Insufficient coverage
+104,Ireland,2017,3,1,False,,Insufficient coverage
+104,Ireland,2018,3,1,False,,Insufficient coverage
+104,Ireland,2019,3,3,True,0.547062227996917,High
+104,Ireland,2020,3,3,True,0.4323237613240484,Moderate
+104,Ireland,2021,3,3,True,0.1632703388964361,Low
+104,Ireland,2022,3,3,True,0.487435302326329,Moderate
+104,Ireland,2023,3,3,True,0.3742395675743208,Moderate
+105,Israel,2010,3,2,False,,Insufficient coverage
+105,Israel,2011,3,2,False,,Insufficient coverage
+105,Israel,2012,3,2,False,,Insufficient coverage
+105,Israel,2013,3,2,False,,Insufficient coverage
+105,Israel,2014,3,2,False,,Insufficient coverage
+105,Israel,2015,3,2,False,,Insufficient coverage
+105,Israel,2016,3,2,False,,Insufficient coverage
+105,Israel,2017,3,2,False,,Insufficient coverage
+105,Israel,2018,3,2,False,,Insufficient coverage
+105,Israel,2019,3,2,False,,Insufficient coverage
+105,Israel,2020,3,2,False,,Insufficient coverage
+105,Israel,2021,3,2,False,,Insufficient coverage
+105,Israel,2022,3,2,False,,Insufficient coverage
+105,Israel,2023,3,2,False,,Insufficient coverage
+106,Italy,2010,3,3,True,0.04390756688458441,Low
+106,Italy,2011,3,3,True,0.03834348596793073,Low
+106,Italy,2012,3,3,True,0.03827103252479127,Low
+106,Italy,2013,3,3,True,0.039954730454333315,Low
+106,Italy,2014,3,3,True,0.036188527549996734,Low
+106,Italy,2015,3,3,True,0.030891968300524347,Low
+106,Italy,2016,3,3,True,0.02999182342318364,Low
+106,Italy,2017,3,3,True,0.03571654502571427,Low
+106,Italy,2018,3,3,True,0.03579166426778464,Low
+106,Italy,2019,3,3,True,0.03906499847002665,Low
+106,Italy,2020,3,3,True,0.04510969418990337,Low
+106,Italy,2021,3,3,True,0.038596983059903354,Low
+106,Italy,2022,3,3,True,0.03873602748759173,Low
+106,Italy,2023,3,3,True,0.03520560286302844,Low
+107,C├┤te d'Ivoire,2010,3,2,False,,Insufficient coverage
+107,C├┤te d'Ivoire,2011,3,2,False,,Insufficient coverage
+107,C├┤te d'Ivoire,2012,3,2,False,,Insufficient coverage
+107,C├┤te d'Ivoire,2013,3,2,False,,Insufficient coverage
+107,C├┤te d'Ivoire,2014,3,2,False,,Insufficient coverage
+107,C├┤te d'Ivoire,2015,3,2,False,,Insufficient coverage
+107,C├┤te d'Ivoire,2016,3,2,False,,Insufficient coverage
+107,C├┤te d'Ivoire,2017,3,2,False,,Insufficient coverage
+107,C├┤te d'Ivoire,2018,3,2,False,,Insufficient coverage
+107,C├┤te d'Ivoire,2019,3,2,False,,Insufficient coverage
+107,C├┤te d'Ivoire,2020,3,2,False,,Insufficient coverage
+107,C├┤te d'Ivoire,2021,3,2,False,,Insufficient coverage
+107,C├┤te d'Ivoire,2022,3,2,False,,Insufficient coverage
+107,C├┤te d'Ivoire,2023,3,2,False,,Insufficient coverage
+108,Kazakhstan,2010,1,0,False,,Insufficient coverage
+108,Kazakhstan,2011,3,3,True,0.08599611562459834,Low
+108,Kazakhstan,2012,3,2,False,,Insufficient coverage
+108,Kazakhstan,2013,3,3,True,0.10509398854712068,Low
+108,Kazakhstan,2014,3,3,True,0.1152117347719269,Low
+108,Kazakhstan,2015,3,3,True,0.11253071956129546,Low
+108,Kazakhstan,2016,3,3,True,0.07030057718668717,Low
+108,Kazakhstan,2017,3,3,True,0.06586329265688191,Low
+108,Kazakhstan,2018,3,3,True,0.26013912115085286,Moderate
+108,Kazakhstan,2019,3,3,True,0.3805591016821317,Moderate
+108,Kazakhstan,2020,3,3,True,0.32048295811843386,Moderate
+108,Kazakhstan,2021,3,3,True,0.4483478348358564,Moderate
+108,Kazakhstan,2022,3,3,True,0.3560534330779738,Moderate
+108,Kazakhstan,2023,3,3,True,0.6621642213059618,High
+109,Jamaica,2010,3,2,False,,Insufficient coverage
+109,Jamaica,2012,3,2,False,,Insufficient coverage
+109,Jamaica,2013,3,2,False,,Insufficient coverage
+109,Jamaica,2014,3,2,False,,Insufficient coverage
+109,Jamaica,2015,3,2,False,,Insufficient coverage
+109,Jamaica,2016,3,2,False,,Insufficient coverage
+109,Jamaica,2017,3,2,False,,Insufficient coverage
+109,Jamaica,2018,3,2,False,,Insufficient coverage
+109,Jamaica,2019,3,2,False,,Insufficient coverage
+109,Jamaica,2020,3,2,False,,Insufficient coverage
+109,Jamaica,2021,3,2,False,,Insufficient coverage
+109,Jamaica,2022,3,2,False,,Insufficient coverage
+109,Jamaica,2023,3,2,False,,Insufficient coverage
+112,Jordan,2010,3,2,False,,Insufficient coverage
+112,Jordan,2011,3,2,False,,Insufficient coverage
+112,Jordan,2012,3,2,False,,Insufficient coverage
+112,Jordan,2013,3,2,False,,Insufficient coverage
+112,Jordan,2014,3,2,False,,Insufficient coverage
+112,Jordan,2015,3,2,False,,Insufficient coverage
+112,Jordan,2016,3,2,False,,Insufficient coverage
+112,Jordan,2017,3,2,False,,Insufficient coverage
+112,Jordan,2018,3,2,False,,Insufficient coverage
+112,Jordan,2019,3,2,False,,Insufficient coverage
+112,Jordan,2020,3,2,False,,Insufficient coverage
+112,Jordan,2021,3,2,False,,Insufficient coverage
+112,Jordan,2022,3,2,False,,Insufficient coverage
+112,Jordan,2023,3,2,False,,Insufficient coverage
+113,Kyrgyzstan,2010,3,3,True,0.5182098044451687,High
+113,Kyrgyzstan,2011,3,3,True,0.5043861902320513,High
+113,Kyrgyzstan,2012,3,3,True,0.6378496846135989,High
+113,Kyrgyzstan,2015,3,3,True,0.47211662659381487,Moderate
+113,Kyrgyzstan,2016,3,3,True,0.42198956238872665,Moderate
+113,Kyrgyzstan,2017,3,3,True,0.5281803744500468,High
+113,Kyrgyzstan,2018,3,3,True,0.46938256208492934,Moderate
+113,Kyrgyzstan,2019,3,3,True,0.49845622933541567,Moderate
+113,Kyrgyzstan,2020,3,3,True,0.3835754921640533,Moderate
+113,Kyrgyzstan,2021,3,3,True,0.4063043035832369,Moderate
+113,Kyrgyzstan,2022,3,3,True,0.4601784806208207,Moderate
+113,Kyrgyzstan,2023,3,3,True,0.49234801944802803,Moderate
+114,Kenya,2010,3,3,True,0.2743877892319748,Moderate
+114,Kenya,2013,3,3,True,0.22633313987534254,Low
+114,Kenya,2016,3,3,True,0.3051846187326892,Moderate
+114,Kenya,2017,3,3,True,0.2570860612778613,Moderate
+114,Kenya,2018,3,3,True,0.3014606995010256,Moderate
+114,Kenya,2019,3,3,True,0.33157690586269895,Moderate
+114,Kenya,2020,3,3,True,0.22455832637868312,Low
+114,Kenya,2021,3,3,True,0.3684438448535071,Moderate
+114,Kenya,2022,3,3,True,0.3768981482105523,Moderate
+114,Kenya,2023,3,3,True,0.31827254692540596,Moderate
+115,Cambodia,2010,3,2,False,,Insufficient coverage
+115,Cambodia,2011,3,2,False,,Insufficient coverage
+115,Cambodia,2012,3,2,False,,Insufficient coverage
+115,Cambodia,2013,3,2,False,,Insufficient coverage
+115,Cambodia,2014,3,2,False,,Insufficient coverage
+115,Cambodia,2015,3,2,False,,Insufficient coverage
+115,Cambodia,2016,3,2,False,,Insufficient coverage
+115,Cambodia,2017,3,2,False,,Insufficient coverage
+115,Cambodia,2018,3,2,False,,Insufficient coverage
+115,Cambodia,2019,3,2,False,,Insufficient coverage
+115,Cambodia,2020,3,2,False,,Insufficient coverage
+115,Cambodia,2021,3,2,False,,Insufficient coverage
+115,Cambodia,2022,3,2,False,,Insufficient coverage
+115,Cambodia,2023,3,2,False,,Insufficient coverage
+117,Republic of Korea,2010,3,3,True,0.2506498106600519,Moderate
+117,Republic of Korea,2011,3,3,True,0.3156777849306471,Moderate
+117,Republic of Korea,2012,3,3,True,0.23709017564000176,Low
+117,Republic of Korea,2013,3,3,True,0.2601935841280171,Moderate
+117,Republic of Korea,2014,3,3,True,0.22684623728333597,Low
+117,Republic of Korea,2015,3,3,True,0.2002891728021431,Low
+117,Republic of Korea,2016,3,3,True,0.22607683225178996,Low
+117,Republic of Korea,2017,3,3,True,0.23003850196559944,Low
+117,Republic of Korea,2018,3,3,True,0.2612598885144234,Moderate
+117,Republic of Korea,2019,3,3,True,0.25829590934825564,Moderate
+117,Republic of Korea,2020,3,3,True,0.22986350300985164,Low
+117,Republic of Korea,2021,3,3,True,0.24020449418258527,Low
+117,Republic of Korea,2022,3,3,True,0.2671439792118271,Moderate
+117,Republic of Korea,2023,3,3,True,0.2226175775012587,Low
+118,Kuwait,2013,3,2,False,,Insufficient coverage
+118,Kuwait,2014,3,2,False,,Insufficient coverage
+118,Kuwait,2015,3,2,False,,Insufficient coverage
+118,Kuwait,2016,3,2,False,,Insufficient coverage
+118,Kuwait,2017,3,2,False,,Insufficient coverage
+118,Kuwait,2018,3,2,False,,Insufficient coverage
+118,Kuwait,2019,3,1,False,,Insufficient coverage
+118,Kuwait,2020,3,2,False,,Insufficient coverage
+118,Kuwait,2021,3,2,False,,Insufficient coverage
+118,Kuwait,2022,3,2,False,,Insufficient coverage
+118,Kuwait,2023,3,2,False,,Insufficient coverage
+119,Latvia,2010,3,1,False,,Insufficient coverage
+119,Latvia,2011,3,1,False,,Insufficient coverage
+119,Latvia,2012,3,1,False,,Insufficient coverage
+119,Latvia,2013,3,1,False,,Insufficient coverage
+119,Latvia,2014,3,1,False,,Insufficient coverage
+119,Latvia,2015,3,1,False,,Insufficient coverage
+119,Latvia,2016,3,1,False,,Insufficient coverage
+119,Latvia,2017,3,1,False,,Insufficient coverage
+119,Latvia,2018,3,1,False,,Insufficient coverage
+119,Latvia,2019,3,3,True,0.7714310823745391,Very High
+119,Latvia,2020,3,3,True,0.7562969104534663,Very High
+119,Latvia,2021,3,3,True,0.6893042832689171,High
+119,Latvia,2022,3,3,True,0.6762444573709689,High
+119,Latvia,2023,3,3,True,0.6457236939352585,High
+120,Lao People's Democratic Republic,2015,3,2,False,,Insufficient coverage
+120,Lao People's Democratic Republic,2016,3,2,False,,Insufficient coverage
+120,Lao People's Democratic Republic,2017,3,2,False,,Insufficient coverage
+120,Lao People's Democratic Republic,2018,3,2,False,,Insufficient coverage
+120,Lao People's Democratic Republic,2019,3,2,False,,Insufficient coverage
+120,Lao People's Democratic Republic,2020,3,2,False,,Insufficient coverage
+120,Lao People's Democratic Republic,2021,3,2,False,,Insufficient coverage
+120,Lao People's Democratic Republic,2022,3,2,False,,Insufficient coverage
+120,Lao People's Democratic Republic,2023,3,2,False,,Insufficient coverage
+121,Lebanon,2010,3,2,False,,Insufficient coverage
+121,Lebanon,2011,3,2,False,,Insufficient coverage
+121,Lebanon,2012,3,2,False,,Insufficient coverage
+121,Lebanon,2013,3,2,False,,Insufficient coverage
+121,Lebanon,2014,3,2,False,,Insufficient coverage
+121,Lebanon,2015,3,2,False,,Insufficient coverage
+121,Lebanon,2016,3,2,False,,Insufficient coverage
+121,Lebanon,2017,3,2,False,,Insufficient coverage
+121,Lebanon,2018,3,2,False,,Insufficient coverage
+121,Lebanon,2019,3,2,False,,Insufficient coverage
+121,Lebanon,2020,3,2,False,,Insufficient coverage
+121,Lebanon,2021,3,2,False,,Insufficient coverage
+121,Lebanon,2022,3,2,False,,Insufficient coverage
+121,Lebanon,2023,3,2,False,,Insufficient coverage
+122,Lesotho,2016,3,2,False,,Insufficient coverage
+122,Lesotho,2017,3,2,False,,Insufficient coverage
+122,Lesotho,2018,3,2,False,,Insufficient coverage
+122,Lesotho,2019,3,2,False,,Insufficient coverage
+122,Lesotho,2020,3,2,False,,Insufficient coverage
+122,Lesotho,2021,3,2,False,,Insufficient coverage
+122,Lesotho,2022,3,2,False,,Insufficient coverage
+122,Lesotho,2023,3,2,False,,Insufficient coverage
+124,Libya,2016,3,1,False,,Insufficient coverage
+124,Libya,2017,3,1,False,,Insufficient coverage
+124,Libya,2018,3,2,False,,Insufficient coverage
+124,Libya,2019,3,1,False,,Insufficient coverage
+126,Lithuania,2010,3,2,False,,Insufficient coverage
+126,Lithuania,2011,3,2,False,,Insufficient coverage
+126,Lithuania,2012,3,2,False,,Insufficient coverage
+126,Lithuania,2013,3,2,False,,Insufficient coverage
+126,Lithuania,2014,3,2,False,,Insufficient coverage
+126,Lithuania,2015,3,2,False,,Insufficient coverage
+126,Lithuania,2016,3,2,False,,Insufficient coverage
+126,Lithuania,2017,3,2,False,,Insufficient coverage
+126,Lithuania,2018,3,2,False,,Insufficient coverage
+126,Lithuania,2019,3,3,True,0.3738414105665935,Moderate
+126,Lithuania,2020,3,3,True,0.25926857137912196,Moderate
+126,Lithuania,2021,3,3,True,0.1686557355127733,Low
+126,Lithuania,2022,3,3,True,0.1838534021376566,Low
+126,Lithuania,2023,3,3,True,0.23093908730531293,Low
+128,"China, Macao SAR",2010,3,0,False,,Insufficient coverage
+128,"China, Macao SAR",2011,2,0,False,,Insufficient coverage
+128,"China, Macao SAR",2012,2,0,False,,Insufficient coverage
+128,"China, Macao SAR",2014,3,0,False,,Insufficient coverage
+128,"China, Macao SAR",2015,3,0,False,,Insufficient coverage
+128,"China, Macao SAR",2016,3,0,False,,Insufficient coverage
+128,"China, Macao SAR",2017,2,0,False,,Insufficient coverage
+128,"China, Macao SAR",2018,3,0,False,,Insufficient coverage
+128,"China, Macao SAR",2019,2,0,False,,Insufficient coverage
+128,"China, Macao SAR",2020,2,0,False,,Insufficient coverage
+128,"China, Macao SAR",2021,3,0,False,,Insufficient coverage
+128,"China, Macao SAR",2022,3,0,False,,Insufficient coverage
+128,"China, Macao SAR",2023,3,0,False,,Insufficient coverage
+129,Madagascar,2010,3,3,True,0.21006703150889794,Low
+129,Madagascar,2011,3,3,True,0.22988521697414563,Low
+129,Madagascar,2012,3,3,True,0.17136850227704806,Low
+129,Madagascar,2013,3,3,True,0.24793706958465828,Low
+129,Madagascar,2014,3,3,True,0.24963870007247807,Low
+129,Madagascar,2015,3,3,True,0.2668769059628626,Moderate
+129,Madagascar,2016,3,3,True,0.24506160726414447,Low
+129,Madagascar,2017,3,3,True,0.2547645658539327,Moderate
+129,Madagascar,2018,3,3,True,0.24747495824275378,Low
+129,Madagascar,2019,3,3,True,0.194032673109716,Low
+129,Madagascar,2020,3,3,True,0.23547257410817848,Low
+129,Madagascar,2021,3,3,True,0.35176148714336103,Moderate
+129,Madagascar,2022,3,3,True,0.34418562958349147,Moderate
+129,Madagascar,2023,3,3,True,0.3093170157416524,Moderate
+130,Malawi,2010,3,3,True,0.06920803067828077,Low
+130,Malawi,2011,3,3,True,0.07521856828286398,Low
+130,Malawi,2013,3,3,True,0.12606907422303804,Low
+130,Malawi,2014,3,3,True,0.09210157105256192,Low
+130,Malawi,2015,3,3,True,0.23686989891410312,Low
+130,Malawi,2016,3,3,True,0.2718096907206104,Moderate
+130,Malawi,2017,3,3,True,0.13314802787252214,Low
+130,Malawi,2018,3,3,True,0.07687825618050563,Low
+130,Malawi,2019,3,3,True,0.06273519400348117,Low
+130,Malawi,2020,3,3,True,0.09144418912692161,Low
+130,Malawi,2021,3,3,True,0.0699013751377395,Low
+130,Malawi,2022,3,3,True,0.042406691401550074,Low
+130,Malawi,2023,3,3,True,0.11949765506177587,Low
+131,Malaysia,2010,3,3,True,0.45835272288410783,Moderate
+131,Malaysia,2011,3,3,True,0.4138876014891033,Moderate
+131,Malaysia,2012,3,3,True,0.49393008099264435,Moderate
+131,Malaysia,2013,3,3,True,0.4032212874322724,Moderate
+131,Malaysia,2014,3,3,True,0.41776813823016523,Moderate
+131,Malaysia,2015,3,3,True,0.35621089842587195,Moderate
+131,Malaysia,2016,3,3,True,0.3626745845219199,Moderate
+131,Malaysia,2017,3,3,True,0.38748058336318225,Moderate
+131,Malaysia,2018,3,3,True,0.387065632051621,Moderate
+131,Malaysia,2019,3,3,True,0.3535550537513436,Moderate
+131,Malaysia,2020,3,3,True,0.3334070808074766,Moderate
+131,Malaysia,2021,3,3,True,0.39138367876029967,Moderate
+131,Malaysia,2022,3,3,True,0.4201327707992583,Moderate
+131,Malaysia,2023,3,3,True,0.37366106545930355,Moderate
+132,Maldives,2010,3,0,False,,Insufficient coverage
+132,Maldives,2011,3,0,False,,Insufficient coverage
+132,Maldives,2012,3,0,False,,Insufficient coverage
+132,Maldives,2013,3,0,False,,Insufficient coverage
+132,Maldives,2014,3,0,False,,Insufficient coverage
+132,Maldives,2015,3,0,False,,Insufficient coverage
+132,Maldives,2016,3,0,False,,Insufficient coverage
+132,Maldives,2017,3,0,False,,Insufficient coverage
+132,Maldives,2018,3,0,False,,Insufficient coverage
+132,Maldives,2019,3,0,False,,Insufficient coverage
+132,Maldives,2020,3,0,False,,Insufficient coverage
+132,Maldives,2021,3,0,False,,Insufficient coverage
+132,Maldives,2022,3,0,False,,Insufficient coverage
+132,Maldives,2023,3,0,False,,Insufficient coverage
+134,Malta,2010,3,1,False,,Insufficient coverage
+134,Malta,2011,3,1,False,,Insufficient coverage
+134,Malta,2012,3,1,False,,Insufficient coverage
+134,Malta,2013,3,1,False,,Insufficient coverage
+134,Malta,2014,3,1,False,,Insufficient coverage
+134,Malta,2015,3,1,False,,Insufficient coverage
+134,Malta,2016,3,1,False,,Insufficient coverage
+134,Malta,2017,3,1,False,,Insufficient coverage
+134,Malta,2018,3,1,False,,Insufficient coverage
+134,Malta,2019,3,3,True,0.2722532554945874,Moderate
+134,Malta,2020,3,3,True,0.18958335217195912,Low
+134,Malta,2021,3,3,True,0.4300522117315556,Moderate
+134,Malta,2022,3,3,True,0.34248367055186313,Moderate
+134,Malta,2023,3,3,True,0.30911159587293785,Moderate
+136,Mauritania,2010,3,1,False,,Insufficient coverage
+136,Mauritania,2011,3,1,False,,Insufficient coverage
+136,Mauritania,2012,3,1,False,,Insufficient coverage
+136,Mauritania,2013,3,1,False,,Insufficient coverage
+136,Mauritania,2014,3,1,False,,Insufficient coverage
+136,Mauritania,2016,3,0,False,,Insufficient coverage
+136,Mauritania,2017,3,0,False,,Insufficient coverage
+136,Mauritania,2018,3,1,False,,Insufficient coverage
+136,Mauritania,2019,3,1,False,,Insufficient coverage
+136,Mauritania,2020,3,1,False,,Insufficient coverage
+136,Mauritania,2021,3,1,False,,Insufficient coverage
+136,Mauritania,2022,3,1,False,,Insufficient coverage
+136,Mauritania,2023,3,1,False,,Insufficient coverage
+137,Mauritius,2010,3,2,False,,Insufficient coverage
+137,Mauritius,2011,3,2,False,,Insufficient coverage
+137,Mauritius,2012,3,2,False,,Insufficient coverage
+137,Mauritius,2013,3,2,False,,Insufficient coverage
+137,Mauritius,2014,3,2,False,,Insufficient coverage
+137,Mauritius,2015,3,2,False,,Insufficient coverage
+137,Mauritius,2016,3,2,False,,Insufficient coverage
+137,Mauritius,2017,3,2,False,,Insufficient coverage
+137,Mauritius,2018,3,2,False,,Insufficient coverage
+137,Mauritius,2019,3,2,False,,Insufficient coverage
+137,Mauritius,2020,3,2,False,,Insufficient coverage
+137,Mauritius,2021,3,2,False,,Insufficient coverage
+137,Mauritius,2022,3,2,False,,Insufficient coverage
+138,Mexico,2010,3,3,True,0.5677440275220637,High
+138,Mexico,2011,3,3,True,0.5747534339802232,High
+138,Mexico,2012,3,3,True,0.558055041615704,High
+138,Mexico,2013,3,3,True,0.5329110474737415,High
+138,Mexico,2014,3,3,True,0.5229456187991262,High
+138,Mexico,2015,3,3,True,0.5010701289821569,High
+138,Mexico,2016,3,3,True,0.5202446427347933,High
+138,Mexico,2017,3,3,True,0.5142768291266787,High
+138,Mexico,2018,3,3,True,0.5156789111793195,High
+138,Mexico,2019,3,3,True,0.6161554355230672,High
+138,Mexico,2020,3,3,True,0.6104959253264297,High
+138,Mexico,2021,3,3,True,0.6474644185288106,High
+138,Mexico,2022,3,3,True,0.6390938787337366,High
+138,Mexico,2023,3,3,True,0.6068027471658984,High
+141,Mongolia,2015,3,1,False,,Insufficient coverage
+141,Mongolia,2016,3,1,False,,Insufficient coverage
+141,Mongolia,2017,3,1,False,,Insufficient coverage
+141,Mongolia,2018,3,1,False,,Insufficient coverage
+141,Mongolia,2019,3,1,False,,Insufficient coverage
+141,Mongolia,2020,3,1,False,,Insufficient coverage
+141,Mongolia,2021,3,1,False,,Insufficient coverage
+141,Mongolia,2022,3,1,False,,Insufficient coverage
+141,Mongolia,2023,3,1,False,,Insufficient coverage
+143,Morocco,2010,3,3,True,0.4064427696854888,Moderate
+143,Morocco,2012,3,3,True,0.24558548390081342,Low
+143,Morocco,2013,3,3,True,0.2663330363975943,Moderate
+143,Morocco,2014,3,3,True,0.2787154632826364,Moderate
+143,Morocco,2015,3,3,True,0.22210276669955276,Low
+143,Morocco,2016,3,3,True,0.2984646349619799,Moderate
+143,Morocco,2017,3,3,True,0.11337295124980547,Low
+143,Morocco,2018,3,3,True,0.2621504036684159,Moderate
+143,Morocco,2019,3,3,True,0.37638983456575725,Moderate
+143,Morocco,2020,3,3,True,0.29302335949242964,Moderate
+143,Morocco,2021,3,3,True,0.17817680458722268,Low
+143,Morocco,2022,3,3,True,0.39533899407199347,Moderate
+143,Morocco,2023,3,3,True,0.29029517833288876,Moderate
+144,Mozambique,2012,3,3,True,0.25943356245470983,Moderate
+144,Mozambique,2014,3,3,True,0.3067669592193883,Moderate
+144,Mozambique,2015,3,3,True,0.37547762191404876,Moderate
+144,Mozambique,2016,3,3,True,0.34279202559924254,Moderate
+144,Mozambique,2019,3,3,True,0.34668540095227096,Moderate
+144,Mozambique,2020,3,3,True,0.30732906205122695,Moderate
+144,Mozambique,2021,3,3,True,0.306959431981878,Moderate
+144,Mozambique,2022,3,3,True,0.28057938032550284,Moderate
+144,Mozambique,2023,3,3,True,0.38338444772937585,Moderate
+146,Republic of Moldova,2010,3,3,True,0.2486729911847052,Low
+146,Republic of Moldova,2011,3,3,True,0.22536118518170095,Low
+146,Republic of Moldova,2012,3,3,True,0.31975826585850503,Moderate
+146,Republic of Moldova,2013,3,3,True,0.23882215789808953,Low
+146,Republic of Moldova,2014,3,3,True,0.2280086802739912,Low
+146,Republic of Moldova,2015,3,3,True,0.23402303897805013,Low
+146,Republic of Moldova,2016,3,3,True,0.2128800904784146,Low
+146,Republic of Moldova,2017,3,3,True,0.2604028311284457,Moderate
+146,Republic of Moldova,2018,3,3,True,0.21848250106967934,Low
+146,Republic of Moldova,2019,3,3,True,0.24902508511757374,Low
+146,Republic of Moldova,2020,3,2,False,,Insufficient coverage
+146,Republic of Moldova,2021,3,3,True,0.16125222240078974,Low
+146,Republic of Moldova,2022,3,2,False,,Insufficient coverage
+146,Republic of Moldova,2023,3,2,False,,Insufficient coverage
+147,Namibia,2012,3,2,False,,Insufficient coverage
+147,Namibia,2013,3,2,False,,Insufficient coverage
+147,Namibia,2014,3,2,False,,Insufficient coverage
+147,Namibia,2015,3,2,False,,Insufficient coverage
+147,Namibia,2016,3,2,False,,Insufficient coverage
+147,Namibia,2017,3,2,False,,Insufficient coverage
+147,Namibia,2018,3,2,False,,Insufficient coverage
+147,Namibia,2019,3,2,False,,Insufficient coverage
+147,Namibia,2020,3,2,False,,Insufficient coverage
+147,Namibia,2021,3,2,False,,Insufficient coverage
+147,Namibia,2022,3,2,False,,Insufficient coverage
+147,Namibia,2023,3,2,False,,Insufficient coverage
+149,Nepal,2010,3,3,True,0.2421051456191847,Low
+149,Nepal,2011,3,3,True,0.26364708726710995,Moderate
+149,Nepal,2012,3,3,True,0.26115495734032423,Moderate
+149,Nepal,2013,3,3,True,0.35882748604490655,Moderate
+149,Nepal,2014,3,3,True,0.38399315530391626,Moderate
+149,Nepal,2015,3,2,False,,Insufficient coverage
+149,Nepal,2016,3,3,True,0.4238931199068624,Moderate
+149,Nepal,2017,3,3,True,0.40169304528924243,Moderate
+149,Nepal,2018,3,3,True,0.4037769253297284,Moderate
+149,Nepal,2019,3,3,True,0.36228853469474726,Moderate
+149,Nepal,2020,3,2,False,,Insufficient coverage
+149,Nepal,2021,3,3,True,0.46456337538717796,Moderate
+149,Nepal,2022,3,3,True,0.3831652800150469,Moderate
+150,Netherlands (Kingdom of the),2010,3,2,False,,Insufficient coverage
+150,Netherlands (Kingdom of the),2011,3,2,False,,Insufficient coverage
+150,Netherlands (Kingdom of the),2012,3,2,False,,Insufficient coverage
+150,Netherlands (Kingdom of the),2013,3,2,False,,Insufficient coverage
+150,Netherlands (Kingdom of the),2014,3,2,False,,Insufficient coverage
+150,Netherlands (Kingdom of the),2015,3,2,False,,Insufficient coverage
+150,Netherlands (Kingdom of the),2016,3,2,False,,Insufficient coverage
+150,Netherlands (Kingdom of the),2017,3,2,False,,Insufficient coverage
+150,Netherlands (Kingdom of the),2018,3,2,False,,Insufficient coverage
+150,Netherlands (Kingdom of the),2019,3,3,True,0.1130119953899197,Low
+150,Netherlands (Kingdom of the),2020,3,3,True,0.11590341401239916,Low
+150,Netherlands (Kingdom of the),2021,3,3,True,0.11661871311489048,Low
+150,Netherlands (Kingdom of the),2022,3,3,True,0.11907086856153752,Low
+150,Netherlands (Kingdom of the),2023,3,3,True,0.10497907793409908,Low
+153,New Caledonia,2010,3,2,False,,Insufficient coverage
+153,New Caledonia,2011,3,2,False,,Insufficient coverage
+153,New Caledonia,2012,3,2,False,,Insufficient coverage
+153,New Caledonia,2013,3,2,False,,Insufficient coverage
+153,New Caledonia,2014,3,2,False,,Insufficient coverage
+153,New Caledonia,2015,3,2,False,,Insufficient coverage
+154,North Macedonia,2010,3,3,True,0.4604010231967337,Moderate
+154,North Macedonia,2011,3,3,True,0.45076328980535924,Moderate
+154,North Macedonia,2012,3,3,True,0.4144052276809717,Moderate
+154,North Macedonia,2013,3,3,True,0.4851196821621087,Moderate
+154,North Macedonia,2014,3,3,True,0.45929324749423106,Moderate
+154,North Macedonia,2015,3,3,True,0.5553607884289875,High
+154,North Macedonia,2016,3,3,True,0.516878653510983,High
+154,North Macedonia,2017,3,3,True,0.5346924930725069,High
+154,North Macedonia,2018,3,3,True,0.540667318562346,High
+154,North Macedonia,2019,3,3,True,0.5233092276801918,High
+154,North Macedonia,2020,3,3,True,0.5156394871032235,High
+154,North Macedonia,2021,3,3,True,0.536444664042383,High
+154,North Macedonia,2022,3,2,False,,Insufficient coverage
+154,North Macedonia,2023,3,3,True,0.5923985279697938,High
+155,Vanuatu,2010,3,1,False,,Insufficient coverage
+155,Vanuatu,2011,3,1,False,,Insufficient coverage
+156,New Zealand,2010,3,3,True,0.5466960697640044,High
+156,New Zealand,2011,3,3,True,0.6061572477469929,High
+156,New Zealand,2012,3,3,True,0.608373178656661,High
+156,New Zealand,2013,3,3,True,0.5904207276606973,High
+156,New Zealand,2014,3,3,True,0.6014656428220038,High
+156,New Zealand,2015,3,3,True,0.5814047194424746,High
+156,New Zealand,2016,3,3,True,0.5439395928260461,High
+156,New Zealand,2017,3,3,True,0.5552707629889065,High
+156,New Zealand,2018,3,3,True,0.5759626031823621,High
+156,New Zealand,2019,3,3,True,0.5590794341235216,High
+156,New Zealand,2020,3,3,True,0.4480857026083066,Moderate
+156,New Zealand,2021,3,3,True,0.5622514278569002,High
+156,New Zealand,2022,3,3,True,0.5951214170565401,High
+156,New Zealand,2023,3,3,True,0.5775594406039971,High
+157,Nicaragua,2010,3,2,False,,Insufficient coverage
+157,Nicaragua,2011,3,2,False,,Insufficient coverage
+157,Nicaragua,2012,3,2,False,,Insufficient coverage
+157,Nicaragua,2013,3,2,False,,Insufficient coverage
+157,Nicaragua,2014,3,2,False,,Insufficient coverage
+157,Nicaragua,2015,3,2,False,,Insufficient coverage
+157,Nicaragua,2016,3,2,False,,Insufficient coverage
+157,Nicaragua,2017,3,2,False,,Insufficient coverage
+157,Nicaragua,2018,3,2,False,,Insufficient coverage
+157,Nicaragua,2019,3,2,False,,Insufficient coverage
+157,Nicaragua,2020,3,2,False,,Insufficient coverage
+157,Nicaragua,2021,3,2,False,,Insufficient coverage
+157,Nicaragua,2022,3,2,False,,Insufficient coverage
+157,Nicaragua,2023,3,2,False,,Insufficient coverage
+158,Niger,2010,3,3,True,0.3716211005135269,Moderate
+158,Niger,2011,3,2,False,,Insufficient coverage
+158,Niger,2012,3,3,True,0.35104059143799093,Moderate
+158,Niger,2013,3,3,True,0.3721690228499843,Moderate
+158,Niger,2014,3,3,True,0.4613366603646681,Moderate
+158,Niger,2015,3,2,False,,Insufficient coverage
+158,Niger,2016,3,2,False,,Insufficient coverage
+158,Niger,2017,3,3,True,0.7321353989625496,High
+158,Niger,2018,3,3,True,0.7123459069907199,High
+158,Niger,2019,3,3,True,0.5802341019844584,High
+158,Niger,2020,3,3,True,0.3854476802301233,Moderate
+158,Niger,2021,3,1,False,,Insufficient coverage
+158,Niger,2022,3,1,False,,Insufficient coverage
+158,Niger,2023,3,3,True,0.6555055746261541,High
+162,Norway,2010,3,1,False,,Insufficient coverage
+162,Norway,2011,3,1,False,,Insufficient coverage
+162,Norway,2012,3,1,False,,Insufficient coverage
+162,Norway,2013,3,1,False,,Insufficient coverage
+162,Norway,2014,3,1,False,,Insufficient coverage
+162,Norway,2015,3,1,False,,Insufficient coverage
+162,Norway,2016,3,1,False,,Insufficient coverage
+162,Norway,2017,3,1,False,,Insufficient coverage
+162,Norway,2018,3,1,False,,Insufficient coverage
+162,Norway,2019,3,1,False,,Insufficient coverage
+162,Norway,2020,3,1,False,,Insufficient coverage
+162,Norway,2021,3,1,False,,Insufficient coverage
+162,Norway,2022,3,1,False,,Insufficient coverage
+162,Norway,2023,3,1,False,,Insufficient coverage
+165,Pakistan,2010,3,2,False,,Insufficient coverage
+165,Pakistan,2011,3,3,True,0.06919817221062433,Low
+165,Pakistan,2012,3,3,True,0.04862133951691322,Low
+165,Pakistan,2013,3,3,True,0.07064286992283333,Low
+165,Pakistan,2014,3,3,True,0.057902600928548646,Low
+165,Pakistan,2015,3,2,False,,Insufficient coverage
+165,Pakistan,2016,3,3,True,0.03673240531100394,Low
+165,Pakistan,2017,3,3,True,0.030951409220012088,Low
+165,Pakistan,2018,3,3,True,0.05144778281165347,Low
+165,Pakistan,2019,3,3,True,0.05142573947684499,Low
+165,Pakistan,2020,3,3,True,0.16248795900727903,Low
+165,Pakistan,2021,3,3,True,0.13425979818221453,Low
+165,Pakistan,2022,3,3,True,0.08569841955640634,Low
+165,Pakistan,2023,3,3,True,0.19664096720069654,Low
+166,Panama,2011,3,2,False,,Insufficient coverage
+166,Panama,2012,3,2,False,,Insufficient coverage
+166,Panama,2013,3,2,False,,Insufficient coverage
+166,Panama,2017,3,2,False,,Insufficient coverage
+166,Panama,2018,3,2,False,,Insufficient coverage
+166,Panama,2019,3,2,False,,Insufficient coverage
+166,Panama,2020,3,2,False,,Insufficient coverage
+166,Panama,2021,3,1,False,,Insufficient coverage
+166,Panama,2022,3,1,False,,Insufficient coverage
+166,Panama,2023,3,2,False,,Insufficient coverage
+167,Czechia,2010,3,2,False,,Insufficient coverage
+167,Czechia,2011,3,2,False,,Insufficient coverage
+167,Czechia,2012,3,2,False,,Insufficient coverage
+167,Czechia,2013,3,2,False,,Insufficient coverage
+167,Czechia,2014,3,2,False,,Insufficient coverage
+167,Czechia,2015,3,2,False,,Insufficient coverage
+167,Czechia,2016,3,2,False,,Insufficient coverage
+167,Czechia,2017,3,1,False,,Insufficient coverage
+167,Czechia,2018,3,2,False,,Insufficient coverage
+167,Czechia,2019,3,3,True,0.222155018360796,Low
+167,Czechia,2020,3,3,True,0.29554231823112703,Moderate
+167,Czechia,2021,3,3,True,0.2377539086823803,Low
+167,Czechia,2022,3,2,False,,Insufficient coverage
+167,Czechia,2023,3,3,True,0.22840589366958894,Low
+168,Papua New Guinea,2020,3,1,False,,Insufficient coverage
+168,Papua New Guinea,2021,3,1,False,,Insufficient coverage
+168,Papua New Guinea,2022,3,0,False,,Insufficient coverage
+168,Papua New Guinea,2023,3,0,False,,Insufficient coverage
+169,Paraguay,2010,3,3,True,0.19084907843184146,Low
+169,Paraguay,2011,3,3,True,0.1267842022523183,Low
+169,Paraguay,2012,3,0,False,,Insufficient coverage
+169,Paraguay,2013,3,3,True,0.1367300153024016,Low
+169,Paraguay,2014,3,2,False,,Insufficient coverage
+169,Paraguay,2015,3,3,True,0.20080669780446242,Low
+169,Paraguay,2016,3,2,False,,Insufficient coverage
+169,Paraguay,2017,3,3,True,0.11174404250937359,Low
+169,Paraguay,2018,3,2,False,,Insufficient coverage
+169,Paraguay,2019,3,3,True,0.1236738255818522,Low
+169,Paraguay,2020,3,2,False,,Insufficient coverage
+169,Paraguay,2021,3,3,True,0.2072441127292562,Low
+169,Paraguay,2022,3,1,False,,Insufficient coverage
+169,Paraguay,2023,3,1,False,,Insufficient coverage
+170,Peru,2010,3,3,True,0.3792390771095987,Moderate
+170,Peru,2011,3,3,True,0.398515359971486,Moderate
+170,Peru,2012,3,3,True,0.36236227025542234,Moderate
+170,Peru,2013,3,3,True,0.35948247577691783,Moderate
+170,Peru,2014,3,3,True,0.4342774875663113,Moderate
+170,Peru,2015,3,3,True,0.4312994650528165,Moderate
+170,Peru,2016,3,3,True,0.45816924735456926,Moderate
+170,Peru,2017,3,3,True,0.441870898199324,Moderate
+170,Peru,2018,3,3,True,0.438350381076285,Moderate
+170,Peru,2019,3,3,True,0.41149076908231075,Moderate
+170,Peru,2020,3,3,True,0.4713797155909389,Moderate
+170,Peru,2021,3,3,True,0.44360215808632775,Moderate
+170,Peru,2022,3,3,True,0.3937634252671246,Moderate
+170,Peru,2023,3,3,True,0.4391146690758495,Moderate
+171,Philippines,2010,3,2,False,,Insufficient coverage
+171,Philippines,2011,3,2,False,,Insufficient coverage
+171,Philippines,2012,3,2,False,,Insufficient coverage
+171,Philippines,2013,3,2,False,,Insufficient coverage
+171,Philippines,2014,3,2,False,,Insufficient coverage
+171,Philippines,2015,3,2,False,,Insufficient coverage
+171,Philippines,2016,3,2,False,,Insufficient coverage
+171,Philippines,2017,3,2,False,,Insufficient coverage
+171,Philippines,2018,3,2,False,,Insufficient coverage
+171,Philippines,2019,3,2,False,,Insufficient coverage
+171,Philippines,2020,3,2,False,,Insufficient coverage
+171,Philippines,2021,3,2,False,,Insufficient coverage
+171,Philippines,2022,3,2,False,,Insufficient coverage
+171,Philippines,2023,3,2,False,,Insufficient coverage
+173,Poland,2010,3,2,False,,Insufficient coverage
+173,Poland,2011,3,2,False,,Insufficient coverage
+173,Poland,2012,3,2,False,,Insufficient coverage
+173,Poland,2013,3,2,False,,Insufficient coverage
+173,Poland,2014,3,1,False,,Insufficient coverage
+173,Poland,2015,3,1,False,,Insufficient coverage
+173,Poland,2016,3,1,False,,Insufficient coverage
+173,Poland,2017,3,1,False,,Insufficient coverage
+173,Poland,2018,3,1,False,,Insufficient coverage
+173,Poland,2019,3,2,False,,Insufficient coverage
+173,Poland,2020,3,2,False,,Insufficient coverage
+173,Poland,2021,3,2,False,,Insufficient coverage
+173,Poland,2022,3,2,False,,Insufficient coverage
+173,Poland,2023,3,2,False,,Insufficient coverage
+174,Portugal,2010,3,3,True,0.3043814055148146,Moderate
+174,Portugal,2011,3,3,True,0.24758933164650104,Low
+174,Portugal,2012,3,3,True,0.3025548538756606,Moderate
+174,Portugal,2013,3,3,True,0.3868661494467687,Moderate
+174,Portugal,2014,3,3,True,0.35944393326170565,Moderate
+174,Portugal,2015,3,3,True,0.3517355034491788,Moderate
+174,Portugal,2016,3,3,True,0.24964851979663127,Low
+174,Portugal,2017,3,3,True,0.395980370537162,Moderate
+174,Portugal,2018,3,3,True,0.40513221398185295,Moderate
+174,Portugal,2019,3,3,True,0.3331311910460082,Moderate
+174,Portugal,2020,3,3,True,0.3681946446499687,Moderate
+174,Portugal,2021,3,3,True,0.326690141197788,Moderate
+174,Portugal,2022,3,3,True,0.3833133712949035,Moderate
+174,Portugal,2023,3,3,True,0.19325509624425735,Low
+176,Timor-Leste,2017,3,1,False,,Insufficient coverage
+176,Timor-Leste,2019,3,0,False,,Insufficient coverage
+176,Timor-Leste,2020,3,0,False,,Insufficient coverage
+176,Timor-Leste,2021,3,1,False,,Insufficient coverage
+176,Timor-Leste,2022,3,0,False,,Insufficient coverage
+176,Timor-Leste,2023,3,0,False,,Insufficient coverage
+179,Qatar,2019,3,1,False,,Insufficient coverage
+179,Qatar,2020,3,1,False,,Insufficient coverage
+179,Qatar,2021,3,2,False,,Insufficient coverage
+179,Qatar,2022,3,2,False,,Insufficient coverage
+179,Qatar,2023,3,1,False,,Insufficient coverage
+181,Zimbabwe,2010,3,3,True,0.3222150878995702,Moderate
+181,Zimbabwe,2011,3,3,True,0.328395953524995,Moderate
+181,Zimbabwe,2012,3,3,True,0.4603738253827615,Moderate
+181,Zimbabwe,2013,3,3,True,0.38809293805526496,Moderate
+181,Zimbabwe,2014,3,3,True,0.38300928838277565,Moderate
+181,Zimbabwe,2015,3,3,True,0.6239355315859595,High
+181,Zimbabwe,2016,3,3,True,0.2557188498487385,Moderate
+181,Zimbabwe,2017,3,3,True,0.26158618165798186,Moderate
+181,Zimbabwe,2018,3,3,True,0.1965821417678488,Low
+181,Zimbabwe,2019,3,3,True,0.2471674614051711,Low
+181,Zimbabwe,2020,3,2,False,,Insufficient coverage
+181,Zimbabwe,2021,3,2,False,,Insufficient coverage
+181,Zimbabwe,2022,3,2,False,,Insufficient coverage
+181,Zimbabwe,2023,3,3,True,0.5761201712189965,High
+183,Romania,2010,3,3,True,0.2903952955417849,Moderate
+183,Romania,2011,3,3,True,0.1721807060100737,Low
+183,Romania,2012,3,3,True,0.3407399261365177,Moderate
+183,Romania,2013,3,3,True,0.3358816942030773,Moderate
+183,Romania,2014,3,3,True,0.34980751012140815,Moderate
+183,Romania,2015,3,3,True,0.25968839882432015,Moderate
+183,Romania,2016,3,3,True,0.4139340201988645,Moderate
+183,Romania,2017,3,3,True,0.2936935773998656,Moderate
+183,Romania,2018,3,3,True,0.2514358066672435,Moderate
+183,Romania,2019,3,3,True,0.2778720445249505,Moderate
+183,Romania,2020,3,3,True,0.41955717089511524,Moderate
+183,Romania,2021,3,3,True,0.30000265263043274,Moderate
+183,Romania,2022,3,3,True,0.28203231087337394,Moderate
+183,Romania,2023,3,3,True,0.39761980747553194,Moderate
+184,Rwanda,2010,3,3,True,0.4910669537755389,Moderate
+184,Rwanda,2011,3,3,True,0.30936152074673945,Moderate
+184,Rwanda,2012,3,3,True,0.3877597414739729,Moderate
+184,Rwanda,2013,3,3,True,0.40791975491420895,Moderate
+184,Rwanda,2014,3,3,True,0.43756151436437574,Moderate
+184,Rwanda,2015,3,3,True,0.5411698643057448,High
+184,Rwanda,2016,3,3,True,0.5399066917041444,High
+184,Rwanda,2017,3,3,True,0.5014810640084868,High
+184,Rwanda,2018,3,3,True,0.607227417827995,High
+184,Rwanda,2019,3,3,True,0.408643110992026,Moderate
+184,Rwanda,2020,3,3,True,0.4583900612955761,Moderate
+184,Rwanda,2021,3,3,True,0.44101464073856494,Moderate
+184,Rwanda,2022,3,3,True,0.3574220064168305,Moderate
+185,Russian Federation,2010,3,3,True,0.06130186233138039,Low
+185,Russian Federation,2011,3,3,True,0.02958384234996658,Low
+185,Russian Federation,2012,3,3,True,0.18341872862543643,Low
+185,Russian Federation,2013,3,3,True,0.08888413613919094,Low
+185,Russian Federation,2014,3,3,True,0.059933923241294595,Low
+185,Russian Federation,2015,3,3,True,0.05498361927426958,Low
+185,Russian Federation,2016,3,3,True,0.051842423115574854,Low
+185,Russian Federation,2017,3,3,True,0.04297119024122047,Low
+185,Russian Federation,2018,3,3,True,0.1348269361740379,Low
+185,Russian Federation,2019,3,3,True,0.060039278705521726,Low
+185,Russian Federation,2020,3,3,True,0.06453957812151481,Low
+185,Russian Federation,2021,3,3,True,0.06298059099508957,Low
+188,Saint Kitts and Nevis,2015,3,0,False,,Insufficient coverage
+188,Saint Kitts and Nevis,2016,3,0,False,,Insufficient coverage
+188,Saint Kitts and Nevis,2017,3,0,False,,Insufficient coverage
+189,Saint Lucia,2014,3,0,False,,Insufficient coverage
+189,Saint Lucia,2016,3,0,False,,Insufficient coverage
+189,Saint Lucia,2017,3,1,False,,Insufficient coverage
+189,Saint Lucia,2018,3,0,False,,Insufficient coverage
+189,Saint Lucia,2019,3,1,False,,Insufficient coverage
+189,Saint Lucia,2020,3,0,False,,Insufficient coverage
+191,Saint Vincent and the Grenadines,2010,3,1,False,,Insufficient coverage
+191,Saint Vincent and the Grenadines,2014,3,2,False,,Insufficient coverage
+191,Saint Vincent and the Grenadines,2015,3,1,False,,Insufficient coverage
+191,Saint Vincent and the Grenadines,2016,3,1,False,,Insufficient coverage
+191,Saint Vincent and the Grenadines,2017,3,2,False,,Insufficient coverage
+191,Saint Vincent and the Grenadines,2018,3,2,False,,Insufficient coverage
+191,Saint Vincent and the Grenadines,2019,3,1,False,,Insufficient coverage
+191,Saint Vincent and the Grenadines,2020,3,2,False,,Insufficient coverage
+191,Saint Vincent and the Grenadines,2021,3,2,False,,Insufficient coverage
+191,Saint Vincent and the Grenadines,2022,3,2,False,,Insufficient coverage
+191,Saint Vincent and the Grenadines,2023,3,1,False,,Insufficient coverage
+193,Sao Tome and Principe,2012,3,1,False,,Insufficient coverage
+193,Sao Tome and Principe,2013,3,1,False,,Insufficient coverage
+193,Sao Tome and Principe,2014,3,0,False,,Insufficient coverage
+193,Sao Tome and Principe,2015,3,0,False,,Insufficient coverage
+193,Sao Tome and Principe,2016,3,0,False,,Insufficient coverage
+193,Sao Tome and Principe,2017,3,0,False,,Insufficient coverage
+193,Sao Tome and Principe,2018,3,0,False,,Insufficient coverage
+193,Sao Tome and Principe,2019,3,0,False,,Insufficient coverage
+193,Sao Tome and Principe,2020,3,1,False,,Insufficient coverage
+193,Sao Tome and Principe,2021,3,0,False,,Insufficient coverage
+193,Sao Tome and Principe,2022,3,0,False,,Insufficient coverage
+193,Sao Tome and Principe,2023,3,0,False,,Insufficient coverage
+194,Saudi Arabia,2010,3,3,True,0.335656446260644,Moderate
+194,Saudi Arabia,2011,3,3,True,0.26036916033143515,Moderate
+194,Saudi Arabia,2012,3,3,True,0.2620056517104344,Moderate
+194,Saudi Arabia,2013,3,3,True,0.2591144923935842,Moderate
+194,Saudi Arabia,2014,3,3,True,0.3188734101987667,Moderate
+194,Saudi Arabia,2015,3,3,True,0.3919993773244741,Moderate
+194,Saudi Arabia,2016,3,3,True,0.3802441074623121,Moderate
+194,Saudi Arabia,2017,3,3,True,0.3987141067088267,Moderate
+194,Saudi Arabia,2018,3,3,True,0.36042323753544725,Moderate
+194,Saudi Arabia,2019,3,3,True,0.4028231770274001,Moderate
+194,Saudi Arabia,2020,3,3,True,0.4033849855332643,Moderate
+194,Saudi Arabia,2021,3,3,True,0.27241892097668063,Moderate
+194,Saudi Arabia,2022,3,3,True,0.3666012826838,Moderate
+194,Saudi Arabia,2023,3,3,True,0.37736584859391287,Moderate
+195,Senegal,2010,3,2,False,,Insufficient coverage
+195,Senegal,2011,3,2,False,,Insufficient coverage
+195,Senegal,2012,3,2,False,,Insufficient coverage
+195,Senegal,2013,3,2,False,,Insufficient coverage
+195,Senegal,2014,3,2,False,,Insufficient coverage
+195,Senegal,2015,3,2,False,,Insufficient coverage
+195,Senegal,2016,3,2,False,,Insufficient coverage
+195,Senegal,2017,3,2,False,,Insufficient coverage
+195,Senegal,2018,3,2,False,,Insufficient coverage
+195,Senegal,2019,3,2,False,,Insufficient coverage
+195,Senegal,2020,3,2,False,,Insufficient coverage
+195,Senegal,2021,3,2,False,,Insufficient coverage
+195,Senegal,2022,3,2,False,,Insufficient coverage
+195,Senegal,2023,3,2,False,,Insufficient coverage
+196,Seychelles,2014,3,0,False,,Insufficient coverage
+196,Seychelles,2015,3,0,False,,Insufficient coverage
+196,Seychelles,2016,3,0,False,,Insufficient coverage
+196,Seychelles,2017,3,0,False,,Insufficient coverage
+196,Seychelles,2018,3,0,False,,Insufficient coverage
+196,Seychelles,2019,3,0,False,,Insufficient coverage
+196,Seychelles,2020,3,0,False,,Insufficient coverage
+196,Seychelles,2021,3,0,False,,Insufficient coverage
+196,Seychelles,2022,3,0,False,,Insufficient coverage
+196,Seychelles,2023,3,0,False,,Insufficient coverage
+197,Sierra Leone,2018,3,1,False,,Insufficient coverage
+198,Slovenia,2010,3,2,False,,Insufficient coverage
+198,Slovenia,2011,3,2,False,,Insufficient coverage
+198,Slovenia,2012,3,2,False,,Insufficient coverage
+198,Slovenia,2013,3,2,False,,Insufficient coverage
+198,Slovenia,2014,3,2,False,,Insufficient coverage
+198,Slovenia,2015,3,2,False,,Insufficient coverage
+198,Slovenia,2016,3,2,False,,Insufficient coverage
+198,Slovenia,2017,3,2,False,,Insufficient coverage
+198,Slovenia,2018,3,2,False,,Insufficient coverage
+198,Slovenia,2019,3,3,True,0.4586834061837658,Moderate
+198,Slovenia,2020,3,3,True,0.4979379397105276,Moderate
+198,Slovenia,2021,3,3,True,0.6592932546205521,High
+198,Slovenia,2022,3,3,True,0.5502282259293358,High
+198,Slovenia,2023,3,3,True,0.518814206149758,High
+199,Slovakia,2010,3,2,False,,Insufficient coverage
+199,Slovakia,2011,3,2,False,,Insufficient coverage
+199,Slovakia,2012,3,2,False,,Insufficient coverage
+199,Slovakia,2013,3,2,False,,Insufficient coverage
+199,Slovakia,2014,3,2,False,,Insufficient coverage
+199,Slovakia,2015,3,1,False,,Insufficient coverage
+199,Slovakia,2016,3,2,False,,Insufficient coverage
+199,Slovakia,2017,3,2,False,,Insufficient coverage
+199,Slovakia,2018,3,2,False,,Insufficient coverage
+199,Slovakia,2019,3,3,True,0.319231016892358,Moderate
+199,Slovakia,2020,3,3,True,0.3494053491243584,Moderate
+199,Slovakia,2021,3,3,True,0.3900775012095294,Moderate
+199,Slovakia,2022,3,2,False,,Insufficient coverage
+199,Slovakia,2023,3,3,True,0.32159091200901263,Moderate
+202,South Africa,2010,3,3,True,0.24657699934050015,Low
+202,South Africa,2011,3,3,True,0.24227912697168724,Low
+202,South Africa,2012,3,3,True,0.2031965845431022,Low
+202,South Africa,2013,3,3,True,0.1233370446268453,Low
+202,South Africa,2014,3,3,True,0.2924206163819877,Moderate
+202,South Africa,2015,3,3,True,0.249723963898109,Low
+202,South Africa,2016,3,3,True,0.2665537302062891,Moderate
+202,South Africa,2017,3,3,True,0.10768392675323679,Low
+202,South Africa,2018,3,3,True,0.130779528811163,Low
+202,South Africa,2019,3,3,True,0.20434468240708997,Low
+202,South Africa,2020,3,3,True,0.19065185732982717,Low
+202,South Africa,2021,3,3,True,0.12445660816780213,Low
+202,South Africa,2022,3,3,True,0.09787536611146792,Low
+202,South Africa,2023,3,3,True,0.18784873962073428,Low
+203,Spain,2010,3,3,True,0.036524384026864566,Low
+203,Spain,2011,3,3,True,0.04281031998957041,Low
+203,Spain,2012,3,3,True,0.0472675560649938,Low
+203,Spain,2013,3,3,True,0.12809272518897483,Low
+203,Spain,2014,3,3,True,0.06578859913304226,Low
+203,Spain,2015,3,3,True,0.03130250049007357,Low
+203,Spain,2016,3,3,True,0.0246478714000664,Low
+203,Spain,2017,3,3,True,0.05142069234804629,Low
+203,Spain,2018,3,3,True,0.023767328890585835,Low
+203,Spain,2019,3,3,True,0.062420141607485984,Low
+203,Spain,2020,3,3,True,0.027157480024707567,Low
+203,Spain,2021,3,3,True,0.02666729862259498,Low
+203,Spain,2022,3,3,True,0.031206248845722543,Low
+203,Spain,2023,3,3,True,0.07130071647653066,Low
+207,Suriname,2010,3,2,False,,Insufficient coverage
+207,Suriname,2011,3,2,False,,Insufficient coverage
+207,Suriname,2017,3,1,False,,Insufficient coverage
+207,Suriname,2018,2,1,False,,Insufficient coverage
+207,Suriname,2019,3,1,False,,Insufficient coverage
+207,Suriname,2020,3,1,False,,Insufficient coverage
+207,Suriname,2021,3,2,False,,Insufficient coverage
+207,Suriname,2022,3,1,False,,Insufficient coverage
+207,Suriname,2023,3,1,False,,Insufficient coverage
+208,Tajikistan,2016,3,3,True,0.6550036605063859,High
+208,Tajikistan,2017,3,3,True,0.6537203115762722,High
+208,Tajikistan,2018,3,2,False,,Insufficient coverage
+208,Tajikistan,2019,3,3,True,0.6583804910059424,High
+208,Tajikistan,2020,3,3,True,0.6432703544046157,High
+208,Tajikistan,2021,3,1,False,,Insufficient coverage
+208,Tajikistan,2022,3,2,False,,Insufficient coverage
+208,Tajikistan,2023,3,3,True,0.6676015065182063,High
+209,Eswatini,2015,3,3,True,0.7399858098798476,High
+209,Eswatini,2016,3,3,True,0.7890205226233928,Very High
+209,Eswatini,2017,3,3,True,0.6598023109259239,High
+209,Eswatini,2018,3,3,True,0.6548767472470255,High
+209,Eswatini,2019,3,3,True,0.6276181228313654,High
+209,Eswatini,2020,3,3,True,0.6694107810009229,High
+209,Eswatini,2021,3,3,True,0.6317643751322136,High
+209,Eswatini,2022,3,3,True,0.6217651104079438,High
+209,Eswatini,2023,3,3,True,0.6446661591301841,High
+210,Sweden,2010,3,1,False,,Insufficient coverage
+210,Sweden,2011,3,1,False,,Insufficient coverage
+210,Sweden,2012,3,1,False,,Insufficient coverage
+210,Sweden,2013,3,1,False,,Insufficient coverage
+210,Sweden,2014,3,1,False,,Insufficient coverage
+210,Sweden,2015,3,1,False,,Insufficient coverage
+210,Sweden,2016,3,1,False,,Insufficient coverage
+210,Sweden,2017,3,1,False,,Insufficient coverage
+210,Sweden,2018,3,2,False,,Insufficient coverage
+210,Sweden,2019,3,3,True,0.06439920640348351,Low
+210,Sweden,2020,3,3,True,0.13514284083105368,Low
+210,Sweden,2021,3,3,True,0.12178567083575784,Low
+210,Sweden,2022,3,3,True,0.07060933354960372,Low
+210,Sweden,2023,3,3,True,0.15677302084704345,Low
+211,Switzerland,2010,3,2,False,,Insufficient coverage
+211,Switzerland,2011,3,2,False,,Insufficient coverage
+211,Switzerland,2012,3,2,False,,Insufficient coverage
+211,Switzerland,2013,3,2,False,,Insufficient coverage
+211,Switzerland,2014,3,2,False,,Insufficient coverage
+211,Switzerland,2015,3,2,False,,Insufficient coverage
+211,Switzerland,2016,3,2,False,,Insufficient coverage
+211,Switzerland,2017,3,2,False,,Insufficient coverage
+211,Switzerland,2018,3,2,False,,Insufficient coverage
+211,Switzerland,2019,3,2,False,,Insufficient coverage
+211,Switzerland,2020,3,2,False,,Insufficient coverage
+211,Switzerland,2021,3,2,False,,Insufficient coverage
+211,Switzerland,2022,3,2,False,,Insufficient coverage
+211,Switzerland,2023,3,2,False,,Insufficient coverage
+212,Syrian Arab Republic,2010,3,3,True,0.2822025290601541,Moderate
+214,"China, Taiwan Province of",2010,3,3,True,0.43868219282561616,Moderate
+214,"China, Taiwan Province of",2011,3,3,True,0.37660321494750126,Moderate
+214,"China, Taiwan Province of",2012,3,3,True,0.39142238571091276,Moderate
+214,"China, Taiwan Province of",2013,3,3,True,0.4112783868789661,Moderate
+214,"China, Taiwan Province of",2014,3,3,True,0.37695195645933965,Moderate
+214,"China, Taiwan Province of",2015,3,3,True,0.39412063973988487,Moderate
+214,"China, Taiwan Province of",2016,3,3,True,0.4097559641938753,Moderate
+214,"China, Taiwan Province of",2017,3,3,True,0.39902622736463944,Moderate
+214,"China, Taiwan Province of",2018,3,3,True,0.4028839260476609,Moderate
+214,"China, Taiwan Province of",2019,3,3,True,0.46002106611626414,Moderate
+214,"China, Taiwan Province of",2020,3,3,True,0.4708031019447067,Moderate
+214,"China, Taiwan Province of",2021,3,3,True,0.4335149706477873,Moderate
+214,"China, Taiwan Province of",2022,3,3,True,0.4140502705201542,Moderate
+214,"China, Taiwan Province of",2023,3,3,True,0.42206564087051,Moderate
+215,United Republic of Tanzania,2010,3,3,True,0.08266981314306901,Low
+215,United Republic of Tanzania,2011,3,3,True,0.10909302726289444,Low
+215,United Republic of Tanzania,2012,3,3,True,0.10574732797246729,Low
+215,United Republic of Tanzania,2013,3,3,True,0.17158654186525255,Low
+215,United Republic of Tanzania,2014,3,3,True,0.08666820797347466,Low
+215,United Republic of Tanzania,2015,3,3,True,0.10502912357632117,Low
+215,United Republic of Tanzania,2016,3,3,True,0.09050232669140336,Low
+215,United Republic of Tanzania,2017,3,3,True,0.12390335218049611,Low
+215,United Republic of Tanzania,2018,3,2,False,,Insufficient coverage
+215,United Republic of Tanzania,2019,3,3,True,0.14643860025958788,Low
+215,United Republic of Tanzania,2020,3,3,True,0.12432108485409595,Low
+215,United Republic of Tanzania,2021,3,3,True,0.08407768920913053,Low
+215,United Republic of Tanzania,2022,3,3,True,0.11878900473162235,Low
+215,United Republic of Tanzania,2023,3,3,True,0.1687598240782961,Low
+216,Thailand,2010,3,3,True,0.05073599215117266,Low
+216,Thailand,2011,3,3,True,0.07136202783560601,Low
+216,Thailand,2012,3,3,True,0.11116610364265275,Low
+216,Thailand,2013,3,3,True,0.0695907739918393,Low
+216,Thailand,2014,3,3,True,0.05607564980740083,Low
+216,Thailand,2015,3,3,True,0.0950332583235331,Low
+216,Thailand,2016,3,3,True,0.09053748330751285,Low
+216,Thailand,2017,3,3,True,0.08817763015229382,Low
+216,Thailand,2018,3,3,True,0.07030460873250659,Low
+216,Thailand,2019,3,3,True,0.09586915547602012,Low
+216,Thailand,2020,3,3,True,0.07864292810729892,Low
+216,Thailand,2021,3,3,True,0.09933411755396648,Low
+216,Thailand,2022,3,3,True,0.08850707184401715,Low
+216,Thailand,2023,3,3,True,0.10974021571087816,Low
+219,Tonga,2022,3,1,False,,Insufficient coverage
+219,Tonga,2023,3,0,False,,Insufficient coverage
+220,Trinidad and Tobago,2010,3,2,False,,Insufficient coverage
+220,Trinidad and Tobago,2015,3,2,False,,Insufficient coverage
+220,Trinidad and Tobago,2016,3,2,False,,Insufficient coverage
+220,Trinidad and Tobago,2017,3,2,False,,Insufficient coverage
+220,Trinidad and Tobago,2018,3,2,False,,Insufficient coverage
+220,Trinidad and Tobago,2019,3,2,False,,Insufficient coverage
+220,Trinidad and Tobago,2020,3,2,False,,Insufficient coverage
+220,Trinidad and Tobago,2021,3,2,False,,Insufficient coverage
+220,Trinidad and Tobago,2022,3,2,False,,Insufficient coverage
+220,Trinidad and Tobago,2023,3,2,False,,Insufficient coverage
+221,Oman,2010,3,2,False,,Insufficient coverage
+221,Oman,2011,3,2,False,,Insufficient coverage
+221,Oman,2012,3,2,False,,Insufficient coverage
+221,Oman,2013,3,2,False,,Insufficient coverage
+221,Oman,2014,3,1,False,,Insufficient coverage
+221,Oman,2015,3,2,False,,Insufficient coverage
+221,Oman,2016,3,2,False,,Insufficient coverage
+221,Oman,2017,3,2,False,,Insufficient coverage
+221,Oman,2018,3,2,False,,Insufficient coverage
+221,Oman,2019,3,2,False,,Insufficient coverage
+221,Oman,2020,3,2,False,,Insufficient coverage
+221,Oman,2021,3,2,False,,Insufficient coverage
+221,Oman,2022,3,2,False,,Insufficient coverage
+221,Oman,2023,3,2,False,,Insufficient coverage
+222,Tunisia,2010,3,1,False,,Insufficient coverage
+222,Tunisia,2011,3,1,False,,Insufficient coverage
+222,Tunisia,2012,3,1,False,,Insufficient coverage
+222,Tunisia,2013,3,1,False,,Insufficient coverage
+222,Tunisia,2014,3,1,False,,Insufficient coverage
+222,Tunisia,2015,3,1,False,,Insufficient coverage
+222,Tunisia,2016,3,1,False,,Insufficient coverage
+222,Tunisia,2017,3,1,False,,Insufficient coverage
+222,Tunisia,2018,3,1,False,,Insufficient coverage
+222,Tunisia,2019,3,1,False,,Insufficient coverage
+222,Tunisia,2020,3,1,False,,Insufficient coverage
+222,Tunisia,2021,3,1,False,,Insufficient coverage
+222,Tunisia,2022,3,1,False,,Insufficient coverage
+222,Tunisia,2023,3,1,False,,Insufficient coverage
+223,T├╝rkiye,2010,3,3,True,0.24278419636624987,Low
+223,T├╝rkiye,2011,3,3,True,0.14730378095023372,Low
+223,T├╝rkiye,2012,3,3,True,0.33330715000742955,Moderate
+223,T├╝rkiye,2013,3,3,True,0.2824614392255189,Moderate
+223,T├╝rkiye,2014,3,3,True,0.38218667152676217,Moderate
+223,T├╝rkiye,2015,3,3,True,0.3175096252928722,Moderate
+223,T├╝rkiye,2016,3,3,True,0.336433907494597,Moderate
+223,T├╝rkiye,2017,3,3,True,0.30074939871192063,Moderate
+223,T├╝rkiye,2018,3,3,True,0.4774286073619382,Moderate
+223,T├╝rkiye,2019,3,3,True,0.36721946721768745,Moderate
+223,T├╝rkiye,2020,3,3,True,0.286931543318308,Moderate
+223,T├╝rkiye,2021,3,3,True,0.14575486927980158,Low
+223,T├╝rkiye,2022,3,3,True,0.14912133007258238,Low
+223,T├╝rkiye,2023,3,3,True,0.21694521578389175,Low
+225,United Arab Emirates,2014,3,2,False,,Insufficient coverage
+225,United Arab Emirates,2015,3,2,False,,Insufficient coverage
+225,United Arab Emirates,2016,3,2,False,,Insufficient coverage
+225,United Arab Emirates,2017,3,2,False,,Insufficient coverage
+225,United Arab Emirates,2018,3,2,False,,Insufficient coverage
+225,United Arab Emirates,2019,3,2,False,,Insufficient coverage
+225,United Arab Emirates,2020,3,2,False,,Insufficient coverage
+225,United Arab Emirates,2021,3,2,False,,Insufficient coverage
+225,United Arab Emirates,2022,3,2,False,,Insufficient coverage
+225,United Arab Emirates,2023,3,2,False,,Insufficient coverage
+226,Uganda,2010,3,3,True,0.11694030568498434,Low
+226,Uganda,2011,3,3,True,0.10895893470317516,Low
+226,Uganda,2012,3,3,True,0.14706167609148363,Low
+226,Uganda,2013,3,3,True,0.12196316666081333,Low
+226,Uganda,2014,3,3,True,0.12867757710577638,Low
+226,Uganda,2015,3,3,True,0.13564677827162555,Low
+226,Uganda,2016,3,3,True,0.09962103859723086,Low
+226,Uganda,2017,3,3,True,0.13743342315928256,Low
+226,Uganda,2018,3,3,True,0.1657021887096098,Low
+226,Uganda,2019,3,3,True,0.1658340333815409,Low
+226,Uganda,2020,3,3,True,0.1783263849551964,Low
+226,Uganda,2021,3,3,True,0.31251839892731276,Moderate
+226,Uganda,2022,3,3,True,0.24716223415349522,Low
+226,Uganda,2023,3,3,True,0.2154156732514666,Low
+229,United Kingdom of Great Britain and Northern Ireland,2010,3,2,False,,Insufficient coverage
+229,United Kingdom of Great Britain and Northern Ireland,2011,3,2,False,,Insufficient coverage
+229,United Kingdom of Great Britain and Northern Ireland,2012,3,2,False,,Insufficient coverage
+229,United Kingdom of Great Britain and Northern Ireland,2013,3,2,False,,Insufficient coverage
+229,United Kingdom of Great Britain and Northern Ireland,2014,3,1,False,,Insufficient coverage
+229,United Kingdom of Great Britain and Northern Ireland,2015,3,1,False,,Insufficient coverage
+229,United Kingdom of Great Britain and Northern Ireland,2016,3,1,False,,Insufficient coverage
+229,United Kingdom of Great Britain and Northern Ireland,2017,3,1,False,,Insufficient coverage
+229,United Kingdom of Great Britain and Northern Ireland,2018,3,1,False,,Insufficient coverage
+229,United Kingdom of Great Britain and Northern Ireland,2019,3,1,False,,Insufficient coverage
+229,United Kingdom of Great Britain and Northern Ireland,2020,3,1,False,,Insufficient coverage
+229,United Kingdom of Great Britain and Northern Ireland,2021,3,1,False,,Insufficient coverage
+229,United Kingdom of Great Britain and Northern Ireland,2022,3,1,False,,Insufficient coverage
+229,United Kingdom of Great Britain and Northern Ireland,2023,3,1,False,,Insufficient coverage
+230,Ukraine,2010,3,3,True,0.025963529307785758,Low
+230,Ukraine,2011,3,3,True,0.03225829569566818,Low
+230,Ukraine,2012,3,3,True,0.041664119018950244,Low
+230,Ukraine,2013,3,3,True,0.033587282707817946,Low
+230,Ukraine,2014,3,3,True,0.03057213143303688,Low
+230,Ukraine,2015,3,3,True,0.017192754298578212,Low
+230,Ukraine,2016,3,3,True,0.014683634496606842,Low
+230,Ukraine,2017,3,3,True,0.026152502003317885,Low
+230,Ukraine,2018,3,3,True,0.03310485565292122,Low
+230,Ukraine,2019,3,3,True,0.01828334276550282,Low
+230,Ukraine,2020,3,3,True,0.06035290714252133,Low
+230,Ukraine,2021,3,3,True,0.04244584308313229,Low
+230,Ukraine,2022,3,2,False,,Insufficient coverage
+230,Ukraine,2023,3,3,True,0.13267121885887895,Low
+231,United States of America,2010,3,3,True,0.14831984734159104,Low
+231,United States of America,2011,3,3,True,0.279237418851766,Moderate
+231,United States of America,2012,3,3,True,0.08692600426423368,Low
+231,United States of America,2013,3,3,True,0.11780445788339974,Low
+231,United States of America,2014,3,3,True,0.09380475884255515,Low
+231,United States of America,2015,3,3,True,0.15586771778946293,Low
+231,United States of America,2016,3,3,True,0.14988494052477952,Low
+231,United States of America,2017,3,3,True,0.2518006555683799,Moderate
+231,United States of America,2018,3,3,True,0.19732559406770592,Low
+231,United States of America,2019,3,3,True,0.10595477041794345,Low
+231,United States of America,2020,3,3,True,0.11256345269298276,Low
+231,United States of America,2021,3,3,True,0.1295025244312612,Low
+231,United States of America,2022,3,3,True,0.12118249277360693,Low
+231,United States of America,2023,3,3,True,0.09087267830231259,Low
+233,Burkina Faso,2010,3,3,True,0.12857029221796168,Low
+233,Burkina Faso,2011,3,3,True,0.1689894098800477,Low
+233,Burkina Faso,2012,3,3,True,0.18673649392955485,Low
+233,Burkina Faso,2013,3,3,True,0.15659433477463977,Low
+233,Burkina Faso,2014,3,2,False,,Insufficient coverage
+233,Burkina Faso,2015,3,2,False,,Insufficient coverage
+233,Burkina Faso,2016,3,2,False,,Insufficient coverage
+233,Burkina Faso,2017,3,2,False,,Insufficient coverage
+233,Burkina Faso,2018,3,2,False,,Insufficient coverage
+233,Burkina Faso,2019,3,2,False,,Insufficient coverage
+233,Burkina Faso,2020,3,2,False,,Insufficient coverage
+233,Burkina Faso,2021,3,2,False,,Insufficient coverage
+233,Burkina Faso,2022,3,2,False,,Insufficient coverage
+233,Burkina Faso,2023,3,2,False,,Insufficient coverage
+234,Uruguay,2010,3,2,False,,Insufficient coverage
+234,Uruguay,2011,3,3,True,0.5878181270211179,High
+234,Uruguay,2012,3,2,False,,Insufficient coverage
+234,Uruguay,2013,3,1,False,,Insufficient coverage
+234,Uruguay,2014,3,3,True,0.6151081518952827,High
+234,Uruguay,2015,3,3,True,0.5625034595720215,High
+234,Uruguay,2016,3,2,False,,Insufficient coverage
+234,Uruguay,2017,3,2,False,,Insufficient coverage
+234,Uruguay,2018,3,3,True,0.5452078026567201,High
+234,Uruguay,2019,3,2,False,,Insufficient coverage
+234,Uruguay,2020,3,2,False,,Insufficient coverage
+234,Uruguay,2021,3,3,True,0.5072384629096997,High
+234,Uruguay,2022,3,2,False,,Insufficient coverage
+234,Uruguay,2023,3,2,False,,Insufficient coverage
+235,Uzbekistan,2017,3,2,False,,Insufficient coverage
+235,Uzbekistan,2018,3,3,True,0.6226576943752637,High
+235,Uzbekistan,2019,3,2,False,,Insufficient coverage
+235,Uzbekistan,2020,3,3,True,0.5602699433563341,High
+235,Uzbekistan,2021,3,3,True,0.5800999529651172,High
+235,Uzbekistan,2022,3,3,True,0.5635309845819277,High
+235,Uzbekistan,2023,3,3,True,0.5798049535501967,High
+236,Venezuela (Bolivarian Republic of),2010,3,3,True,0.4658581770848856,Moderate
+236,Venezuela (Bolivarian Republic of),2011,3,3,True,0.43532473144254963,Moderate
+236,Venezuela (Bolivarian Republic of),2012,3,3,True,0.45536779100908475,Moderate
+236,Venezuela (Bolivarian Republic of),2013,3,3,True,0.45660958335521296,Moderate
+236,Venezuela (Bolivarian Republic of),2014,3,2,False,,Insufficient coverage
+236,Venezuela (Bolivarian Republic of),2015,3,3,True,0.4228755593920426,Moderate
+236,Venezuela (Bolivarian Republic of),2016,3,1,False,,Insufficient coverage
+236,Venezuela (Bolivarian Republic of),2017,3,2,False,,Insufficient coverage
+236,Venezuela (Bolivarian Republic of),2018,3,1,False,,Insufficient coverage
+236,Venezuela (Bolivarian Republic of),2019,3,2,False,,Insufficient coverage
+236,Venezuela (Bolivarian Republic of),2020,3,2,False,,Insufficient coverage
+236,Venezuela (Bolivarian Republic of),2022,3,3,True,0.33093335833729187,Moderate
+236,Venezuela (Bolivarian Republic of),2023,3,3,True,0.4343247128326994,Moderate
+237,Viet Nam,2012,3,3,True,0.10977718812516923,Low
+237,Viet Nam,2013,3,3,True,0.09091774266896258,Low
+237,Viet Nam,2014,3,3,True,0.1002301057609157,Low
+237,Viet Nam,2015,3,3,True,0.09943123335229714,Low
+237,Viet Nam,2016,3,3,True,0.09212605194563588,Low
+237,Viet Nam,2017,3,3,True,0.09641382359519904,Low
+237,Viet Nam,2018,3,3,True,0.09828226830328171,Low
+237,Viet Nam,2019,3,3,True,0.10748934684682127,Low
+237,Viet Nam,2020,3,3,True,0.103043994979377,Low
+237,Viet Nam,2021,3,3,True,0.22860193038794674,Low
+237,Viet Nam,2022,3,3,True,0.20556012353468198,Low
+237,Viet Nam,2023,3,3,True,0.20983595461444116,Low
+238,Ethiopia,2010,3,3,True,0.16360757608482718,Low
+238,Ethiopia,2011,3,3,True,0.17780822641315108,Low
+238,Ethiopia,2012,3,3,True,0.06621164541052302,Low
+238,Ethiopia,2013,3,3,True,0.144642017805217,Low
+238,Ethiopia,2014,3,3,True,0.12280597122475362,Low
+238,Ethiopia,2015,3,3,True,0.11030413723473648,Low
+238,Ethiopia,2016,3,3,True,0.09381228302393314,Low
+238,Ethiopia,2017,3,3,True,0.12704123992725103,Low
+238,Ethiopia,2018,3,3,True,0.13913650040389186,Low
+238,Ethiopia,2019,3,3,True,0.16485616854887783,Low
+238,Ethiopia,2020,3,3,True,0.16626267955726878,Low
+238,Ethiopia,2021,3,3,True,0.15139699771321574,Low
+238,Ethiopia,2022,3,3,True,0.15405254676251826,Low
+238,Ethiopia,2023,3,3,True,0.1378869277146078,Low
+244,Samoa,2012,3,0,False,,Insufficient coverage
+244,Samoa,2013,3,0,False,,Insufficient coverage
+244,Samoa,2014,3,0,False,,Insufficient coverage
+244,Samoa,2015,3,0,False,,Insufficient coverage
+244,Samoa,2017,3,0,False,,Insufficient coverage
+244,Samoa,2018,3,0,False,,Insufficient coverage
+244,Samoa,2019,3,0,False,,Insufficient coverage
+244,Samoa,2021,3,0,False,,Insufficient coverage
+244,Samoa,2022,3,0,False,,Insufficient coverage
+244,Samoa,2023,3,0,False,,Insufficient coverage
+249,Yemen,2011,3,2,False,,Insufficient coverage
+249,Yemen,2012,3,2,False,,Insufficient coverage
+249,Yemen,2013,3,2,False,,Insufficient coverage
+249,Yemen,2014,3,2,False,,Insufficient coverage
+249,Yemen,2015,3,2,False,,Insufficient coverage
+249,Yemen,2018,3,2,False,,Insufficient coverage
+249,Yemen,2019,3,2,False,,Insufficient coverage
+250,Democratic Republic of the Congo,2016,3,3,True,0.2050030244287549,Low
+250,Democratic Republic of the Congo,2017,3,3,True,0.25052033022471915,Moderate
+250,Democratic Republic of the Congo,2018,3,3,True,0.26789545818092275,Moderate
+250,Democratic Republic of the Congo,2019,3,3,True,0.28699732660654176,Moderate
+250,Democratic Republic of the Congo,2020,3,3,True,0.2638472321546064,Moderate
+250,Democratic Republic of the Congo,2021,3,3,True,0.2871861606163816,Moderate
+250,Democratic Republic of the Congo,2022,3,3,True,0.2639558844825501,Moderate
+250,Democratic Republic of the Congo,2023,3,3,True,0.29961870041475747,Moderate
+251,Zambia,2010,3,3,True,0.06722862914501813,Low
+251,Zambia,2011,3,3,True,0.10337626138319289,Low
+251,Zambia,2012,3,3,True,0.12637836111360418,Low
+251,Zambia,2013,3,3,True,0.051866052972237744,Low
+251,Zambia,2014,3,3,True,0.06324007149955717,Low
+251,Zambia,2015,3,3,True,0.08581036437767772,Low
+251,Zambia,2016,3,3,True,0.07504938670376175,Low
+251,Zambia,2017,3,3,True,0.0604248573820836,Low
+251,Zambia,2018,3,3,True,0.06869333029964063,Low
+251,Zambia,2019,3,3,True,0.07822916128975563,Low
+251,Zambia,2020,3,3,True,0.09093296817778587,Low
+251,Zambia,2021,3,3,True,0.062070184604100326,Low
+251,Zambia,2022,3,3,True,0.09333717251934523,Low
+251,Zambia,2023,3,3,True,0.09817149255976998,Low
+255,Belgium,2010,3,2,False,,Insufficient coverage
+255,Belgium,2011,3,2,False,,Insufficient coverage
+255,Belgium,2012,3,2,False,,Insufficient coverage
+255,Belgium,2013,3,2,False,,Insufficient coverage
+255,Belgium,2014,3,2,False,,Insufficient coverage
+255,Belgium,2015,3,2,False,,Insufficient coverage
+255,Belgium,2016,3,2,False,,Insufficient coverage
+255,Belgium,2017,3,2,False,,Insufficient coverage
+255,Belgium,2018,3,2,False,,Insufficient coverage
+255,Belgium,2019,3,3,True,0.48677335545350536,Moderate
+255,Belgium,2020,3,3,True,0.3129094019973505,Moderate
+255,Belgium,2021,3,3,True,0.1381578214779932,Low
+255,Belgium,2022,3,3,True,0.15496711178795114,Low
+255,Belgium,2023,3,3,True,0.13810780269911874,Low
+256,Luxembourg,2010,3,2,False,,Insufficient coverage
+256,Luxembourg,2011,3,2,False,,Insufficient coverage
+256,Luxembourg,2012,3,2,False,,Insufficient coverage
+256,Luxembourg,2013,3,2,False,,Insufficient coverage
+256,Luxembourg,2014,3,2,False,,Insufficient coverage
+256,Luxembourg,2015,3,2,False,,Insufficient coverage
+256,Luxembourg,2016,3,2,False,,Insufficient coverage
+256,Luxembourg,2017,3,2,False,,Insufficient coverage
+256,Luxembourg,2018,3,2,False,,Insufficient coverage
+256,Luxembourg,2019,3,3,True,0.6537931863250666,High
+256,Luxembourg,2020,3,3,True,0.6135572936978781,High
+256,Luxembourg,2021,3,3,True,0.6140646837543582,High
+256,Luxembourg,2022,3,3,True,0.6170880278751608,High
+256,Luxembourg,2023,3,3,True,0.5139413867038192,High
+272,Serbia,2010,3,2,False,,Insufficient coverage
+272,Serbia,2011,3,2,False,,Insufficient coverage
+272,Serbia,2012,3,1,False,,Insufficient coverage
+272,Serbia,2013,3,2,False,,Insufficient coverage
+272,Serbia,2014,3,2,False,,Insufficient coverage
+272,Serbia,2015,3,2,False,,Insufficient coverage
+272,Serbia,2016,3,2,False,,Insufficient coverage
+272,Serbia,2017,3,2,False,,Insufficient coverage
+272,Serbia,2018,3,2,False,,Insufficient coverage
+272,Serbia,2019,3,2,False,,Insufficient coverage
+272,Serbia,2020,3,2,False,,Insufficient coverage
+272,Serbia,2021,3,2,False,,Insufficient coverage
+272,Serbia,2022,3,2,False,,Insufficient coverage
+272,Serbia,2023,3,2,False,,Insufficient coverage
+273,Montenegro,2010,3,2,False,,Insufficient coverage
+273,Montenegro,2011,3,2,False,,Insufficient coverage
+273,Montenegro,2012,3,2,False,,Insufficient coverage
+273,Montenegro,2013,3,2,False,,Insufficient coverage
+273,Montenegro,2014,3,2,False,,Insufficient coverage
+273,Montenegro,2015,3,2,False,,Insufficient coverage
+273,Montenegro,2016,3,1,False,,Insufficient coverage
+273,Montenegro,2017,3,2,False,,Insufficient coverage
+273,Montenegro,2018,3,2,False,,Insufficient coverage
+273,Montenegro,2019,3,2,False,,Insufficient coverage
+273,Montenegro,2020,3,2,False,,Insufficient coverage
+273,Montenegro,2021,3,2,False,,Insufficient coverage
+273,Montenegro,2022,3,2,False,,Insufficient coverage
+273,Montenegro,2023,3,2,False,,Insufficient coverage
