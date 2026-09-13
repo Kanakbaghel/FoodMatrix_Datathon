@@ -1,0 +1,298 @@
+From 16d74fb9e588efdb3613ce3c650873bca5b96d86 Mon Sep 17 00:00:00 2001
+From: test <test@test.com>
+Date: Sun, 13 Sep 2026 22:08:31 +0000
+Subject: [PATCH] Move chart folders into visualizations/ (organize by type)
+ and fix relative image paths
+
+---
+ .../08_global_trade_network_analysis.ipynb    |  34 +++++++++---------
+ notebooks/README.md                           | Bin 41594 -> 42170 bytes
+ ...ey_pagerank_top10_cumulative_2005_2024.png | Bin
+ .../barley_top15_timeline.png                 | Bin
+ .../barley_trade_backbone_2005_2024.png       | Bin
+ .../commodity_exporter_hhi_2005_2024.png      | Bin
+ ...rn_pagerank_top10_cumulative_2005_2024.png | Bin
+ .../maize_corn_top15_timeline.png             | Bin
+ .../maize_corn_trade_backbone_2005_2024.png   | Bin
+ ...ce_pagerank_top10_cumulative_2005_2024.png | Bin
+ .../rice_top15_timeline.png                   | Bin
+ .../rice_trade_backbone_2005_2024.png         | Bin
+ ...ns_pagerank_top10_cumulative_2005_2024.png | Bin
+ .../soya_beans_top15_timeline.png             | Bin
+ .../soya_beans_trade_backbone_2005_2024.png   | Bin
+ ...at_pagerank_top10_cumulative_2005_2024.png | Bin
+ .../wheat_top15_timeline.png                  | Bin
+ .../wheat_trade_backbone_2005_2024.png        | Bin
+ .../risk_trend_charts/biggest_movers.png      | Bin
+ .../classification_confusion_matrix.png       | Bin
+ .../risk_trend_charts/commodity_trend.png     | Bin
+ .../risk_trend_charts/coverage_by_year.png    | Bin
+ .../risk_trend_charts/feature_importance.png  | Bin
+ .../full_vs_balanced_trend.png                | Bin
+ .../regression_predicted_vs_actual.png        | Bin
+ .../risk_level_composition.png                | Bin
+ .../risk_trend_charts/volatility.png          | Bin
+ 27 files changed, 17 insertions(+), 17 deletions(-)
+ rename {notebooks => visualizations}/historical_timelines/barley_pagerank_top10_cumulative_2005_2024.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/barley_top15_timeline.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/barley_trade_backbone_2005_2024.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/commodity_exporter_hhi_2005_2024.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/maize_corn_pagerank_top10_cumulative_2005_2024.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/maize_corn_top15_timeline.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/maize_corn_trade_backbone_2005_2024.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/rice_pagerank_top10_cumulative_2005_2024.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/rice_top15_timeline.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/rice_trade_backbone_2005_2024.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/soya_beans_pagerank_top10_cumulative_2005_2024.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/soya_beans_top15_timeline.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/soya_beans_trade_backbone_2005_2024.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/wheat_pagerank_top10_cumulative_2005_2024.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/wheat_top15_timeline.png (100%)
+ rename {notebooks => visualizations}/historical_timelines/wheat_trade_backbone_2005_2024.png (100%)
+ rename {notebooks => visualizations}/risk_trend_charts/biggest_movers.png (100%)
+ rename {notebooks => visualizations}/risk_trend_charts/classification_confusion_matrix.png (100%)
+ rename {notebooks => visualizations}/risk_trend_charts/commodity_trend.png (100%)
+ rename {notebooks => visualizations}/risk_trend_charts/coverage_by_year.png (100%)
+ rename {notebooks => visualizations}/risk_trend_charts/feature_importance.png (100%)
+ rename {notebooks => visualizations}/risk_trend_charts/full_vs_balanced_trend.png (100%)
+ rename {notebooks => visualizations}/risk_trend_charts/regression_predicted_vs_actual.png (100%)
+ rename {notebooks => visualizations}/risk_trend_charts/risk_level_composition.png (100%)
+ rename {notebooks => visualizations}/risk_trend_charts/volatility.png (100%)
+
+diff --git a/notebooks/08_global_trade_network_analysis.ipynb b/notebooks/08_global_trade_network_analysis.ipynb
+index e3959d8..c97957d 100644
+--- a/notebooks/08_global_trade_network_analysis.ipynb
++++ b/notebooks/08_global_trade_network_analysis.ipynb
+@@ -52,7 +52,7 @@
+     "PROJECT_ROOT = BASE_DIR.parent if BASE_DIR.name == \"notebooks\" else BASE_DIR\n",
+     "\n",
+     "DATA_DIR = PROJECT_ROOT / \"data\" / \"cleaned\"\n",
+-    "OUTPUT_DIR = PROJECT_ROOT / \"notebooks\" / \"historical_timelines\"\n",
++    "OUTPUT_DIR = PROJECT_ROOT / \"visualizations\" / \"historical_timelines\"\n",
+     "\n",
+     "matrix_path = DATA_DIR / \"trade_matrix_cleaned.csv\"\n",
+     "mirror_path = DATA_DIR / \"mirror_exports_cleaned.csv\"\n",
+@@ -2381,7 +2381,7 @@
+    "source": [
+     "# Overall Market Concentration (HHI Across Staples)\n",
+     "\n",
+-    "![HHI](historical_timelines/commodity_exporter_hhi_2005_2024.png)\n",
++    "![HHI](../visualizations/historical_timelines/commodity_exporter_hhi_2005_2024.png)\n",
+     "\n",
+     "## Exporter Market Concentration (2005–2024)\n",
+     "\n",
+@@ -2405,17 +2405,17 @@
+     "\n",
+     "### Soya Beans: Structural Concentration and Duopoly Risk\n",
+     "\n",
+-    "![Soya beans](historical_timelines/soya_beans_trade_backbone_2005_2024.png)\n",
++    "![Soya beans](../visualizations/historical_timelines/soya_beans_trade_backbone_2005_2024.png)\n",
+     "\n",
+     "The network structure and centrality results for soya beans point to a highly concentrated global supply system. A relatively small number of exporters account for a large share of the major trade connections, creating substantial dependence on a few key suppliers.\n",
+     "\n",
+     "1. Structural Backbone (2005–2024 Trade Corridors): The 50 strongest bilateral trade links form a tightly connected network centred mainly on Brazil and the United States. Both countries serve as major supply hubs, with significant export flows directed towards large markets in Asia, particularly Mainland China, as well as Europe. Argentina and Canada play smaller but still important roles within the network.\n",
+     "\n",
+-    "![Soya beans](historical_timelines/soya_beans_top15_timeline.png)\n",
++    "![Soya beans](../visualizations/historical_timelines/soya_beans_top15_timeline.png)\n",
+     "\n",
+     "2. Systemic Centrality (Reversed PageRank): Brazil and the United States record substantially higher systemic centrality scores than other exporters. Their position in the network reflects the extent to which major importing countries depend on them for soya bean supplies. As a result, disruptions affecting either supplier could have wider effects across several downstream markets.\n",
+     "\n",
+-    "![Soya beans](historical_timelines/soya_beans_pagerank_top10_cumulative_2005_2024.png)\n",
++    "![Soya beans](../visualizations/historical_timelines/soya_beans_pagerank_top10_cumulative_2005_2024.png)\n",
+     "\n",
+     "3. Timeline Trajectory: The annual PageRank results show a relatively close competition between the United States, Brazil and Canada for the most influential position in the network, with both generally falling within the 0.15–0.35 range. While the others remain considerably less central, with scores generally at or below 0.05.\n"
+    ]
+@@ -2432,16 +2432,16 @@
+     "\n",
+     "Wheat presents a different structure, with export influence spread across several major producing regions. Rather than depending heavily on one or two suppliers, the network contains multiple important exporters across North America, Europe, and the Black Sea region.\n",
+     "\n",
+-    "![Wheat](historical_timelines/wheat_trade_backbone_2005_2024.png)\n",
++    "![Wheat](../visualizations/historical_timelines/wheat_trade_backbone_2005_2024.png)\n",
+     "\n",
+     "1. Structural Backbone (Top 50 Bilateral Links): The cumulative 2005–2024 network is centred strongly on the United States, which appears in many of the largest bilateral trade connections. These major export routes link the US with markets across Latin America, Asia, Africa, and Europe, giving it a prominent position in the overall trade structure.\n",
+     "\n",
+     "\n",
+-    "![wheat](historical_timelines/wheat_pagerank_top10_cumulative_2005_2024.png) \n",
++    "![wheat](../visualizations/historical_timelines/wheat_pagerank_top10_cumulative_2005_2024.png) \n",
+     "\n",
+     "2. Systemic Centrality (Reversed PageRank): The PageRank results present a more distributed picture of supplier importance. Although the United States accounts for many of the largest individual trade flows, France, Canada, Germany, Russia, and Ukraine also record relatively high centrality scores, ranging from approximately 0.06 to 0.17. This suggests that trade influence is not determined solely by export volume. These suppliers remain important because they are connected to a wider range of trading partners, including smaller and secondary markets that are not necessarily represented among the largest bilateral flows.\n",
+     "\n",
+-    "![wheat](historical_timelines/wheat_top15_timeline.png)\n",
++    "![wheat](../visualizations/historical_timelines/wheat_top15_timeline.png)\n",
+     "\n",
+     "3. Timeline Trajectory: Annual PageRank scores show that the balance of influence changes over time. The United States had particularly high centrality in the earlier part of the study period, with scores above 0.25, while European and Black Sea exporters gained greater importance in subsequent years. By 2024, systemic influence was more evenly distributed across the major exporting countries.\n"
+    ]
+@@ -2457,15 +2457,15 @@
+     "\n",
+     "Rice has one of the more varied trade structures in the dataset, with several regional hubs and noticeable changes in supplier importance over time.\n",
+     "\n",
+-    "![Rice](historical_timelines/rice_trade_backbone_2005_2024.png)\n",
++    "![Rice](../visualizations/historical_timelines/rice_trade_backbone_2005_2024.png)\n",
+     "\n",
+     "1. Structural Backbone (Top 50 Bilateral Links): The backbone network forms a multi-hub structure rather than being centred on a single exporter. The United States and Brazil account for several of the major bilateral corridors in the Americas, while European suppliers such as Italy and Spain connect strongly with markets across Europe and North Africa.\n",
+     "\n",
+-    "![Rice](historical_timelines/rice_pagerank_top10_cumulative_2005_2024.png)\n",
++    "![Rice](../visualizations/historical_timelines/rice_pagerank_top10_cumulative_2005_2024.png)\n",
+     "\n",
+     "2. Systemic Centrality (Reversed PageRank): India records the highest cumulative influence over the 2005–2024 period, with a score of approximately 0.18. It is followed by the United States (approximately 0.09), the United Arab Emirates (approximately 0.085), and Italy (approximately 0.08). The relatively high position of the UAE is notable because its role reflects the importance of intermediary and re-export hubs within the rice trade network, rather than simply the volume of rice it produces.\n",
+     "\n",
+-    "![Rice](historical_timelines/rice_top15_timeline.png)\n",
++    "![Rice](../visualizations/historical_timelines/rice_top15_timeline.png)\n",
+     "\n",
+     "3. Timeline Trajectory: Annual PageRank scores show considerable variation in supplier influence. India records particularly high levels of centrality in 2005 and 2018, when its score exceeded 0.25. During periods when India's centrality declined, suppliers such as Italy and the United States gained a larger share of network influence. This suggests that the distribution of systemic importance within the rice network can change substantially from year to year.\n",
+     "\n",
+@@ -2484,15 +2484,15 @@
+     "\n",
+     "Maize trade is concentrated among a relatively small group of exporters, with the United States, Argentina, and Brazil accounting for much of the network's supplier influence.\n",
+     "\n",
+-    "![Maize](historical_timelines/maize_corn_trade_backbone_2005_2024.png)\n",
++    "![Maize](../visualizations/historical_timelines/maize_corn_trade_backbone_2005_2024.png)\n",
+     "\n",
+     "1. Structural Backbone (Top 50 Bilateral Links): The cumulative 2005–2024 network has a clear hub-and-spoke structure, with the United States occupying the most prominent position. It maintains major export connections with more than 40 destination countries across Latin America, Asia, and Europe, making it the main supplier within the backbone network.\n",
+     "\n",
+-    "![Maize](historical_timelines/maize_corn_pagerank_top10_cumulative_2005_2024.png)\n",
++    "![Maize](../visualizations/historical_timelines/maize_corn_pagerank_top10_cumulative_2005_2024.png)\n",
+     "\n",
+     "2. Systemic Centrality (Reversed PageRank): The United States has the highest Reversed PageRank score at approximately 0.33, followed by Argentina (approximately 0.17) and Brazil (approximately 0.16). Together, these three countries account for more than 65% of the network's total supplier influence. France and Ukraine have lower but still noticeable centrality scores of around 0.05–0.06.\n",
+     "\n",
+-    "![Maize](historical_timelines/maize_corn_top15_timeline.png)\n",
++    "![Maize](../visualizations/historical_timelines/maize_corn_top15_timeline.png)\n",
+     "\n",
+     "3. Timeline Trajectory: The United States remains the leading supplier in terms of PageRank centrality throughout most of the 2005–2024 period, with annual scores generally ranging from 0.23 to 0.38. Since around 2012, Brazil and Argentina have gradually increased their influence, narrowing the gap with the United States and giving the maize trade network a stronger South American presence.\n"
+    ]
+@@ -2508,15 +2508,15 @@
+     "\n",
+     "Barley has one of the most decentralized trade structures in the dataset. Rather than being dominated by a single major exporter, the network is spread across several suppliers and regional trading groups, with particularly strong connections within Europe.\n",
+     "\n",
+-    "![Barley](historical_timelines/barley_trade_backbone_2005_2024.png)\n",
++    "![Barley](../visualizations/historical_timelines/barley_trade_backbone_2005_2024.png)\n",
+     "\n",
+     "1. Structural Backbone (Top 50 Bilateral Links): The backbone forms a dense, multi-centred network with no single country dominating the main trade corridors. Western European exporters, including France, Germany, and the United Kingdom, have strong connections with neighbouring markets. Other clusters link suppliers such as Ukraine, the Russian Federation, Argentina, and Australia with buyers in the Middle East and Asia.\n",
+     "\n",
+-    "![Barley](historical_timelines/barley_pagerank_top10_cumulative_2005_2024.png)\n",
++    "![Barley](../visualizations/historical_timelines/barley_pagerank_top10_cumulative_2005_2024.png)\n",
+     "\n",
+     "2. Systemic Centrality (Reversed PageRank): France has the highest cumulative systemic influence, with a score of approximately 0.10, followed by Denmark (approximately 0.085), Germany (approximately 0.08), Canada (approximately 0.075), and the United States (approximately 0.06). The relatively small differences between the leading suppliers indicate that systemic influence is distributed across a wider group of countries rather than concentrated in one or two exporters.\n",
+     "\n",
+-    "![Barley](historical_timelines/barley_top15_timeline.png)\n",
++    "![Barley](../visualizations/historical_timelines/barley_top15_timeline.png)\n",
+     "\n",
+     "3. Timeline Trajectory: Annual Reversed PageRank scores show considerable movement among the leading suppliers, with no country maintaining a clear lead throughout the full period. France and Denmark frequently alternate between the top positions, reaching scores of approximately 0.135–0.165 at their peaks. Other regional suppliers generally remain within the 0.03–0.10 range. This distribution provides multiple alternative sources of supply, which can reduce the effect of disruptions affecting any single exporter.\n"
+    ]
+diff --git a/notebooks/README.md b/notebooks/README.md
+index bbcb06c7b3661fef0f9fc382e2e1f60651171de3..aa862cd3f0ee05bee199493cc206764f1733a270 100644
+GIT binary patch
+delta 733
+zcmex$glX4FrVTfEmGv0(81xy+7%~}(8A=%v8FGNEDj;0~r1Kf_fTH@78+EleGw~hc
+zCsy&~26eH`9CCYDNz%Zg62wfbhRqG?Ol-s`-rT4gNvx^nn*|JGh;_5&WHuF@%@@qL
+zh}EDy`GqsjW&s;HVx6PCIl?}Tg&0qQBj|;*0#P9{*)Y&~vzM0&an3Ldblkkow}mLh
+mn+*fYiF3loc<arN!q*XH>g12{mYYvRYY`O^n?J^PIspKPX{c5J
+
+delta 157
+zcmdmWlIhnGrVTfECvP&;+N{QRj3309ETAE_IY4d?E1XlH62uHvBA~&<24t9R&e2n1
+z-n_|h5=f2N=6U88tdolzOg8J;Dll&@a+tsZ=0&-RfmCZvHVBs3e9c=0YzB}cwmHtf
+i1!AB<un*g0qa>@%w<6au0~r>ZpTughY&J^jZ~_4TOF7N}
+
+diff --git a/notebooks/historical_timelines/barley_pagerank_top10_cumulative_2005_2024.png b/visualizations/historical_timelines/barley_pagerank_top10_cumulative_2005_2024.png
+similarity index 100%
+rename from notebooks/historical_timelines/barley_pagerank_top10_cumulative_2005_2024.png
+rename to visualizations/historical_timelines/barley_pagerank_top10_cumulative_2005_2024.png
+diff --git a/notebooks/historical_timelines/barley_top15_timeline.png b/visualizations/historical_timelines/barley_top15_timeline.png
+similarity index 100%
+rename from notebooks/historical_timelines/barley_top15_timeline.png
+rename to visualizations/historical_timelines/barley_top15_timeline.png
+diff --git a/notebooks/historical_timelines/barley_trade_backbone_2005_2024.png b/visualizations/historical_timelines/barley_trade_backbone_2005_2024.png
+similarity index 100%
+rename from notebooks/historical_timelines/barley_trade_backbone_2005_2024.png
+rename to visualizations/historical_timelines/barley_trade_backbone_2005_2024.png
+diff --git a/notebooks/historical_timelines/commodity_exporter_hhi_2005_2024.png b/visualizations/historical_timelines/commodity_exporter_hhi_2005_2024.png
+similarity index 100%
+rename from notebooks/historical_timelines/commodity_exporter_hhi_2005_2024.png
+rename to visualizations/historical_timelines/commodity_exporter_hhi_2005_2024.png
+diff --git a/notebooks/historical_timelines/maize_corn_pagerank_top10_cumulative_2005_2024.png b/visualizations/historical_timelines/maize_corn_pagerank_top10_cumulative_2005_2024.png
+similarity index 100%
+rename from notebooks/historical_timelines/maize_corn_pagerank_top10_cumulative_2005_2024.png
+rename to visualizations/historical_timelines/maize_corn_pagerank_top10_cumulative_2005_2024.png
+diff --git a/notebooks/historical_timelines/maize_corn_top15_timeline.png b/visualizations/historical_timelines/maize_corn_top15_timeline.png
+similarity index 100%
+rename from notebooks/historical_timelines/maize_corn_top15_timeline.png
+rename to visualizations/historical_timelines/maize_corn_top15_timeline.png
+diff --git a/notebooks/historical_timelines/maize_corn_trade_backbone_2005_2024.png b/visualizations/historical_timelines/maize_corn_trade_backbone_2005_2024.png
+similarity index 100%
+rename from notebooks/historical_timelines/maize_corn_trade_backbone_2005_2024.png
+rename to visualizations/historical_timelines/maize_corn_trade_backbone_2005_2024.png
+diff --git a/notebooks/historical_timelines/rice_pagerank_top10_cumulative_2005_2024.png b/visualizations/historical_timelines/rice_pagerank_top10_cumulative_2005_2024.png
+similarity index 100%
+rename from notebooks/historical_timelines/rice_pagerank_top10_cumulative_2005_2024.png
+rename to visualizations/historical_timelines/rice_pagerank_top10_cumulative_2005_2024.png
+diff --git a/notebooks/historical_timelines/rice_top15_timeline.png b/visualizations/historical_timelines/rice_top15_timeline.png
+similarity index 100%
+rename from notebooks/historical_timelines/rice_top15_timeline.png
+rename to visualizations/historical_timelines/rice_top15_timeline.png
+diff --git a/notebooks/historical_timelines/rice_trade_backbone_2005_2024.png b/visualizations/historical_timelines/rice_trade_backbone_2005_2024.png
+similarity index 100%
+rename from notebooks/historical_timelines/rice_trade_backbone_2005_2024.png
+rename to visualizations/historical_timelines/rice_trade_backbone_2005_2024.png
+diff --git a/notebooks/historical_timelines/soya_beans_pagerank_top10_cumulative_2005_2024.png b/visualizations/historical_timelines/soya_beans_pagerank_top10_cumulative_2005_2024.png
+similarity index 100%
+rename from notebooks/historical_timelines/soya_beans_pagerank_top10_cumulative_2005_2024.png
+rename to visualizations/historical_timelines/soya_beans_pagerank_top10_cumulative_2005_2024.png
+diff --git a/notebooks/historical_timelines/soya_beans_top15_timeline.png b/visualizations/historical_timelines/soya_beans_top15_timeline.png
+similarity index 100%
+rename from notebooks/historical_timelines/soya_beans_top15_timeline.png
+rename to visualizations/historical_timelines/soya_beans_top15_timeline.png
+diff --git a/notebooks/historical_timelines/soya_beans_trade_backbone_2005_2024.png b/visualizations/historical_timelines/soya_beans_trade_backbone_2005_2024.png
+similarity index 100%
+rename from notebooks/historical_timelines/soya_beans_trade_backbone_2005_2024.png
+rename to visualizations/historical_timelines/soya_beans_trade_backbone_2005_2024.png
+diff --git a/notebooks/historical_timelines/wheat_pagerank_top10_cumulative_2005_2024.png b/visualizations/historical_timelines/wheat_pagerank_top10_cumulative_2005_2024.png
+similarity index 100%
+rename from notebooks/historical_timelines/wheat_pagerank_top10_cumulative_2005_2024.png
+rename to visualizations/historical_timelines/wheat_pagerank_top10_cumulative_2005_2024.png
+diff --git a/notebooks/historical_timelines/wheat_top15_timeline.png b/visualizations/historical_timelines/wheat_top15_timeline.png
+similarity index 100%
+rename from notebooks/historical_timelines/wheat_top15_timeline.png
+rename to visualizations/historical_timelines/wheat_top15_timeline.png
+diff --git a/notebooks/historical_timelines/wheat_trade_backbone_2005_2024.png b/visualizations/historical_timelines/wheat_trade_backbone_2005_2024.png
+similarity index 100%
+rename from notebooks/historical_timelines/wheat_trade_backbone_2005_2024.png
+rename to visualizations/historical_timelines/wheat_trade_backbone_2005_2024.png
+diff --git a/notebooks/risk_trend_charts/biggest_movers.png b/visualizations/risk_trend_charts/biggest_movers.png
+similarity index 100%
+rename from notebooks/risk_trend_charts/biggest_movers.png
+rename to visualizations/risk_trend_charts/biggest_movers.png
+diff --git a/notebooks/risk_trend_charts/classification_confusion_matrix.png b/visualizations/risk_trend_charts/classification_confusion_matrix.png
+similarity index 100%
+rename from notebooks/risk_trend_charts/classification_confusion_matrix.png
+rename to visualizations/risk_trend_charts/classification_confusion_matrix.png
+diff --git a/notebooks/risk_trend_charts/commodity_trend.png b/visualizations/risk_trend_charts/commodity_trend.png
+similarity index 100%
+rename from notebooks/risk_trend_charts/commodity_trend.png
+rename to visualizations/risk_trend_charts/commodity_trend.png
+diff --git a/notebooks/risk_trend_charts/coverage_by_year.png b/visualizations/risk_trend_charts/coverage_by_year.png
+similarity index 100%
+rename from notebooks/risk_trend_charts/coverage_by_year.png
+rename to visualizations/risk_trend_charts/coverage_by_year.png
+diff --git a/notebooks/risk_trend_charts/feature_importance.png b/visualizations/risk_trend_charts/feature_importance.png
+similarity index 100%
+rename from notebooks/risk_trend_charts/feature_importance.png
+rename to visualizations/risk_trend_charts/feature_importance.png
+diff --git a/notebooks/risk_trend_charts/full_vs_balanced_trend.png b/visualizations/risk_trend_charts/full_vs_balanced_trend.png
+similarity index 100%
+rename from notebooks/risk_trend_charts/full_vs_balanced_trend.png
+rename to visualizations/risk_trend_charts/full_vs_balanced_trend.png
+diff --git a/notebooks/risk_trend_charts/regression_predicted_vs_actual.png b/visualizations/risk_trend_charts/regression_predicted_vs_actual.png
+similarity index 100%
+rename from notebooks/risk_trend_charts/regression_predicted_vs_actual.png
+rename to visualizations/risk_trend_charts/regression_predicted_vs_actual.png
+diff --git a/notebooks/risk_trend_charts/risk_level_composition.png b/visualizations/risk_trend_charts/risk_level_composition.png
+similarity index 100%
+rename from notebooks/risk_trend_charts/risk_level_composition.png
+rename to visualizations/risk_trend_charts/risk_level_composition.png
+diff --git a/notebooks/risk_trend_charts/volatility.png b/visualizations/risk_trend_charts/volatility.png
+similarity index 100%
+rename from notebooks/risk_trend_charts/volatility.png
+rename to visualizations/risk_trend_charts/volatility.png
+-- 
+2.43.0
+
