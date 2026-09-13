@@ -3,6 +3,7 @@
   "end_year": 2024,
   "n_reporting_areas": 50,
   "rank_metric": "20-year import value + export value, in 1000 USD",
+  "_comment_rank_metric": "Retained for provenance and for the metadata report. NOT in force: geography_mode is commodity_filter, so n_reporting_areas and rank_metric are unused by the area selection. Do not reintroduce the 50-country cap without reading the comment below.",
   "_comment_geography_mode": "Verified against raw TM: the 5 staple items below are 2.4% of ALL 52.4M global rows (1,278,643 rows) -- filtering to staples across every country is smaller than the current 50-reporter cap (24.7M rows) AND restores Nigeria, Bangladesh, Pakistan, Ethiopia, Morocco, which the trade-value cap excludes.",
   "geography_mode": "commodity_filter",
   "staple_items": [
@@ -12,6 +13,12 @@
     "Rice, milled",
     "Maize (corn)"
   ],
+  "_comment_fbs_item_map": "FBS aggregates commodities ('Wheat and products') where the Detailed Trade Matrix splits them ('Wheat', 'Wheat and meslin flour'). Joining on raw item names returns zero rows with no error. Keys are FBS item names exactly as published; values are the Commodity label the trade side uses. build_fbs_dataset.py fails loudly with the file's actual item list if a key is absent, so update this map rather than letting a commodity drop silently out of the dependency ratio.",
+  "fbs_item_map": {
+    "Wheat and products": "Wheat",
+    "Rice and products": "Rice",
+    "Maize and products": "Maize"
+  },
   "exclude_faostat_aggregate_area_codes": true,
   "exclude_area_codes": [
     "351"
