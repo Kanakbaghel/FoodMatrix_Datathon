@@ -2,10 +2,23 @@
 pandas>=2.0.0
 numpy>=1.24.0
 
+# Statistics: winsorisation, correlation tests, distribution work, and the
+# sensitivity analysis behind the composite risk index.
+# Imported by notebooks/05_predictive_ml_analysis.ipynb (scipy.stats.mstats)
+# and notebooks/producer_price_validation.ipynb -- previously only present
+# transitively via scikit-learn, so a clean install could break without warning.
+scipy>=1.11.0
+statsmodels>=0.14.0
+
 # Data visualization (Python-side, for notebooks)
 matplotlib>=3.7.0
 seaborn>=0.12.0
 plotly>=5.17.0
+
+# Network analysis -- imported by every trade-network notebook, including the
+# one on main. Was missing entirely: `pip install -r requirements.txt` followed
+# by running that notebook raised ImportError on a clean machine.
+networkx>=3.1
 
 # Machine Learning
 scikit-learn>=1.3.0
@@ -20,8 +33,12 @@ ipykernel>=6.25.0
 sqlalchemy>=2.0.0
 
 # Out-of-core SQL over the large cleaned CSV/Parquet files
-# (scripts/rasheed/wheat_exposure_firstcut.py; also used by the FAOSTAT build pipeline)
+# (scripts/rasheed/*, also used by the FAOSTAT build pipeline)
 duckdb>=1.0.0
+
+# Parquet engine -- scripts/build_faostat_dataset.py writes Parquet and
+# scripts/calculate_risk.py reads it back. pandas needs an engine for both.
+pyarrow>=14.0.0
 
 # FAOSTAT data access (optional helper package)
 faostat>=1.0.0
